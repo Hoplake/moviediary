@@ -1,13 +1,13 @@
 <script lang="ts">
-  import movies from '../data/movies.json';
+  import bechdelPass from '../../data/bechdel_pass.json';
   import { base } from '$app/paths';
 
   // Sort state
-  let sortField: 'name' | 'year' | 'runtime' | 'bechdel_rating' = 'year';
+  let sortField: 'name' | 'year' | 'runtime' = 'year';
   let sortDirection: 'asc' | 'desc' = 'desc';
 
   // Sort function
-  function sortMovies(movieList: typeof movies, field: typeof sortField, direction: typeof sortDirection) {
+  function sortMovies(movieList: typeof bechdelPass, field: typeof sortField, direction: typeof sortDirection) {
     return [...movieList].sort((a, b) => {
       let aValue: any = a[field];
       let bValue: any = b[field];
@@ -49,22 +49,13 @@
   }
 
   // Get sorted movies - reactive to sortField and sortDirection changes
-  $: sortedMovies = sortMovies(movies, sortField, sortDirection);
-
-  function getBechdelStatus(rating: number): string {
-    switch (rating) {
-      case 0: return 'No women';
-      case 1: return 'Women don\'t talk to each other';
-      case 2: return 'Women only talk about men';
-      case 3: return 'Passes the test';
-      default: return 'Unknown';
-    }
-  }
+  $: sortedMovies = sortMovies(bechdelPass, sortField, sortDirection);
 </script>
 
 <div class="py-10">
   <div class="max-w-6xl mx-auto bg-white rounded-xl shadow-md p-8">
-    <h1 class="text-3xl font-bold mb-6 text-center text-gray-800">All Movies</h1>
+    <h1 class="text-3xl font-bold mb-6 text-center text-gray-800">Movies That Pass the Bechdel Test</h1>
+    <p class="text-center text-gray-600 mb-6">These movies feature at least two women who talk to each other about something other than a man.</p>
     
     <!-- Sort Info -->
     <div class="mb-4 text-sm text-gray-600 text-center">
@@ -94,12 +85,7 @@
                 Runtime {getSortIndicator('runtime')}
               </div>
             </th>
-            <th class="px-4 py-2 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition-colors" 
-                on:click={() => handleSort('bechdel_rating')}>
-              <div class="flex items-center gap-2">
-                Bechdel Test {getSortIndicator('bechdel_rating')}
-              </div>
-            </th>
+            <th class="px-4 py-2 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Tagline</th>
           </tr>
         </thead>
         <tbody class="bg-white divide-y divide-gray-100">
@@ -112,23 +98,14 @@
               </td>
               <td class="px-4 py-2 whitespace-nowrap text-gray-600">{movie.year}</td>
               <td class="px-4 py-2 whitespace-nowrap text-gray-600">{movie.runtime} min</td>
-              <td class="px-4 py-2 whitespace-nowrap">
-                <span class="inline-flex px-2 py-1 text-xs font-semibold rounded-full 
-                  {movie.bechdel_rating === 3 ? 'bg-green-100 text-green-800' : 
-                   movie.bechdel_rating === 2 ? 'bg-yellow-100 text-yellow-800' :
-                   movie.bechdel_rating === 1 ? 'bg-orange-100 text-orange-800' : 'bg-red-100 text-red-800'}">
-                  {getBechdelStatus(movie.bechdel_rating)}
-                </span>
-              </td>
+              <td class="px-4 py-2 text-gray-600">{movie.tagline || '-'}</td>
             </tr>
           {/each}
         </tbody>
       </table>
     </div>
-
-    <!-- Movie Count -->
     <div class="mt-6 text-center text-sm text-gray-500">
-      Total: {movies.length} movies
+      Total: {bechdelPass.length} movies pass the Bechdel test
     </div>
   </div>
-</div>
+</div> 

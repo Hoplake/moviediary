@@ -2,7 +2,7 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import fs from 'fs';
 
-const dev = process.argv.includes('dev');
+const dev = process.env.NODE_ENV === 'development';
 
 const movies = JSON.parse(fs.readFileSync('src/data/movies.json', 'utf-8'));
 const people = JSON.parse(fs.readFileSync('src/data/actors.json', 'utf-8'));
@@ -32,7 +32,7 @@ const config = {
 			fallback: null
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/moviediary' : ''
+			base: dev ? '' : '/moviediary'
 		},
 		prerender: {
 			entries: prerenderEntries

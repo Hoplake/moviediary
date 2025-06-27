@@ -1,0 +1,892 @@
+[
+  {
+    "movie_id": 1,
+    "person_id": 183,
+    "name": "Michael Mann"
+  },
+  {
+    "movie_id": 2,
+    "person_id": 205,
+    "name": "Ilya Naishuller"
+  },
+  {
+    "movie_id": 3,
+    "person_id": 403,
+    "name": "Jeff Fowler"
+  },
+  {
+    "movie_id": 4,
+    "person_id": 600,
+    "name": "Mike Mitchell"
+  },
+  {
+    "movie_id": 5,
+    "person_id": 836,
+    "name": "Jalmari Helander"
+  },
+  {
+    "movie_id": 6,
+    "person_id": 971,
+    "name": "Robert D. Krzykowski"
+  },
+  {
+    "movie_id": 7,
+    "person_id": 1080,
+    "name": "Walter Hill"
+  },
+  {
+    "movie_id": 8,
+    "person_id": 1118,
+    "name": "Akira Kurosawa"
+  },
+  {
+    "movie_id": 9,
+    "person_id": 1140,
+    "name": "Carl Reiner"
+  },
+  {
+    "movie_id": 10,
+    "person_id": 1252,
+    "name": "John Francis Daley"
+  },
+  {
+    "movie_id": 10,
+    "person_id": 1257,
+    "name": "Jonathan Goldstein"
+  },
+  {
+    "movie_id": 11,
+    "person_id": 403,
+    "name": "Jeff Fowler"
+  },
+  {
+    "movie_id": 12,
+    "person_id": 1640,
+    "name": "Tony Cervone"
+  },
+  {
+    "movie_id": 13,
+    "person_id": 1709,
+    "name": "Ralph Bakshi"
+  },
+  {
+    "movie_id": 14,
+    "person_id": 2173,
+    "name": "Nikolaj Arcel"
+  },
+  {
+    "movie_id": 15,
+    "person_id": 1709,
+    "name": "Ralph Bakshi"
+  },
+  {
+    "movie_id": 16,
+    "person_id": 2438,
+    "name": "Eric Tsang Chi-Wai"
+  },
+  {
+    "movie_id": 17,
+    "person_id": 2540,
+    "name": "Karyn Kusama"
+  },
+  {
+    "movie_id": 18,
+    "person_id": 2727,
+    "name": "Alfred Hitchcock"
+  },
+  {
+    "movie_id": 19,
+    "person_id": 2778,
+    "name": "Adam Wingard"
+  },
+  {
+    "movie_id": 20,
+    "person_id": 3010,
+    "name": "J.C. Chandor"
+  },
+  {
+    "movie_id": 21,
+    "person_id": 3085,
+    "name": "Eli Roth"
+  },
+  {
+    "movie_id": 22,
+    "person_id": 3142,
+    "name": "Gene Wilder"
+  },
+  {
+    "movie_id": 23,
+    "person_id": 3162,
+    "name": "Mel Brooks"
+  },
+  {
+    "movie_id": 24,
+    "person_id": 3348,
+    "name": "Theodore Melfi"
+  },
+  {
+    "movie_id": 25,
+    "person_id": 3488,
+    "name": "Stuart Rosenberg"
+  },
+  {
+    "movie_id": 26,
+    "person_id": 3512,
+    "name": "John Krasinski"
+  },
+  {
+    "movie_id": 27,
+    "person_id": 288,
+    "name": "David Leitch"
+  },
+  {
+    "movie_id": 28,
+    "person_id": 3808,
+    "name": "Michael Davis"
+  },
+  {
+    "movie_id": 29,
+    "person_id": 4178,
+    "name": "Scott Beck"
+  },
+  {
+    "movie_id": 29,
+    "person_id": 4177,
+    "name": "Bryan Woods"
+  },
+  {
+    "movie_id": 30,
+    "person_id": 4217,
+    "name": "Richard Rush"
+  },
+  {
+    "movie_id": 31,
+    "person_id": 4331,
+    "name": "Martin Brest"
+  },
+  {
+    "movie_id": 32,
+    "person_id": 4666,
+    "name": "Tanya Wexler"
+  },
+  {
+    "movie_id": 33,
+    "person_id": 4767,
+    "name": "George P. Cosmatos"
+  },
+  {
+    "movie_id": 34,
+    "person_id": 4995,
+    "name": "Denis Villeneuve"
+  },
+  {
+    "movie_id": 35,
+    "person_id": 4995,
+    "name": "Denis Villeneuve"
+  },
+  {
+    "movie_id": 36,
+    "person_id": 5284,
+    "name": "Luke Cormican"
+  },
+  {
+    "movie_id": 37,
+    "person_id": 5323,
+    "name": "Newt Arnold"
+  },
+  {
+    "movie_id": 38,
+    "person_id": 5596,
+    "name": "Simon McQuoid"
+  },
+  {
+    "movie_id": 39,
+    "person_id": 5694,
+    "name": "Jay Roach"
+  },
+  {
+    "movie_id": 40,
+    "person_id": 5856,
+    "name": "Brian De Palma"
+  },
+  {
+    "movie_id": 41,
+    "person_id": 6130,
+    "name": "Roger Michell"
+  },
+  {
+    "movie_id": 42,
+    "person_id": 6180,
+    "name": "Victor Cook"
+  },
+  {
+    "movie_id": 43,
+    "person_id": 6223,
+    "name": "Joel Coen"
+  },
+  {
+    "movie_id": 44,
+    "person_id": 6362,
+    "name": "Joe Johnston"
+  },
+  {
+    "movie_id": 45,
+    "person_id": 6956,
+    "name": "Aki Kaurismki"
+  },
+  {
+    "movie_id": 46,
+    "person_id": 6990,
+    "name": "Joe Sichta"
+  },
+  {
+    "movie_id": 47,
+    "person_id": 7013,
+    "name": "Robert Moore"
+  },
+  {
+    "movie_id": 48,
+    "person_id": 7085,
+    "name": "Michael Ritchie"
+  },
+  {
+    "movie_id": 49,
+    "person_id": 7193,
+    "name": "Julius Onah"
+  },
+  {
+    "movie_id": 50,
+    "person_id": 288,
+    "name": "David Leitch"
+  },
+  {
+    "movie_id": 51,
+    "person_id": 8018,
+    "name": "W.S. Van Dyke"
+  },
+  {
+    "movie_id": 52,
+    "person_id": 8066,
+    "name": "Pierre Morel"
+  },
+  {
+    "movie_id": 53,
+    "person_id": 8613,
+    "name": "Ruben Fleischer"
+  },
+  {
+    "movie_id": 54,
+    "person_id": 8735,
+    "name": "Bob Saget"
+  },
+  {
+    "movie_id": 55,
+    "person_id": 8883,
+    "name": "Lana Wachowski"
+  },
+  {
+    "movie_id": 55,
+    "person_id": 8884,
+    "name": "Lilly Wachowski"
+  },
+  {
+    "movie_id": 56,
+    "person_id": 8975,
+    "name": "Grant Heslov"
+  },
+  {
+    "movie_id": 57,
+    "person_id": 9266,
+    "name": "Ryan Coogler"
+  },
+  {
+    "movie_id": 58,
+    "person_id": 9402,
+    "name": "Woody Allen"
+  },
+  {
+    "movie_id": 59,
+    "person_id": 9500,
+    "name": "Robert Rodriguez"
+  },
+  {
+    "movie_id": 60,
+    "person_id": 9688,
+    "name": "Cameron Cairnes"
+  },
+  {
+    "movie_id": 60,
+    "person_id": 9686,
+    "name": "Colin Cairnes"
+  },
+  {
+    "movie_id": 61,
+    "person_id": 9805,
+    "name": "Simon West"
+  },
+  {
+    "movie_id": 62,
+    "person_id": 5694,
+    "name": "Jay Roach"
+  },
+  {
+    "movie_id": 63,
+    "person_id": 10132,
+    "name": "Don Siegel"
+  },
+  {
+    "movie_id": 64,
+    "person_id": 10222,
+    "name": "Lee Won-tae"
+  },
+  {
+    "movie_id": 65,
+    "person_id": 10249,
+    "name": "Scott Jeralds"
+  },
+  {
+    "movie_id": 66,
+    "person_id": 10289,
+    "name": "Prachya Pinkaew"
+  },
+  {
+    "movie_id": 67,
+    "person_id": 10351,
+    "name": "Jeremiah S. Chechik"
+  },
+  {
+    "movie_id": 68,
+    "person_id": 10429,
+    "name": "Wolfgang Petersen"
+  },
+  {
+    "movie_id": 69,
+    "person_id": 2727,
+    "name": "Alfred Hitchcock"
+  },
+  {
+    "movie_id": 70,
+    "person_id": 10763,
+    "name": "Martin Scorsese"
+  },
+  {
+    "movie_id": 71,
+    "person_id": 11098,
+    "name": "David Lowery"
+  },
+  {
+    "movie_id": 72,
+    "person_id": 11239,
+    "name": "Rick Friedberg"
+  },
+  {
+    "movie_id": 73,
+    "person_id": 11361,
+    "name": "Tony Scott"
+  },
+  {
+    "movie_id": 74,
+    "person_id": 11508,
+    "name": "Peter Howitt"
+  },
+  {
+    "movie_id": 75,
+    "person_id": 11572,
+    "name": "Olatunde Osunsanmi"
+  },
+  {
+    "movie_id": 76,
+    "person_id": 11734,
+    "name": "John Badham"
+  },
+  {
+    "movie_id": 77,
+    "person_id": 8018,
+    "name": "W.S. Van Dyke"
+  },
+  {
+    "movie_id": 78,
+    "person_id": 3162,
+    "name": "Mel Brooks"
+  },
+  {
+    "movie_id": 79,
+    "person_id": 11958,
+    "name": "Andy Serkis"
+  },
+  {
+    "movie_id": 80,
+    "person_id": 12020,
+    "name": "Edward Hall"
+  },
+  {
+    "movie_id": 81,
+    "person_id": 3531,
+    "name": "George Clooney"
+  },
+  {
+    "movie_id": 82,
+    "person_id": 12193,
+    "name": "Michael Bay"
+  },
+  {
+    "movie_id": 83,
+    "person_id": 12269,
+    "name": "Gene Quintano"
+  },
+  {
+    "movie_id": 84,
+    "person_id": 12378,
+    "name": "Aleksi Delikouras"
+  },
+  {
+    "movie_id": 85,
+    "person_id": 5676,
+    "name": "Mike Judge"
+  },
+  {
+    "movie_id": 86,
+    "person_id": 12551,
+    "name": "David Zucker"
+  },
+  {
+    "movie_id": 87,
+    "person_id": 12608,
+    "name": "Christopher Guest"
+  },
+  {
+    "movie_id": 88,
+    "person_id": 12984,
+    "name": "Greta Gerwig"
+  },
+  {
+    "movie_id": 89,
+    "person_id": 8615,
+    "name": "Kelly Marcel"
+  },
+  {
+    "movie_id": 90,
+    "person_id": 9402,
+    "name": "Woody Allen"
+  },
+  {
+    "movie_id": 91,
+    "person_id": 13221,
+    "name": "Oliver Parker"
+  },
+  {
+    "movie_id": 92,
+    "person_id": 2727,
+    "name": "Alfred Hitchcock"
+  },
+  {
+    "movie_id": 93,
+    "person_id": 13396,
+    "name": "David Kerr"
+  },
+  {
+    "movie_id": 94,
+    "person_id": 13470,
+    "name": "Corey Yuen Kwai"
+  },
+  {
+    "movie_id": 95,
+    "person_id": 13651,
+    "name": "Fernando Meirelles"
+  },
+  {
+    "movie_id": 96,
+    "person_id": 13717,
+    "name": "George Miller"
+  },
+  {
+    "movie_id": 97,
+    "person_id": 1080,
+    "name": "Walter Hill"
+  },
+  {
+    "movie_id": 98,
+    "person_id": 12551,
+    "name": "David Zucker"
+  },
+  {
+    "movie_id": 99,
+    "person_id": 14006,
+    "name": "Sebastin Cordero"
+  },
+  {
+    "movie_id": 100,
+    "person_id": 14167,
+    "name": "Wes Anderson"
+  },
+  {
+    "movie_id": 101,
+    "person_id": 12550,
+    "name": "Jim Abrahams"
+  },
+  {
+    "movie_id": 101,
+    "person_id": 12551,
+    "name": "David Zucker"
+  },
+  {
+    "movie_id": 101,
+    "person_id": 12549,
+    "name": "Jerry Zucker"
+  },
+  {
+    "movie_id": 102,
+    "person_id": 14360,
+    "name": "Eric Appel"
+  },
+  {
+    "movie_id": 103,
+    "person_id": 14455,
+    "name": "Billy Wilder"
+  },
+  {
+    "movie_id": 104,
+    "person_id": 6223,
+    "name": "Joel Coen"
+  },
+  {
+    "movie_id": 105,
+    "person_id": 14167,
+    "name": "Wes Anderson"
+  },
+  {
+    "movie_id": 106,
+    "person_id": 7085,
+    "name": "Michael Ritchie"
+  },
+  {
+    "movie_id": 107,
+    "person_id": 3162,
+    "name": "Mel Brooks"
+  },
+  {
+    "movie_id": 108,
+    "person_id": 15093,
+    "name": "Ted Post"
+  },
+  {
+    "movie_id": 109,
+    "person_id": 5856,
+    "name": "Brian De Palma"
+  },
+  {
+    "movie_id": 110,
+    "person_id": 15243,
+    "name": "Reginald Hudlin"
+  },
+  {
+    "movie_id": 111,
+    "person_id": 15274,
+    "name": "Taika Waititi"
+  },
+  {
+    "movie_id": 112,
+    "person_id": 15405,
+    "name": "Tina Mackic"
+  },
+  {
+    "movie_id": 113,
+    "person_id": 15588,
+    "name": "Boots Riley"
+  },
+  {
+    "movie_id": 114,
+    "person_id": 15827,
+    "name": "Shaka King"
+  },
+  {
+    "movie_id": 115,
+    "person_id": 15875,
+    "name": "Peter Segal"
+  },
+  {
+    "movie_id": 116,
+    "person_id": 12084,
+    "name": "Steven Soderbergh"
+  },
+  {
+    "movie_id": 117,
+    "person_id": 10090,
+    "name": "Clint Eastwood"
+  },
+  {
+    "movie_id": 118,
+    "person_id": 16242,
+    "name": "Jared Hess"
+  },
+  {
+    "movie_id": 119,
+    "person_id": 16470,
+    "name": "Phil Alden Robinson"
+  },
+  {
+    "movie_id": 120,
+    "person_id": 16590,
+    "name": "Jeff Rowe"
+  },
+  {
+    "movie_id": 121,
+    "person_id": 6223,
+    "name": "Joel Coen"
+  },
+  {
+    "movie_id": 122,
+    "person_id": 16831,
+    "name": "Kevin Smith"
+  },
+  {
+    "movie_id": 123,
+    "person_id": 14167,
+    "name": "Wes Anderson"
+  },
+  {
+    "movie_id": 124,
+    "person_id": 17045,
+    "name": "Dougal Wilson"
+  },
+  {
+    "movie_id": 125,
+    "person_id": 17100,
+    "name": "Edward Berger"
+  },
+  {
+    "movie_id": 126,
+    "person_id": 7934,
+    "name": "Antoine Fuqua"
+  },
+  {
+    "movie_id": 127,
+    "person_id": 17516,
+    "name": "Jason Reitman"
+  },
+  {
+    "movie_id": 128,
+    "person_id": 1263,
+    "name": "Chris McKay"
+  },
+  {
+    "movie_id": 129,
+    "person_id": 389,
+    "name": "Jorma Taccone"
+  },
+  {
+    "movie_id": 130,
+    "person_id": 16831,
+    "name": "Kevin Smith"
+  },
+  {
+    "movie_id": 131,
+    "person_id": 18110,
+    "name": "George Lucas"
+  },
+  {
+    "movie_id": 132,
+    "person_id": 18181,
+    "name": "Trevor Peckham"
+  },
+  {
+    "movie_id": 133,
+    "person_id": 18211,
+    "name": "Martin McDonagh"
+  },
+  {
+    "movie_id": 134,
+    "person_id": 18293,
+    "name": "Doug Liman"
+  },
+  {
+    "movie_id": 135,
+    "person_id": 18493,
+    "name": "Ted Kotcheff"
+  },
+  {
+    "movie_id": 136,
+    "person_id": 14167,
+    "name": "Wes Anderson"
+  },
+  {
+    "movie_id": 137,
+    "person_id": 12608,
+    "name": "Christopher Guest"
+  },
+  {
+    "movie_id": 138,
+    "person_id": 18897,
+    "name": "Pete Travis"
+  },
+  {
+    "movie_id": 139,
+    "person_id": 18906,
+    "name": "John Landis"
+  },
+  {
+    "movie_id": 140,
+    "person_id": 8068,
+    "name": "Luc Besson"
+  },
+  {
+    "movie_id": 141,
+    "person_id": 19103,
+    "name": "Jake Schreier"
+  },
+  {
+    "movie_id": 142,
+    "person_id": 19241,
+    "name": "Panos Cosmatos"
+  },
+  {
+    "movie_id": 143,
+    "person_id": 6219,
+    "name": "Ethan Coen"
+  },
+  {
+    "movie_id": 143,
+    "person_id": 6223,
+    "name": "Joel Coen"
+  },
+  {
+    "movie_id": 144,
+    "person_id": 19448,
+    "name": "Charles Crichton"
+  },
+  {
+    "movie_id": 145,
+    "person_id": 19511,
+    "name": "Guillermo del Toro"
+  },
+  {
+    "movie_id": 146,
+    "person_id": 19639,
+    "name": "Xavier Gens"
+  },
+  {
+    "movie_id": 147,
+    "person_id": 19214,
+    "name": "Jon Watts"
+  },
+  {
+    "movie_id": 148,
+    "person_id": 14167,
+    "name": "Wes Anderson"
+  },
+  {
+    "movie_id": 149,
+    "person_id": 20004,
+    "name": "Michael Dowse"
+  },
+  {
+    "movie_id": 150,
+    "person_id": 20029,
+    "name": "Oxide Pang Shun"
+  },
+  {
+    "movie_id": 150,
+    "person_id": 20030,
+    "name": "Danny Pang"
+  },
+  {
+    "movie_id": 151,
+    "person_id": 20119,
+    "name": "Irvin Kershner"
+  },
+  {
+    "movie_id": 152,
+    "person_id": 20188,
+    "name": "Anthony Russo"
+  },
+  {
+    "movie_id": 152,
+    "person_id": 20191,
+    "name": "Joe Russo"
+  },
+  {
+    "movie_id": 153,
+    "person_id": 20231,
+    "name": "Osgood Perkins"
+  },
+  {
+    "movie_id": 154,
+    "person_id": 20387,
+    "name": "Ken Finkleman"
+  },
+  {
+    "movie_id": 155,
+    "person_id": 20414,
+    "name": "Steven Spielberg"
+  },
+  {
+    "movie_id": 156,
+    "person_id": 20579,
+    "name": "Mark Steven Johnson"
+  },
+  {
+    "movie_id": 157,
+    "person_id": 20636,
+    "name": "Brian Taylor"
+  },
+  {
+    "movie_id": 157,
+    "person_id": 20640,
+    "name": "Mark Neveldine"
+  },
+  {
+    "movie_id": 158,
+    "person_id": 20414,
+    "name": "Steven Spielberg"
+  },
+  {
+    "movie_id": 159,
+    "person_id": 6219,
+    "name": "Ethan Coen"
+  },
+  {
+    "movie_id": 159,
+    "person_id": 6223,
+    "name": "Joel Coen"
+  },
+  {
+    "movie_id": 160,
+    "person_id": 6362,
+    "name": "Joe Johnston"
+  },
+  {
+    "movie_id": 161,
+    "person_id": 21134,
+    "name": "Colin Trevorrow"
+  },
+  {
+    "movie_id": 162,
+    "person_id": 21504,
+    "name": "J.A. Bayona"
+  },
+  {
+    "movie_id": 163,
+    "person_id": 21808,
+    "name": "Kristoffer Borgli"
+  },
+  {
+    "movie_id": 164,
+    "person_id": 22021,
+    "name": "Gary Ross"
+  },
+  {
+    "movie_id": 165,
+    "person_id": 21134,
+    "name": "Colin Trevorrow"
+  },
+  {
+    "movie_id": 166,
+    "person_id": 22382,
+    "name": "John Madden"
+  },
+  {
+    "movie_id": 167,
+    "person_id": 22400,
+    "name": "Kenneth Branagh"
+  }
+]

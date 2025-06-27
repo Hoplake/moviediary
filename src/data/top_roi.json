@@ -1,0 +1,452 @@
+[
+  {
+    "id": 130,
+    "name": "Clerks",
+    "imdb": "tt0109445",
+    "year": 1994,
+    "revenue": 3151130,
+    "budget": 27575,
+    "roi": 114.27488667271079
+  },
+  {
+    "id": 131,
+    "name": "Star Wars",
+    "imdb": "tt0076759",
+    "year": 1977,
+    "revenue": 775398007,
+    "budget": 11000000,
+    "roi": 70.49072790909091
+  },
+  {
+    "id": 107,
+    "name": "Blazing Saddles",
+    "imdb": "tt0071230",
+    "year": 1974,
+    "revenue": 119500000,
+    "budget": 2600000,
+    "roi": 45.96153846153846
+  },
+  {
+    "id": 37,
+    "name": "Bloodsport",
+    "imdb": "tt0092675",
+    "year": 1988,
+    "revenue": 65000000,
+    "budget": 1500000,
+    "roi": 43.333333333333336
+  },
+  {
+    "id": 151,
+    "name": "The Empire Strikes Back",
+    "imdb": "tt0080684",
+    "year": 1980,
+    "revenue": 538400000,
+    "budget": 18000000,
+    "roi": 29.91111111111111
+  },
+  {
+    "id": 101,
+    "name": "Airplane!",
+    "imdb": "tt0080339",
+    "year": 1980,
+    "revenue": 83453539,
+    "budget": 3500000,
+    "roi": 23.843868285714287
+  },
+  {
+    "id": 31,
+    "name": "Beverly Hills Cop",
+    "imdb": "tt0086960",
+    "year": 1984,
+    "revenue": 316360478,
+    "budget": 14000000,
+    "roi": 22.597177
+  },
+  {
+    "id": 66,
+    "name": "Ong Bak",
+    "imdb": "tt0368909",
+    "year": 2003,
+    "revenue": 20112926,
+    "budget": 1100000,
+    "roi": 18.28447818181818
+  },
+  {
+    "id": 155,
+    "name": "Jurassic Park",
+    "imdb": "tt0107290",
+    "year": 1993,
+    "revenue": 920100000,
+    "budget": 63000000,
+    "roi": 14.604761904761904
+  },
+  {
+    "id": 153,
+    "name": "Longlegs",
+    "imdb": "tt23468450",
+    "year": 2024,
+    "revenue": 127961936,
+    "budget": 10000000,
+    "roi": 12.7961936
+  },
+  {
+    "id": 86,
+    "name": "The Naked Gun: From the Files of Police Squad!",
+    "imdb": "tt0095705",
+    "year": 1988,
+    "revenue": 152356177,
+    "budget": 12000000,
+    "roi": 12.696348083333334
+  },
+  {
+    "id": 166,
+    "name": "Shakespeare in Love",
+    "imdb": "tt0138097",
+    "year": 1998,
+    "revenue": 289300000,
+    "budget": 25000000,
+    "roi": 11.572
+  },
+  {
+    "id": 140,
+    "name": "Lucy",
+    "imdb": "tt2872732",
+    "year": 2014,
+    "revenue": 458863600,
+    "budget": 40000000,
+    "roi": 11.47159
+  },
+  {
+    "id": 161,
+    "name": "Jurassic World",
+    "imdb": "tt0369610",
+    "year": 2015,
+    "revenue": 1671537444,
+    "budget": 150000000,
+    "roi": 11.14358296
+  },
+  {
+    "id": 73,
+    "name": "Beverly Hills Cop II",
+    "imdb": "tt0092644",
+    "year": 1987,
+    "revenue": 299965036,
+    "budget": 28000000,
+    "roi": 10.713037
+  },
+  {
+    "id": 76,
+    "name": "WarGames",
+    "imdb": "tt0086567",
+    "year": 1983,
+    "revenue": 124600000,
+    "budget": 12000000,
+    "roi": 10.383333333333333
+  },
+  {
+    "id": 145,
+    "name": "The Shape of Water",
+    "imdb": "tt5580390",
+    "year": 2017,
+    "revenue": 195300000,
+    "budget": 19500000,
+    "roi": 10.015384615384615
+  },
+  {
+    "id": 88,
+    "name": "Barbie",
+    "imdb": "tt1517268",
+    "year": 2023,
+    "revenue": 1445638421,
+    "budget": 145000000,
+    "roi": 9.969920144827586
+  },
+  {
+    "id": 62,
+    "name": "Austin Powers: The Spy Who Shagged Me",
+    "imdb": "tt0145660",
+    "year": 1999,
+    "revenue": 312016928,
+    "budget": 33000000,
+    "roi": 9.455058424242424
+  },
+  {
+    "id": 24,
+    "name": "Hidden Figures",
+    "imdb": "tt4846340",
+    "year": 2016,
+    "revenue": 235957472,
+    "budget": 25000000,
+    "roi": 9.43829888
+  },
+  {
+    "id": 52,
+    "name": "Taken",
+    "imdb": "tt0936501",
+    "year": 2008,
+    "revenue": 226830568,
+    "budget": 25000000,
+    "roi": 9.07322272
+  },
+  {
+    "id": 63,
+    "name": "Dirty Harry",
+    "imdb": "tt0066999",
+    "year": 1971,
+    "revenue": 35976000,
+    "budget": 4000000,
+    "roi": 8.994
+  },
+  {
+    "id": 58,
+    "name": "Midnight in Paris",
+    "imdb": "tt1605783",
+    "year": 2011,
+    "revenue": 151119219,
+    "budget": 17000000,
+    "roi": 8.889365823529412
+  },
+  {
+    "id": 158,
+    "name": "The Lost World: Jurassic Park",
+    "imdb": "tt0119567",
+    "year": 1997,
+    "revenue": 618638999,
+    "budget": 73000000,
+    "roi": 8.474506835616438
+  },
+  {
+    "id": 45,
+    "name": "Fallen Leaves",
+    "imdb": "tt21027780",
+    "year": 2023,
+    "revenue": 12400000,
+    "budget": 1480000,
+    "roi": 8.378378378378379
+  },
+  {
+    "id": 98,
+    "name": "The Naked Gun 2: The Smell of Fear",
+    "imdb": "tt0102510",
+    "year": 1991,
+    "revenue": 192030411,
+    "budget": 23000000,
+    "roi": 8.349148304347827
+  },
+  {
+    "id": 135,
+    "name": "First Blood",
+    "imdb": "tt0083944",
+    "year": 1982,
+    "revenue": 125212904,
+    "budget": 15000000,
+    "roi": 8.347526933333333
+  },
+  {
+    "id": 81,
+    "name": "Good Night, and Good Luck.",
+    "imdb": "tt0433383",
+    "year": 2005,
+    "revenue": 54600000,
+    "budget": 7000000,
+    "roi": 7.8
+  },
+  {
+    "id": 60,
+    "name": "Late Night with the Devil",
+    "imdb": "tt14966898",
+    "year": 2024,
+    "revenue": 15469415,
+    "budget": 2000000,
+    "roi": 7.7347075
+  },
+  {
+    "id": 162,
+    "name": "Jurassic World: Fallen Kingdom",
+    "imdb": "tt4881806",
+    "year": 2018,
+    "revenue": 1310466296,
+    "budget": 170000000,
+    "roi": 7.708625270588235
+  },
+  {
+    "id": 13,
+    "name": "The Lord of the Rings",
+    "imdb": "tt0077869",
+    "year": 1978,
+    "revenue": 30500000,
+    "budget": 4000000,
+    "roi": 7.625
+  },
+  {
+    "id": 48,
+    "name": "Fletch",
+    "imdb": "tt0089155",
+    "year": 1985,
+    "revenue": 59612888,
+    "budget": 8000000,
+    "roi": 7.451611
+  },
+  {
+    "id": 53,
+    "name": "Venom",
+    "imdb": "tt1270797",
+    "year": 2018,
+    "revenue": 856085151,
+    "budget": 116000000,
+    "roi": 7.380044405172414
+  },
+  {
+    "id": 55,
+    "name": "The Matrix",
+    "imdb": "tt0133093",
+    "year": 1999,
+    "revenue": 463517383,
+    "budget": 63000000,
+    "roi": 7.357418777777778
+  },
+  {
+    "id": 22,
+    "name": "The Adventure of Sherlock Holmes' Smarter Brother",
+    "imdb": "tt0072608",
+    "year": 1975,
+    "revenue": 20000000,
+    "budget": 2800000,
+    "roi": 7.142857142857143
+  },
+  {
+    "id": 159,
+    "name": "No Country for Old Men",
+    "imdb": "tt0477348",
+    "year": 2007,
+    "revenue": 171627166,
+    "budget": 25000000,
+    "roi": 6.86508664
+  },
+  {
+    "id": 4,
+    "name": "Kung Fu Panda 4",
+    "imdb": "tt21692408",
+    "year": 2024,
+    "revenue": 548040835,
+    "budget": 80000000,
+    "roi": 6.8505104375
+  },
+  {
+    "id": 7,
+    "name": "48 Hrs.",
+    "imdb": "tt0083511",
+    "year": 1982,
+    "revenue": 78868508,
+    "budget": 12000000,
+    "roi": 6.572375666666667
+  },
+  {
+    "id": 93,
+    "name": "Johnny English Strikes Again",
+    "imdb": "tt6921996",
+    "year": 2018,
+    "revenue": 158972570,
+    "budget": 25000000,
+    "roi": 6.3589028
+  },
+  {
+    "id": 118,
+    "name": "A Minecraft Movie",
+    "imdb": "tt3566834",
+    "year": 2025,
+    "revenue": 951514812,
+    "budget": 150000000,
+    "roi": 6.34343208
+  },
+  {
+    "id": 51,
+    "name": "The Thin Man",
+    "imdb": "tt0025878",
+    "year": 1934,
+    "revenue": 1423000,
+    "budget": 226408,
+    "roi": 6.285113600226141
+  },
+  {
+    "id": 111,
+    "name": "Jojo Rabbit",
+    "imdb": "tt2584384",
+    "year": 2019,
+    "revenue": 82468705,
+    "budget": 14000000,
+    "roi": 5.890621785714286
+  },
+  {
+    "id": 92,
+    "name": "The Trouble with Harry",
+    "imdb": "tt0048750",
+    "year": 1955,
+    "revenue": 7000000,
+    "budget": 1200000,
+    "roi": 5.833333333333333
+  },
+  {
+    "id": 100,
+    "name": "The Grand Budapest Hotel",
+    "imdb": "tt2278388",
+    "year": 2014,
+    "revenue": 174600318,
+    "budget": 30000000,
+    "roi": 5.8200106
+  },
+  {
+    "id": 125,
+    "name": "Conclave",
+    "imdb": "tt20215234",
+    "year": 2024,
+    "revenue": 115657988,
+    "budget": 20000000,
+    "roi": 5.7828994
+  },
+  {
+    "id": 113,
+    "name": "Sorry to Bother You",
+    "imdb": "tt5688932",
+    "year": 2018,
+    "revenue": 18200000,
+    "budget": 3200000,
+    "roi": 5.6875
+  },
+  {
+    "id": 85,
+    "name": "Beavis and Butt-Head Do America",
+    "imdb": "tt0115641",
+    "year": 1996,
+    "revenue": 63118386,
+    "budget": 12000000,
+    "roi": 5.2598655
+  },
+  {
+    "id": 25,
+    "name": "Cool Hand Luke",
+    "imdb": "tt0061512",
+    "year": 1967,
+    "revenue": 16217773,
+    "budget": 3200000,
+    "roi": 5.0680540625
+  },
+  {
+    "id": 121,
+    "name": "Raising Arizona",
+    "imdb": "tt0093822",
+    "year": 1987,
+    "revenue": 29180280,
+    "budget": 6000000,
+    "roi": 4.86338
+  },
+  {
+    "id": 77,
+    "name": "After the Thin Man",
+    "imdb": "tt0027260",
+    "year": 1936,
+    "revenue": 3165000,
+    "budget": 673000,
+    "roi": 4.702823179791976
+  }
+]

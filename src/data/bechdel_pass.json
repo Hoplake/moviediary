@@ -10,7 +10,7 @@
     "year": 2024,
     "tagline": "The \"Dragon\" returns.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/nqXsAaQsKw2gKpkfhIgjXNDRqg7.jpg"
   },
   {
     "id": 10,
@@ -23,7 +23,7 @@
     "year": 2023,
     "tagline": "No experience necessary.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/v7UF7ypAqjsFZFdjksjQ7IUpXdn.jpg"
   },
   {
     "id": 11,
@@ -36,7 +36,7 @@
     "year": 2020,
     "tagline": "A whole new speed of hero.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg"
   },
   {
     "id": 12,
@@ -49,7 +49,7 @@
     "year": 2020,
     "tagline": "Mystery loves company.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/jHo2M1OiH9Re33jYtUQdfzPeUkx.jpg"
   },
   {
     "id": 17,
@@ -62,7 +62,7 @@
     "year": 2005,
     "tagline": "The perfect world meets the perfect assassin.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/5958Nt4QX6aRSUdQnvNw8wqjTJQ.jpg"
   },
   {
     "id": 19,
@@ -75,7 +75,7 @@
     "year": 2024,
     "tagline": "Rise together or fall alone.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg"
   },
   {
     "id": 24,
@@ -88,7 +88,7 @@
     "year": 2016,
     "tagline": "Meet the women you don't know, behind the mission you do.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/9lfz2W2uGjyow3am00rsPJ8iOyq.jpg"
   },
   {
     "id": 27,
@@ -101,7 +101,7 @@
     "year": 2024,
     "tagline": "Fall hard.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/e7olqFmzcIX5c23kX4zSmLPJi8c.jpg"
   },
   {
     "id": 32,
@@ -114,7 +114,7 @@
     "year": 2021,
     "tagline": "You're in for a shock.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/b0fBzqCmHr0a0XkeAdhc02XhKXG.jpg"
   },
   {
     "id": 34,
@@ -127,7 +127,7 @@
     "year": 2021,
     "tagline": "It begins.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg"
   },
   {
     "id": 35,
@@ -140,7 +140,20 @@
     "year": 2024,
     "tagline": "Long live the fighters.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg"
+  },
+  {
+    "id": 41,
+    "tmdb_id": 645689,
+    "name": "The Duke",
+    "imdb": "tt11204094",
+    "budget": 11000000,
+    "revenue": 0,
+    "runtime": 96,
+    "year": 2021,
+    "tagline": "A priceless true story.",
+    "rating": null,
+    "poster_path": "/vxqFcrVDPDfI60e8f1EKxpj0QvH.jpg"
   },
   {
     "id": 47,
@@ -153,7 +166,7 @@
     "year": 1976,
     "tagline": "By the time the world's greatest detectives figure out whodunnit... you could die laughing!",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/7YGYam05qzHy0ZSzfjBSDkVvvU7.jpg"
   },
   {
     "id": 52,
@@ -166,7 +179,7 @@
     "year": 2008,
     "tagline": "They took his daughter. He'll take their lives.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/y5Va1WXDX6nZElVirPrGxf6w99B.jpg"
   },
   {
     "id": 55,
@@ -179,7 +192,7 @@
     "year": 1999,
     "tagline": "Believe the unbelievable.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/p96dm7sCMn4VYAStA6siNz30G1r.jpg"
   },
   {
     "id": 58,
@@ -192,7 +205,7 @@
     "year": 2011,
     "tagline": "",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/4wBG5kbfagTQclETblPRRGihk0I.jpg"
   },
   {
     "id": 59,
@@ -205,7 +218,7 @@
     "year": 2019,
     "tagline": "An angel falls. A warrior rises.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/xRWht48C2V8XNfzvPehyClOvDni.jpg"
   },
   {
     "id": 67,
@@ -218,7 +231,7 @@
     "year": 1998,
     "tagline": "Saving the World in Style.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/1p5thyQ4pCy876HpdvFARqJ62N9.jpg"
   },
   {
     "id": 78,
@@ -231,7 +244,7 @@
     "year": 1995,
     "tagline": "You'll laugh until you die...then you'll rise from the dead and laugh again!",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/fwdXQU3Dbs2CMHu8K87bAxlWV0t.jpg"
   },
   {
     "id": 87,
@@ -244,7 +257,7 @@
     "year": 2000,
     "tagline": "Some pets deserve a little more respect than others.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/qkYBCMN26SxkQww4gLxUXQm5vr4.jpg"
   },
   {
     "id": 88,
@@ -257,7 +270,7 @@
     "year": 2023,
     "tagline": "She's everything. He's just Ken.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg"
   },
   {
     "id": 90,
@@ -270,7 +283,7 @@
     "year": 2009,
     "tagline": "A new comedy!",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/upIYOZbiutCBnvejGYaZlJxxKcs.jpg"
   },
   {
     "id": 91,
@@ -283,7 +296,7 @@
     "year": 2011,
     "tagline": "A little intelligence goes a long way.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/zDbrU0eSnRGh5gHc1iqTACTNNyT.jpg"
   },
   {
     "id": 94,
@@ -296,7 +309,7 @@
     "year": 2006,
     "tagline": "They're the ultimate fighters. They've got the looks. They've got the moves, and the men fall at their feet.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/gtlai95IERRDgRhPCK0WEuwCRP0.jpg"
   },
   {
     "id": 96,
@@ -309,7 +322,7 @@
     "year": 2015,
     "tagline": "The future belongs to the mad.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/hA2ple9q4qnwxp3hKVNhroipsir.jpg"
   },
   {
     "id": 99,
@@ -322,7 +335,7 @@
     "year": 2013,
     "tagline": "Fear. Sacrifice. Contact.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/tbsfaBjiAW5vfrV06R8KCOzVOYy.jpg"
   },
   {
     "id": 101,
@@ -335,7 +348,7 @@
     "year": 1980,
     "tagline": "What's slower than a speeding bullet, and able to hit tall buildings at a single bound?",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/7Q3efxd3AF1vQjlSxnlerSA7RzN.jpg"
   },
   {
     "id": 103,
@@ -348,7 +361,7 @@
     "year": 1944,
     "tagline": "It's love and murder at first sight!",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/rVNYZZgfhwqVMMWlBmxOfWqnwCj.jpg"
   },
   {
     "id": 111,
@@ -361,7 +374,7 @@
     "year": 2019,
     "tagline": "It's definitely not a good time to be a Nazi.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/1mqL7VG4Ix8wmxwypmCA1HTHBky.jpg"
   },
   {
     "id": 121,
@@ -374,7 +387,7 @@
     "year": 1987,
     "tagline": "Their lawless years are behind them. Their child-rearing years lay ahead...",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/m5Zp4K4hKdPhsBl3E0p8I7QomlT.jpg"
   },
   {
     "id": 122,
@@ -387,7 +400,7 @@
     "year": 1999,
     "tagline": "Get touched by an angel.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/xI5beD8Td79E2uZNAxgd1gWWOEd.jpg"
   },
   {
     "id": 123,
@@ -400,7 +413,20 @@
     "year": 1998,
     "tagline": "Love. Expulsion. Revolution.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/hSJ6swahAuZ8wM96lHDTwQPXUvZ.jpg"
+  },
+  {
+    "id": 124,
+    "tmdb_id": 516729,
+    "name": "Paddington in Peru",
+    "imdb": "tt5822536",
+    "budget": 90000000,
+    "revenue": 170116764,
+    "runtime": 106,
+    "year": 2024,
+    "tagline": "A little bear goes a long way.",
+    "rating": null,
+    "poster_path": "/rzfqeLdHIysJGrspMICyedpqDqt.jpg"
   },
   {
     "id": 128,
@@ -413,7 +439,7 @@
     "year": 2023,
     "tagline": "Sucks to be him.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/p6yUjhvNGQpFZilKwOKbxQ1eHlo.jpg"
   },
   {
     "id": 138,
@@ -426,7 +452,7 @@
     "year": 2012,
     "tagline": "Judgement is coming.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/wLx65gtGVnUFCxceHWGszcruCZj.jpg"
   },
   {
     "id": 140,
@@ -439,7 +465,20 @@
     "year": 2014,
     "tagline": "The average person uses 10% of their brain capacity. Imagine what she could do with 100%.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/kRbpUTRNm6QbLQFPFWUcNC4czEm.jpg"
+  },
+  {
+    "id": 141,
+    "tmdb_id": 986056,
+    "name": "Thunderbolts*",
+    "imdb": "tt20969586",
+    "budget": 180000000,
+    "revenue": 380591509,
+    "runtime": 127,
+    "year": 2025,
+    "tagline": "Everyone deserves a second shot.",
+    "rating": null,
+    "poster_path": "/hBH50Mkcrc4m8x73CovLmY7vBx1.jpg"
   },
   {
     "id": 142,
@@ -452,7 +491,7 @@
     "year": 2018,
     "tagline": "A BRUTAL JOURNEY TOWARDS THE WILDEST REVENGE.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/m0yf7J7HsKeK6E81SMRcX8vx6mH.jpg"
   },
   {
     "id": 145,
@@ -465,7 +504,7 @@
     "year": 2017,
     "tagline": "A Fairy Tale for Troubled Times",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/9zfwPffUXpBrEP26yp0q1ckXDcj.jpg"
   },
   {
     "id": 148,
@@ -478,7 +517,7 @@
     "year": 2001,
     "tagline": "Family isn't a word ... It's a sentence.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/nG7hZJn7wQTSDCQT39Gy3s3tbrp.jpg"
   },
   {
     "id": 153,
@@ -491,7 +530,7 @@
     "year": 2024,
     "tagline": "Say your prayers.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/1EwNyiiNFd863H4e8nWEzutnZD7.jpg"
   },
   {
     "id": 155,
@@ -504,7 +543,7 @@
     "year": 1993,
     "tagline": "An adventure 65 million years in the making.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/63viWuPfYQjRYLSZSZNq7dglJP5.jpg"
   },
   {
     "id": 158,
@@ -517,7 +556,7 @@
     "year": 1997,
     "tagline": "Something has survived.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/6fSkhv35nPSw9hwPVCMINQFG1WD.jpg"
   },
   {
     "id": 159,
@@ -530,7 +569,20 @@
     "year": 2007,
     "tagline": "You can't stop what's coming.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/bj1v6YKF8yHqA489VFfnQvOJpnc.jpg"
+  },
+  {
+    "id": 161,
+    "tmdb_id": 135397,
+    "name": "Jurassic World",
+    "imdb": "tt0369610",
+    "budget": 150000000,
+    "revenue": 1671537444,
+    "runtime": 124,
+    "year": 2015,
+    "tagline": "The park is open.",
+    "rating": null,
+    "poster_path": "/rhr4y79GpxQF9IsfJItRXVaoGs4.jpg"
   },
   {
     "id": 162,
@@ -543,7 +595,7 @@
     "year": 2018,
     "tagline": "The park is gone.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/270MrJNqJovumHXGE6SSt0zwUIF.jpg"
   },
   {
     "id": 164,
@@ -556,7 +608,7 @@
     "year": 2018,
     "tagline": "Every con has its pros",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/MvYpKlpFukTivnlBhizGbkAe3v.jpg"
   },
   {
     "id": 165,
@@ -569,7 +621,7 @@
     "year": 2022,
     "tagline": "The epic conclusion of the Jurassic era.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/jbAvCACjLf1ZG0unB2tdmx5HAf1.jpg"
   },
   {
     "id": 166,
@@ -582,6 +634,6 @@
     "year": 1998,
     "tagline": "Love is the only inspiration.",
     "rating": null,
-    "poster_path": null
+    "poster_path": "/zdW7jdzPi4J9KZR3TyY2jn3Xh5e.jpg"
   }
 ]

@@ -63,6 +63,13 @@
     "movie_count": 4
   },
   {
+    "name": "Hugo Weaving",
+    "person_id": 5405,
+    "tmdb_id": 1331,
+    "imdb_id": "nm0915989",
+    "movie_count": 4
+  },
+  {
     "name": "Tom Hardy",
     "person_id": 7342,
     "tmdb_id": 2524,
@@ -182,6 +189,13 @@
     "movie_count": 3
   },
   {
+    "name": "John Turturro",
+    "person_id": 5328,
+    "tmdb_id": 1241,
+    "imdb_id": "nm0001806",
+    "movie_count": 3
+  },
+  {
     "name": "Brian Cox",
     "person_id": 11875,
     "tmdb_id": 1248,
@@ -291,6 +305,13 @@
     "person_id": 2756,
     "tmdb_id": 14639,
     "imdb_id": "nm0000316",
+    "movie_count": 3
+  },
+  {
+    "name": "Kevin Dunn",
+    "person_id": 5012,
+    "tmdb_id": 14721,
+    "imdb_id": "nm0242656",
     "movie_count": 3
   },
   {

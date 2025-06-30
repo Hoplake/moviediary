@@ -2363,5 +2363,35 @@
     "movie_id": 167,
     "genre_id": 13,
     "name": "Mystery"
+  },
+  {
+    "movie_id": 168,
+    "genre_id": 2,
+    "name": "Adventure"
+  },
+  {
+    "movie_id": 168,
+    "genre_id": 1,
+    "name": "Action"
+  },
+  {
+    "movie_id": 168,
+    "genre_id": 15,
+    "name": "Science Fiction"
+  },
+  {
+    "movie_id": 169,
+    "genre_id": 2,
+    "name": "Adventure"
+  },
+  {
+    "movie_id": 169,
+    "genre_id": 1,
+    "name": "Action"
+  },
+  {
+    "movie_id": 169,
+    "genre_id": 15,
+    "name": "Science Fiction"
   }
 ]

@@ -66,3 +66,37 @@ const common_actors_pairs = db.prepare(`SELECT
     ORDER BY movie_count DESC`).all();
 fs.writeFileSync('src/data/common_actor_pairs.json', JSON.stringify(common_actors_pairs, null, 2));
 console.log('Exported common_actors_pairs to src/data/common_actor_pairs.json');
+
+const highest_grossing_actors = db.prepare(`SELECT 
+                p.name, 
+                COALESCE(p.imdb_id, '') as imdb_id,
+                COUNT(DISTINCT m.tmdb_id) as movie_count,
+                SUM(m.revenue) as total_revenue
+            FROM people p
+            JOIN moviecrew mc ON p.tmdb_id = mc.crew_tmdb_id
+            JOIN movies m ON mc.movie_tmdb_id = m.tmdb_id
+            WHERE mc.job = 'Actor' AND m.revenue > 0
+            GROUP BY p.name, p.imdb_id
+            ORDER BY total_revenue DESC
+            LIMIT 50`).all();
+fs.writeFileSync('src/data/highest_grossing_actors.json', JSON.stringify(highest_grossing_actors, null, 2));
+console.log('Exported highest_grossing_actors to src/data/highest_grossing_actors.json');
+
+const most_oscar_wins_movies = db.prepare(`SELECT oa.film, oa.movie_imdb_id, m.imdb as movie_imdb_id_full, COUNT(*) as oscar_count
+            FROM oscar_awards oa
+            INNER JOIN movies m ON oa.movie_imdb_id = m.imdb
+            WHERE oa.winner = 1
+            GROUP BY oa.film, oa.movie_imdb_id, m.imdb
+            ORDER BY oscar_count DESC
+            LIMIT 50`).all();
+fs.writeFileSync('src/data/most_oscar_wins_movies.json', JSON.stringify(most_oscar_wins_movies, null, 2));
+console.log('Exported most_oscar_wins_movies to src/data/most_oscar_wins_movies.json');
+
+const most_oscar_nominations_movies = db.prepare(`SELECT oa.film, oa.movie_imdb_id, m.imdb as movie_imdb_id_full, COUNT(*) as oscar_count
+            FROM oscar_awards oa
+            INNER JOIN movies m ON oa.movie_imdb_id = m.imdb
+            GROUP BY oa.film, oa.movie_imdb_id, m.imdb
+            ORDER BY oscar_count DESC
+            LIMIT 50`).all();
+fs.writeFileSync('src/data/most_oscar_nominations_movies.json', JSON.stringify(most_oscar_nominations_movies, null, 2));
+console.log('Exported most_oscar_nominations_movies to src/data/most_oscar_nominations_movies.json');

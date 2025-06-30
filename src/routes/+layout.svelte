@@ -15,6 +15,10 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Movie Diary</title>
+</svelte:head>
+
 <div class="min-h-screen bg-gray-50">
 	<!-- Navigation -->
 	<nav class="bg-white shadow-sm border-b border-gray-200">
@@ -72,7 +76,23 @@
 											class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
 											role="menuitem"
 										>
-											Most Actors
+											Most Frequent Actors
+										</a>
+										<a 
+											href="{base}/highest-grossing" 
+											on:click={closeStatsDropdown}
+											class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+											role="menuitem"
+										>
+											Highest Grossing Actors
+										</a>
+										<a 
+											href="{base}/academy-awards" 
+											on:click={closeStatsDropdown}
+											class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+											role="menuitem"
+										>
+											Academy Awards
 										</a>
 									</div>
 								</div>
@@ -86,24 +106,32 @@
 		<!-- Mobile navigation -->
 		<div class="sm:hidden">
 			<div class="pt-2 pb-3 space-y-1">
-				<a href="{base}/" class="bg-gray-50 border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+				<a href="{base}/" class="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
 					All Movies
 				</a>
-				<a href="{base}/bechdel" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+				<a href="{base}/bechdel" class="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
 					Bechdel Test
 				</a>
-				<div class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
-					Statistics
-				</div>
-				<div class="pl-6 space-y-1">
-					<a href="{base}/top-roi" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-sm font-medium">
+				
+				<!-- Statistics Section -->
+				<div class="pt-4">
+					<h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider pl-3 pr-4 py-2">
+						Statistics
+					</h3>
+					<a href="{base}/top-roi" class="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-6 pr-4 py-2 border-l-4 text-sm">
 						Top ROI
 					</a>
-					<a href="{base}/actor-pairs" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-sm font-medium">
+					<a href="{base}/actor-pairs" class="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-6 pr-4 py-2 border-l-4 text-sm">
 						Actor Pairs
 					</a>
-					<a href="{base}/most-actors" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-sm font-medium">
-						Most Actors
+					<a href="{base}/most-actors" class="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-6 pr-4 py-2 border-l-4 text-sm">
+						Most Frequent Actors
+					</a>
+					<a href="{base}/highest-grossing" class="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-6 pr-4 py-2 border-l-4 text-sm">
+						Highest Grossing Actors
+					</a>
+					<a href="{base}/academy-awards" class="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-6 pr-4 py-2 border-l-4 text-sm">
+						Academy Awards
 					</a>
 				</div>
 			</div>

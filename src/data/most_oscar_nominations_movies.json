@@ -1,0 +1,278 @@
+[
+  {
+    "film": "Shakespeare in Love",
+    "movie_imdb_id": "tt0138097",
+    "movie_imdb_id_full": "tt0138097",
+    "oscar_count": 13
+  },
+  {
+    "film": "The Shape of Water",
+    "movie_imdb_id": "tt5580390",
+    "movie_imdb_id_full": "tt5580390",
+    "oscar_count": 13
+  },
+  {
+    "film": "Star Wars",
+    "movie_imdb_id": "tt0076759",
+    "movie_imdb_id_full": "tt0076759",
+    "oscar_count": 11
+  },
+  {
+    "film": "Dune",
+    "movie_imdb_id": "tt1160419",
+    "movie_imdb_id_full": "tt1160419",
+    "oscar_count": 10
+  },
+  {
+    "film": "Killers of the Flower Moon",
+    "movie_imdb_id": "tt5537002",
+    "movie_imdb_id_full": "tt5537002",
+    "oscar_count": 10
+  },
+  {
+    "film": "Mad Max: Fury Road",
+    "movie_imdb_id": "tt1392190",
+    "movie_imdb_id_full": "tt1392190",
+    "oscar_count": 10
+  },
+  {
+    "film": "The Grand Budapest Hotel",
+    "movie_imdb_id": "tt2278388",
+    "movie_imdb_id_full": "tt2278388",
+    "oscar_count": 9
+  },
+  {
+    "film": "Barbie",
+    "movie_imdb_id": "tt1517268",
+    "movie_imdb_id_full": "tt1517268",
+    "oscar_count": 8
+  },
+  {
+    "film": "Conclave",
+    "movie_imdb_id": "tt20215234",
+    "movie_imdb_id_full": "tt20215234",
+    "oscar_count": 8
+  },
+  {
+    "film": "No Country for Old Men",
+    "movie_imdb_id": "tt0477348",
+    "movie_imdb_id_full": "tt0477348",
+    "oscar_count": 8
+  },
+  {
+    "film": "Double Indemnity",
+    "movie_imdb_id": "tt0036775",
+    "movie_imdb_id_full": "tt0036775",
+    "oscar_count": 7
+  },
+  {
+    "film": "Good Night, and Good Luck.",
+    "movie_imdb_id": "tt0433383",
+    "movie_imdb_id_full": "tt0433383",
+    "oscar_count": 6
+  },
+  {
+    "film": "Jojo Rabbit",
+    "movie_imdb_id": "tt2584384",
+    "movie_imdb_id_full": "tt2584384",
+    "oscar_count": 6
+  },
+  {
+    "film": "Judas and the Black Messiah",
+    "movie_imdb_id": "tt9784798",
+    "movie_imdb_id_full": "tt9784798",
+    "oscar_count": 6
+  },
+  {
+    "film": "Dune: Part Two",
+    "movie_imdb_id": "tt15239678",
+    "movie_imdb_id_full": "tt15239678",
+    "oscar_count": 5
+  },
+  {
+    "film": "Cool Hand Luke",
+    "movie_imdb_id": "tt0061512",
+    "movie_imdb_id_full": "tt0061512",
+    "oscar_count": 4
+  },
+  {
+    "film": "Midnight in Paris",
+    "movie_imdb_id": "tt1605783",
+    "movie_imdb_id_full": "tt1605783",
+    "oscar_count": 4
+  },
+  {
+    "film": "The Empire Strikes Back",
+    "movie_imdb_id": "tt0080684",
+    "movie_imdb_id_full": "tt0080684",
+    "oscar_count": 4
+  },
+  {
+    "film": "The Matrix",
+    "movie_imdb_id": "tt0133093",
+    "movie_imdb_id_full": "tt0133093",
+    "oscar_count": 4
+  },
+  {
+    "film": "The Thin Man",
+    "movie_imdb_id": "tt0025878",
+    "movie_imdb_id_full": "tt0025878",
+    "oscar_count": 4
+  },
+  {
+    "film": "The Untouchables",
+    "movie_imdb_id": "tt0094226",
+    "movie_imdb_id_full": "tt0094226",
+    "oscar_count": 4
+  },
+  {
+    "film": "Barton Fink",
+    "movie_imdb_id": "tt0101410",
+    "movie_imdb_id_full": "tt0101410",
+    "oscar_count": 3
+  },
+  {
+    "film": "Blazing Saddles",
+    "movie_imdb_id": "tt0071230",
+    "movie_imdb_id_full": "tt0071230",
+    "oscar_count": 3
+  },
+  {
+    "film": "Hidden Figures",
+    "movie_imdb_id": "tt4846340",
+    "movie_imdb_id_full": "tt4846340",
+    "oscar_count": 3
+  },
+  {
+    "film": "In the Line of Fire",
+    "movie_imdb_id": "tt0107206",
+    "movie_imdb_id_full": "tt0107206",
+    "oscar_count": 3
+  },
+  {
+    "film": "Jurassic Park",
+    "movie_imdb_id": "tt0107290",
+    "movie_imdb_id_full": "tt0107290",
+    "oscar_count": 3
+  },
+  {
+    "film": "North by Northwest",
+    "movie_imdb_id": "tt0053125",
+    "movie_imdb_id_full": "tt0053125",
+    "oscar_count": 3
+  },
+  {
+    "film": "The Stunt Man",
+    "movie_imdb_id": "tt0081568",
+    "movie_imdb_id_full": "tt0081568",
+    "oscar_count": 3
+  },
+  {
+    "film": "The Two Popes",
+    "movie_imdb_id": "tt8404614",
+    "movie_imdb_id_full": "tt8404614",
+    "oscar_count": 3
+  },
+  {
+    "film": "Transformers",
+    "movie_imdb_id": "tt0418279",
+    "movie_imdb_id_full": "tt0418279",
+    "oscar_count": 3
+  },
+  {
+    "film": "WarGames",
+    "movie_imdb_id": "tt0086567",
+    "movie_imdb_id_full": "tt0086567",
+    "oscar_count": 3
+  },
+  {
+    "film": "Con Air",
+    "movie_imdb_id": "tt0118880",
+    "movie_imdb_id_full": "tt0118880",
+    "oscar_count": 2
+  },
+  {
+    "film": "Fantastic Mr. Fox",
+    "movie_imdb_id": "tt0432283",
+    "movie_imdb_id_full": "tt0432283",
+    "oscar_count": 2
+  },
+  {
+    "film": "Rashomon",
+    "movie_imdb_id": "tt0042876",
+    "movie_imdb_id_full": "tt0042876",
+    "oscar_count": 2
+  },
+  {
+    "film": "The Lavender Hill Mob",
+    "movie_imdb_id": "tt0044829",
+    "movie_imdb_id_full": "tt0044829",
+    "oscar_count": 2
+  },
+  {
+    "film": "A Mighty Wind",
+    "movie_imdb_id": "tt0310281",
+    "movie_imdb_id_full": "tt0310281",
+    "oscar_count": 1
+  },
+  {
+    "film": "After the Thin Man",
+    "movie_imdb_id": "tt0027260",
+    "movie_imdb_id_full": "tt0027260",
+    "oscar_count": 1
+  },
+  {
+    "film": "Austin Powers: The Spy Who Shagged Me",
+    "movie_imdb_id": "tt0145660",
+    "movie_imdb_id_full": "tt0145660",
+    "oscar_count": 1
+  },
+  {
+    "film": "Beverly Hills Cop",
+    "movie_imdb_id": "tt0086960",
+    "movie_imdb_id_full": "tt0086960",
+    "oscar_count": 1
+  },
+  {
+    "film": "Beverly Hills Cop II",
+    "movie_imdb_id": "tt0092644",
+    "movie_imdb_id_full": "tt0092644",
+    "oscar_count": 1
+  },
+  {
+    "film": "Creed",
+    "movie_imdb_id": "tt3076658",
+    "movie_imdb_id_full": "tt3076658",
+    "oscar_count": 1
+  },
+  {
+    "film": "In Bruges",
+    "movie_imdb_id": "tt0780536",
+    "movie_imdb_id_full": "tt0780536",
+    "oscar_count": 1
+  },
+  {
+    "film": "The Lost World: Jurassic Park",
+    "movie_imdb_id": "tt0119567",
+    "movie_imdb_id_full": "tt0119567",
+    "oscar_count": 1
+  },
+  {
+    "film": "The Rock",
+    "movie_imdb_id": "tt0117500",
+    "movie_imdb_id_full": "tt0117500",
+    "oscar_count": 1
+  },
+  {
+    "film": "The Royal Tenenbaums",
+    "movie_imdb_id": "tt0265666",
+    "movie_imdb_id_full": "tt0265666",
+    "oscar_count": 1
+  },
+  {
+    "film": "Transformers: Revenge of the Fallen",
+    "movie_imdb_id": "tt1055369",
+    "movie_imdb_id_full": "tt1055369",
+    "oscar_count": 1
+  }
+]

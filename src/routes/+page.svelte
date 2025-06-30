@@ -53,7 +53,7 @@
 
   function getBechdelStatus(rating: number): string {
     switch (rating) {
-      case 0: return 'No women';
+      case 0: return 'Less than two named women characters';
       case 1: return 'Women don\'t talk to each other';
       case 2: return 'Women only talk about men';
       case 3: return 'Passes the test';

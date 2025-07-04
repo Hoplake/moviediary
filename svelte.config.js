@@ -18,6 +18,11 @@ const prerenderEntries = [
 	'/top-roi',
 	'/actor-pairs',
 	'/most-actors',
+	'/academy-awards',
+	'/highest-grossing',
+	'/top-rated-actors',
+	'/top-rated-directors',
+	'/top-rated-genres',
 	...movieIds.map(id => `/movie/${id}`),
 	...personIds.map(id => `/person/${id}`),
 	...genreNames.map(name => `/genre/${encodeURIComponent(name)}`)

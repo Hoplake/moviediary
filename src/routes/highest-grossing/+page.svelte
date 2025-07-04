@@ -115,7 +115,7 @@
                   {#if actor.profile_path}
                     <img src={`https://image.tmdb.org/t/p/w185${actor.profile_path}`} alt={actor.name} class="w-7 h-7 rounded-full object-cover border border-blue-200" />
                   {:else}
-                    <img src="/default-avatar.png" alt="No photo" class="w-7 h-7 rounded-full object-cover border border-blue-200" />
+                    <img src="{base}/default-avatar.png" alt="No photo" class="w-7 h-7 rounded-full object-cover border border-blue-200" />
                   {/if}
                   <span>{actor.name}</span>
                 </a>

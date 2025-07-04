@@ -161,7 +161,7 @@
                 {#if director.profile_path}
                   <img src={`https://image.tmdb.org/t/p/w185${director.profile_path}`} alt={director.name} class="w-7 h-7 rounded-full object-cover border border-blue-200" />
                 {:else}
-                  <img src="/default-avatar.png" alt="No photo" class="w-7 h-7 rounded-full object-cover border border-blue-200" />
+                                      <img src="{base}/default-avatar.png" alt="No photo" class="w-7 h-7 rounded-full object-cover border border-blue-200" />
                 {/if}
                 <span>{director.name}</span>
               </a>
@@ -196,7 +196,7 @@
                 {#if actor.profile_path}
                   <img src={`https://image.tmdb.org/t/p/w185${actor.profile_path}`} alt={actor.name} class="w-8 h-8 rounded-full object-cover border border-gray-200" />
                 {:else}
-                  <img src="/default-avatar.png" alt="No photo" class="w-8 h-8 rounded-full object-cover border border-gray-200" />
+                                      <img src="{base}/default-avatar.png" alt="No photo" class="w-8 h-8 rounded-full object-cover border border-gray-200" />
                 {/if}
                 <span class="text-gray-800 font-medium">{actor.name}</span>
               </a>

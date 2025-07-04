@@ -94,7 +94,7 @@
       {#if profilePath}
         <img src={`https://image.tmdb.org/t/p/w300${profilePath}`} alt={personName} class="w-32 h-32 rounded-full object-cover border-4 border-blue-200 shadow-md mb-4" />
       {:else}
-        <img src="/default-avatar.png" alt="No photo" class="w-32 h-32 rounded-full object-cover border-4 border-blue-200 shadow-md mb-4" />
+                        <img src="{base}/default-avatar.png" alt="No photo" class="w-32 h-32 rounded-full object-cover border-4 border-blue-200 shadow-md mb-4" />
       {/if}
       <h1 class="text-4xl font-bold text-gray-800 mb-2">{personName}</h1>
       <div class="text-gray-600 text-lg mb-2">{uniqueMovies.length} movie{uniqueMovies.length !== 1 ? 's' : ''} in the collection</div>

@@ -1,9 +1,10 @@
 <script lang="ts">
   import movies from '../data/movies.json';
   import { base } from '$app/paths';
+  import CompactRating from '$lib/CompactRating.svelte';
 
   // Sort state
-  let sortField: 'name' | 'year' | 'runtime' | 'bechdel_rating' = 'year';
+  let sortField: 'name' | 'year' | 'runtime' | 'bechdel_rating' | 'rating' = 'year';
   let sortDirection: 'asc' | 'desc' = 'desc';
 
   // Sort function
@@ -63,38 +64,44 @@
 </script>
 
 <div class="py-10">
-  <div class="max-w-6xl mx-auto bg-white rounded-xl shadow-md p-8">
-    <h1 class="text-3xl font-bold mb-6 text-center text-gray-800">All Movies</h1>
+  <div class="max-w-6xl mx-auto backdrop-blur-md bg-white/80 rounded-xl shadow-2xl p-8 border border-white/30">
+    <h1 class="text-3xl font-bold mb-6 text-center text-gray-900 drop-shadow-lg">All Movies</h1>
     
     <!-- Sort Info -->
-    <div class="mb-4 text-sm text-gray-600 text-center">
-      Sorted by: <span class="font-medium">{sortField}</span> 
+    <div class="mb-4 text-sm text-gray-700 text-center">
+      Sorted by: <span class="font-medium text-gray-900">{sortField}</span> 
       ({sortDirection === 'asc' ? 'ascending' : 'descending'})
     </div>
 
     <div class="overflow-x-auto">
-      <table class="min-w-full divide-y divide-gray-200">
-        <thead class="bg-gray-100">
+      <table class="min-w-full divide-y divide-gray-300 shadow-lg rounded-lg overflow-hidden">
+        <thead class="bg-white/95">
           <tr>
-            <th class="px-4 py-2 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition-colors" 
+            <th class="px-4 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider cursor-pointer hover:bg-gray-100 transition-colors" 
                 on:click={() => handleSort('name')}>
               <div class="flex items-center gap-2">
                 Movie {getSortIndicator('name')}
               </div>
             </th>
-            <th class="px-4 py-2 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition-colors" 
+            <th class="px-4 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider cursor-pointer hover:bg-gray-100 transition-colors" 
                 on:click={() => handleSort('year')}>
               <div class="flex items-center gap-2">
                 Year {getSortIndicator('year')}
               </div>
             </th>
-            <th class="px-4 py-2 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition-colors" 
+            <th class="px-4 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider cursor-pointer hover:bg-gray-100 transition-colors" 
                 on:click={() => handleSort('runtime')}>
               <div class="flex items-center gap-2">
                 Runtime {getSortIndicator('runtime')}
               </div>
             </th>
-            <th class="px-4 py-2 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition-colors" 
+            <th class="px-4 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider cursor-pointer hover:bg-gray-100 transition-colors" 
+                on:click={() => handleSort('rating')}>
+              <div class="flex items-center gap-2">
+                Rating {getSortIndicator('rating')}
+              </div>
+            </th>
+            <th class="px-4 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider cursor-pointer hover:bg-gray-100 transition-colors" 
                 on:click={() => handleSort('bechdel_rating')}>
               <div class="flex items-center gap-2">
                 Bechdel Test {getSortIndicator('bechdel_rating')}
@@ -102,21 +109,24 @@
             </th>
           </tr>
         </thead>
-        <tbody class="bg-white divide-y divide-gray-100">
+        <tbody class="bg-white/90 divide-y divide-gray-200">
           {#each sortedMovies as movie}
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-gray-100 transition-colors duration-200">
               <td class="px-4 py-2 whitespace-nowrap">
-                <a href="{base}/movie/{movie.id}" class="text-blue-600 hover:text-blue-800 font-medium">
+                <a href="{base}/movie/{movie.id}" class="text-blue-700 hover:text-blue-900 font-medium transition-colors duration-200">
                   {movie.name}
                 </a>
               </td>
-              <td class="px-4 py-2 whitespace-nowrap text-gray-600">{movie.year}</td>
-              <td class="px-4 py-2 whitespace-nowrap text-gray-600">{movie.runtime} min</td>
+              <td class="px-4 py-2 whitespace-nowrap text-gray-700">{movie.year}</td>
+              <td class="px-4 py-2 whitespace-nowrap text-gray-700">{movie.runtime} min</td>
               <td class="px-4 py-2 whitespace-nowrap">
-                <span class="inline-flex px-2 py-1 text-xs font-semibold rounded-full 
-                  {movie.bechdel_rating === 3 ? 'bg-green-100 text-green-800' : 
-                   movie.bechdel_rating === 2 ? 'bg-yellow-100 text-yellow-800' :
-                   movie.bechdel_rating === 1 ? 'bg-orange-100 text-orange-800' : 'bg-red-100 text-red-800'}">
+                <CompactRating rating={movie.rating} size="sm" color="default" />
+              </td>
+              <td class="px-4 py-2 whitespace-nowrap">
+                <span class="inline-flex px-2 py-1 text-xs font-semibold rounded-full backdrop-blur-md
+                  {movie.bechdel_rating === 3 ? 'bg-green-500/20 text-green-900' : 
+                   movie.bechdel_rating === 2 ? 'bg-yellow-500/20 text-yellow-900' :
+                   movie.bechdel_rating === 1 ? 'bg-orange-500/20 text-orange-900' : 'bg-red-500/20 text-red-900'}">
                   {getBechdelStatus(movie.bechdel_rating)}
                 </span>
               </td>
@@ -127,7 +137,7 @@
     </div>
 
     <!-- Movie Count -->
-    <div class="mt-6 text-center text-sm text-gray-500">
+    <div class="mt-6 text-center text-sm text-gray-600">
       Total: {movies.length} movies
     </div>
   </div>

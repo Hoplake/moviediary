@@ -180,6 +180,12 @@
     "oscar_count": 3
   },
   {
+    "film": "Transformers: Dark of the Moon",
+    "movie_imdb_id": "tt1399103",
+    "movie_imdb_id_full": "tt1399103",
+    "oscar_count": 3
+  },
+  {
     "film": "WarGames",
     "movie_imdb_id": "tt0086567",
     "movie_imdb_id_full": "tt0086567",
@@ -195,6 +201,12 @@
     "film": "Fantastic Mr. Fox",
     "movie_imdb_id": "tt0432283",
     "movie_imdb_id_full": "tt0432283",
+    "oscar_count": 2
+  },
+  {
+    "film": "Ghostbusters",
+    "movie_imdb_id": "tt0087332",
+    "movie_imdb_id_full": "tt0087332",
     "oscar_count": 2
   },
   {

@@ -11,18 +11,18 @@ const bechdel_pass = db.prepare('SELECT m.* FROM movies m INNER JOIN bechdel b O
 fs.writeFileSync('src/data/bechdel_pass.json', JSON.stringify(bechdel_pass, null, 2));
 console.log('Exported bechdel_pass to src/data/bechdel_pass.json');
 
-const top_roi = db.prepare('SELECT m.id, m.name, m.imdb, m.year, m.revenue, m.budget, (CAST(m.revenue AS FLOAT) / m.budget) as roi FROM movies m WHERE m.budget > 0 AND m.revenue > 0 ORDER BY roi DESC LIMIT 50').all();
+const top_roi = db.prepare('SELECT m.id, m.name, m.imdb, m.year, m.revenue, m.budget, m.rating, (CAST(m.revenue AS FLOAT) / m.budget) as roi FROM movies m WHERE m.budget > 0 AND m.revenue > 0 ORDER BY roi DESC LIMIT 50').all();
 fs.writeFileSync('src/data/top_roi.json', JSON.stringify(top_roi, null, 2));
 console.log('Exported top_roi to src/data/top_roi.json');
 
-const actors = db.prepare(`SELECT m.id as movie_id, p.id as person_id, p.name FROM movies m
+const actors = db.prepare(`SELECT m.id as movie_id, p.id as person_id, p.name, p.profile_path, p.biography FROM movies m
     INNER JOIN moviecrew mc ON mc.movie_tmdb_id = m.tmdb_id
     INNER JOIN people p ON p.tmdb_id = mc.crew_tmdb_id
     WHERE mc.job = 'Actor'`).all();
 fs.writeFileSync('src/data/actors.json', JSON.stringify(actors, null, 2));
 console.log('Exported actors to src/data/actors.json');
 
-const directors = db.prepare(`SELECT m.id as movie_id, p.id as person_id, p.name FROM movies m
+const directors = db.prepare(`SELECT m.id as movie_id, p.id as person_id, p.name, p.profile_path, p.biography FROM movies m
     INNER JOIN moviecrew mc ON mc.movie_tmdb_id = m.tmdb_id
     INNER JOIN people p ON p.tmdb_id = mc.crew_tmdb_id
     WHERE mc.job = 'Director'`).all();
@@ -35,7 +35,7 @@ const genres = db.prepare(`SELECT m.id AS movie_id, g.id AS genre_id, g.name FRO
 fs.writeFileSync('src/data/genres.json', JSON.stringify(genres, null, 2));
 console.log('Exported genres to src/data/genres.json');
 
-const most_movies_actor = db.prepare(`SELECT p.name, p.id as person_id, p.tmdb_id, COALESCE(p.imdb_id, '') AS imdb_id, COUNT(*) AS movie_count
+const most_movies_actor = db.prepare(`SELECT p.name, p.id as person_id, p.tmdb_id, COALESCE(p.imdb_id, '') AS imdb_id, COUNT(*) AS movie_count, p.profile_path
     FROM people p
     JOIN moviecrew mc ON p.tmdb_id = mc.crew_tmdb_id
     WHERE mc.job = 'Actor'
@@ -68,10 +68,12 @@ fs.writeFileSync('src/data/common_actor_pairs.json', JSON.stringify(common_actor
 console.log('Exported common_actors_pairs to src/data/common_actor_pairs.json');
 
 const highest_grossing_actors = db.prepare(`SELECT 
+                p.id as person_id,
                 p.name, 
                 COALESCE(p.imdb_id, '') as imdb_id,
                 COUNT(DISTINCT m.tmdb_id) as movie_count,
-                SUM(m.revenue) as total_revenue
+                SUM(m.revenue) as total_revenue,
+                p.profile_path
             FROM people p
             JOIN moviecrew mc ON p.tmdb_id = mc.crew_tmdb_id
             JOIN movies m ON mc.movie_tmdb_id = m.tmdb_id
@@ -100,3 +102,183 @@ const most_oscar_nominations_movies = db.prepare(`SELECT oa.film, oa.movie_imdb_
             LIMIT 50`).all();
 fs.writeFileSync('src/data/most_oscar_nominations_movies.json', JSON.stringify(most_oscar_nominations_movies, null, 2));
 console.log('Exported most_oscar_nominations_movies to src/data/most_oscar_nominations_movies.json');
+
+const top_rated_genres = db.prepare(`SELECT 
+                g.name as genre_name,
+                g.id as genre_id,
+                COUNT(m.tmdb_id) as movie_count,
+                AVG(m.rating) as avg_rating,
+                MIN(m.rating) as min_rating,
+                MAX(m.rating) as max_rating
+            FROM genres g
+            JOIN moviegenres mg ON g.tmdb_id = mg.genre_tmdb_id
+            JOIN movies m ON mg.movie_tmdb_id = m.tmdb_id
+            WHERE m.rating IS NOT NULL
+            GROUP BY g.tmdb_id, g.name
+            HAVING COUNT(m.tmdb_id) >= 3  -- Only include genres with at least 3 rated movies
+            ORDER BY avg_rating DESC`).all();
+fs.writeFileSync('src/data/top_rated_genres.json', JSON.stringify(top_rated_genres, null, 2));
+console.log('Exported top_rated_genres to src/data/top_rated_genres.json');
+
+/**
+ * Get average user ratings by actor using Bayesian shrinkage.
+ * 
+ * This function uses a shrinkage approach that pulls individual averages toward 
+ * the global average, with less shrinkage for actors with more data:
+ * Adjusted Rating = (Actor's Average × Number of Films + Global Average × Weight) / (Number of Films + Weight)
+ * 
+ * @param {number} limit - Maximum number of actors to return
+ * @param {number} minMovies - Minimum number of rated movies required for inclusion
+ * @param {number} weight - Shrinkage weight (higher = more shrinkage toward global average)
+ * @returns {Array} List of objects containing actor information and rating statistics
+ */
+function getAverageRatingByActor(limit = 20, minMovies = 2, weight = 5.0) {
+    // First, get the global average rating
+    const globalAvgQuery = db.prepare(`
+        SELECT AVG(rating) as global_avg
+        FROM movies 
+        WHERE rating IS NOT NULL
+    `);
+    const globalResult = globalAvgQuery.get();
+    const globalAvg = globalResult?.global_avg || 5.0;
+    
+    // Get actor ratings with Bayesian shrinkage
+    const query = db.prepare(`
+        SELECT 
+            p.name as actor_name,
+            p.id as actor_id,
+            COALESCE(p.imdb_id, '') as imdb_id,
+            COUNT(m.tmdb_id) as movie_count,
+            AVG(m.rating) as raw_avg_rating,
+            MIN(m.rating) as min_rating,
+            MAX(m.rating) as max_rating
+        FROM people p
+        JOIN moviecrew mc ON p.tmdb_id = mc.crew_tmdb_id
+        JOIN movies m ON mc.movie_tmdb_id = m.tmdb_id
+        WHERE mc.job = 'Actor' AND m.rating IS NOT NULL
+        GROUP BY p.tmdb_id, p.name, p.imdb_id
+        HAVING COUNT(m.tmdb_id) >= ?
+        ORDER BY (AVG(m.rating) * COUNT(m.tmdb_id) + ? * ?) / (COUNT(m.tmdb_id) + ?) DESC
+        LIMIT ?
+    `);
+    
+    console.log(`Calculating average ratings by actor with Bayesian shrinkage (top ${limit})`);
+    const result = query.all(minMovies, globalAvg, weight, weight, limit);
+    
+    if (!result || result.length === 0) {
+        console.warn("No actor rating data found in the database");
+        return [];
+    }
+    
+    const actors = result.map(row => {
+        const rawAvg = row.raw_avg_rating;
+        const movieCount = row.movie_count;
+        
+        // Calculate adjusted rating using Bayesian shrinkage
+        const adjustedRating = (rawAvg * movieCount + globalAvg * weight) / (movieCount + weight);
+        
+        return {
+            name: row.actor_name,
+            tmdb_id: row.actor_id,
+            imdb_id: row.imdb_id || null,
+            movie_count: movieCount,
+            raw_avg_rating: rawAvg ? Math.round(rawAvg * 100) / 100 : 0,
+            adjusted_rating: Math.round(adjustedRating * 100) / 100,
+            min_rating: row.min_rating,
+            max_rating: row.max_rating,
+            shrinkage_factor: Math.round((weight / (movieCount + weight)) * 1000) / 1000
+        };
+    });
+    
+    actors.forEach(actor => {
+        console.debug(`Found actor: ${actor.name} with adjusted rating ${actor.adjusted_rating.toFixed(2)} from ${actor.movie_count} movies`);
+    });
+    
+    return actors;
+}
+
+/**
+ * Get average user ratings by director using Bayesian shrinkage.
+ * 
+ * This function uses a shrinkage approach that pulls individual averages toward 
+ * the global average, with less shrinkage for directors with more data:
+ * Adjusted Rating = (Director's Average × Number of Films + Global Average × Weight) / (Number of Films + Weight)
+ * 
+ * @param {number} limit - Maximum number of directors to return
+ * @param {number} minMovies - Minimum number of rated movies required for inclusion
+ * @param {number} weight - Shrinkage weight (higher = more shrinkage toward global average)
+ * @returns {Array} List of objects containing director information and rating statistics
+ */
+function getAverageRatingByDirector(limit = 20, minMovies = 2, weight = 5.0) {
+    // First, get the global average rating
+    const globalAvgQuery = db.prepare(`
+        SELECT AVG(rating) as global_avg
+        FROM movies 
+        WHERE rating IS NOT NULL
+    `);
+    const globalResult = globalAvgQuery.get();
+    const globalAvg = globalResult?.global_avg || 5.0;
+    
+    // Get director ratings with Bayesian shrinkage
+    const query = db.prepare(`
+        SELECT 
+            p.name as director_name,
+            p.id as director_id,
+            COALESCE(p.imdb_id, '') as imdb_id,
+            COUNT(m.tmdb_id) as movie_count,
+            AVG(m.rating) as raw_avg_rating,
+            MIN(m.rating) as min_rating,
+            MAX(m.rating) as max_rating
+        FROM people p
+        JOIN moviecrew mc ON p.tmdb_id = mc.crew_tmdb_id
+        JOIN movies m ON mc.movie_tmdb_id = m.tmdb_id
+        WHERE mc.job = 'Director' AND m.rating IS NOT NULL
+        GROUP BY p.tmdb_id, p.name, p.imdb_id
+        HAVING COUNT(m.tmdb_id) >= ?
+        ORDER BY (AVG(m.rating) * COUNT(m.tmdb_id) + ? * ?) / (COUNT(m.tmdb_id) + ?) DESC
+        LIMIT ?
+    `);
+    
+    console.log(`Calculating average ratings by director with Bayesian shrinkage (top ${limit})`);
+    const result = query.all(minMovies, globalAvg, weight, weight, limit);
+    
+    if (!result || result.length === 0) {
+        console.warn("No director rating data found in the database");
+        return [];
+    }
+    
+    const directors = result.map(row => {
+        const rawAvg = row.raw_avg_rating;
+        const movieCount = row.movie_count;
+        
+        // Calculate adjusted rating using Bayesian shrinkage
+        const adjustedRating = (rawAvg * movieCount + globalAvg * weight) / (movieCount + weight);
+        
+        return {
+            name: row.director_name,
+            tmdb_id: row.director_id,
+            imdb_id: row.imdb_id || null,
+            movie_count: movieCount,
+            raw_avg_rating: rawAvg ? Math.round(rawAvg * 100) / 100 : 0,
+            adjusted_rating: Math.round(adjustedRating * 100) / 100,
+            min_rating: row.min_rating,
+            max_rating: row.max_rating,
+            shrinkage_factor: Math.round((weight / (movieCount + weight)) * 1000) / 1000
+        };
+    });
+    
+    directors.forEach(director => {
+        console.debug(`Found director: ${director.name} with adjusted rating ${director.adjusted_rating.toFixed(2)} from ${director.movie_count} movies`);
+    });
+    
+    return directors;
+}
+
+// Export the new rating data
+const top_rated_actors = getAverageRatingByActor(50, 2, 5.0);
+fs.writeFileSync('src/data/top_rated_actors.json', JSON.stringify(top_rated_actors, null, 2));
+console.log('Exported top_rated_actors to src/data/top_rated_actors.json');
+
+const top_rated_directors = getAverageRatingByDirector(50, 2, 5.0);
+fs.writeFileSync('src/data/top_rated_directors.json', JSON.stringify(top_rated_directors, null, 2));
+console.log('Exported top_rated_directors to src/data/top_rated_directors.json');

@@ -36,6 +36,123 @@
     "movie_titles": "The Grand Budapest Hotel,Fantastic Mr. Fox,The Darjeeling Limited"
   },
   {
+    "actor1_name": "John Turturro",
+    "actor1_id": 5328,
+    "actor2_name": "Hugo Weaving",
+    "actor2_id": 5405,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "John Turturro",
+    "actor1_id": 5328,
+    "actor2_name": "Tyrese Gibson",
+    "actor2_id": 18280,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "John Turturro",
+    "actor1_id": 5328,
+    "actor2_name": "Shia LaBeouf",
+    "actor2_id": 18275,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "John Turturro",
+    "actor1_id": 5328,
+    "actor2_name": "Kevin Dunn",
+    "actor2_id": 5012,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "John Turturro",
+    "actor1_id": 5328,
+    "actor2_name": "Josh Duhamel",
+    "actor2_id": 18279,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "John Turturro",
+    "actor1_id": 5328,
+    "actor2_name": "Peter Cullen",
+    "actor2_id": 18278,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "John Turturro",
+    "actor1_id": 5328,
+    "actor2_name": "Julie White",
+    "actor2_id": 18286,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "Hugo Weaving",
+    "actor1_id": 5405,
+    "actor2_name": "Tyrese Gibson",
+    "actor2_id": 18280,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "Hugo Weaving",
+    "actor1_id": 5405,
+    "actor2_name": "Shia LaBeouf",
+    "actor2_id": 18275,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "Hugo Weaving",
+    "actor1_id": 5405,
+    "actor2_name": "Kevin Dunn",
+    "actor2_id": 5012,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "Hugo Weaving",
+    "actor1_id": 5405,
+    "actor2_name": "Josh Duhamel",
+    "actor2_id": 18279,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "Hugo Weaving",
+    "actor1_id": 5405,
+    "actor2_name": "Peter Cullen",
+    "actor2_id": 18278,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "Hugo Weaving",
+    "actor1_id": 5405,
+    "actor2_name": "Julie White",
+    "actor2_id": 18286,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
     "actor1_name": "Tom Hardy",
     "actor1_id": 7342,
     "actor2_name": "Reid Scott",
@@ -96,7 +213,7 @@
     "actor2_id": 10367,
     "movie_count": 3,
     "movie_ids": "86,98,115",
-    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2: The Smell of Fear,Naked Gun 33: The Final Insult"
+    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2½: The Smell of Fear,Naked Gun 33⅓: The Final Insult"
   },
   {
     "actor1_name": "Leslie Nielsen",
@@ -105,7 +222,7 @@
     "actor2_id": 2963,
     "movie_count": 3,
     "movie_ids": "86,98,115",
-    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2: The Smell of Fear,Naked Gun 33: The Final Insult"
+    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2½: The Smell of Fear,Naked Gun 33⅓: The Final Insult"
   },
   {
     "actor1_name": "Leslie Nielsen",
@@ -114,7 +231,7 @@
     "actor2_id": 10369,
     "movie_count": 3,
     "movie_ids": "86,98,115",
-    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2: The Smell of Fear,Naked Gun 33: The Final Insult"
+    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2½: The Smell of Fear,Naked Gun 33⅓: The Final Insult"
   },
   {
     "actor1_name": "Leslie Nielsen",
@@ -123,7 +240,88 @@
     "actor2_id": 10374,
     "movie_count": 3,
     "movie_ids": "86,98,115",
-    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2: The Smell of Fear,Naked Gun 33: The Final Insult"
+    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2½: The Smell of Fear,Naked Gun 33⅓: The Final Insult"
+  },
+  {
+    "actor1_name": "Tyrese Gibson",
+    "actor1_id": 18280,
+    "actor2_name": "Shia LaBeouf",
+    "actor2_id": 18275,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "Tyrese Gibson",
+    "actor1_id": 18280,
+    "actor2_name": "Kevin Dunn",
+    "actor2_id": 5012,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "Tyrese Gibson",
+    "actor1_id": 18280,
+    "actor2_name": "Josh Duhamel",
+    "actor2_id": 18279,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "Tyrese Gibson",
+    "actor1_id": 18280,
+    "actor2_name": "Peter Cullen",
+    "actor2_id": 18278,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "Tyrese Gibson",
+    "actor1_id": 18280,
+    "actor2_name": "Julie White",
+    "actor2_id": 18286,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "Shia LaBeouf",
+    "actor1_id": 18275,
+    "actor2_name": "Kevin Dunn",
+    "actor2_id": 5012,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "Shia LaBeouf",
+    "actor1_id": 18275,
+    "actor2_name": "Josh Duhamel",
+    "actor2_id": 18279,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "Shia LaBeouf",
+    "actor1_id": 18275,
+    "actor2_name": "Peter Cullen",
+    "actor2_id": 18278,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "Shia LaBeouf",
+    "actor1_id": 18275,
+    "actor2_name": "Julie White",
+    "actor2_id": 18286,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
   },
   {
     "actor1_name": "Priscilla Presley",
@@ -132,7 +330,7 @@
     "actor2_id": 2963,
     "movie_count": 3,
     "movie_ids": "86,98,115",
-    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2: The Smell of Fear,Naked Gun 33: The Final Insult"
+    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2½: The Smell of Fear,Naked Gun 33⅓: The Final Insult"
   },
   {
     "actor1_name": "Priscilla Presley",
@@ -141,7 +339,7 @@
     "actor2_id": 10369,
     "movie_count": 3,
     "movie_ids": "86,98,115",
-    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2: The Smell of Fear,Naked Gun 33: The Final Insult"
+    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2½: The Smell of Fear,Naked Gun 33⅓: The Final Insult"
   },
   {
     "actor1_name": "Priscilla Presley",
@@ -150,7 +348,7 @@
     "actor2_id": 10374,
     "movie_count": 3,
     "movie_ids": "86,98,115",
-    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2: The Smell of Fear,Naked Gun 33: The Final Insult"
+    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2½: The Smell of Fear,Naked Gun 33⅓: The Final Insult"
   },
   {
     "actor1_name": "George Kennedy",
@@ -159,7 +357,7 @@
     "actor2_id": 10369,
     "movie_count": 3,
     "movie_ids": "86,98,115",
-    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2: The Smell of Fear,Naked Gun 33: The Final Insult"
+    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2½: The Smell of Fear,Naked Gun 33⅓: The Final Insult"
   },
   {
     "actor1_name": "George Kennedy",
@@ -168,7 +366,7 @@
     "actor2_id": 10374,
     "movie_count": 3,
     "movie_ids": "86,98,115",
-    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2: The Smell of Fear,Naked Gun 33: The Final Insult"
+    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2½: The Smell of Fear,Naked Gun 33⅓: The Final Insult"
   },
   {
     "actor1_name": "O. J. Simpson",
@@ -177,7 +375,7 @@
     "actor2_id": 10374,
     "movie_count": 3,
     "movie_ids": "86,98,115",
-    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2: The Smell of Fear,Naked Gun 33: The Final Insult"
+    "movie_titles": "The Naked Gun: From the Files of Police Squad!,The Naked Gun 2½: The Smell of Fear,Naked Gun 33⅓: The Final Insult"
   },
   {
     "actor1_name": "Harvey Korman",
@@ -207,6 +405,33 @@
     "movie_titles": "Jurassic World,Jurassic World: Fallen Kingdom,Jurassic World Dominion"
   },
   {
+    "actor1_name": "Kevin Dunn",
+    "actor1_id": 5012,
+    "actor2_name": "Josh Duhamel",
+    "actor2_id": 18279,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "Kevin Dunn",
+    "actor1_id": 5012,
+    "actor2_name": "Peter Cullen",
+    "actor2_id": 18278,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "Kevin Dunn",
+    "actor1_id": 5012,
+    "actor2_name": "Julie White",
+    "actor2_id": 18286,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
     "actor1_name": "Bryce Dallas Howard",
     "actor1_id": 17141,
     "actor2_name": "Chris Pratt",
@@ -214,6 +439,33 @@
     "movie_count": 3,
     "movie_ids": "161,162,165",
     "movie_titles": "Jurassic World,Jurassic World: Fallen Kingdom,Jurassic World Dominion"
+  },
+  {
+    "actor1_name": "Josh Duhamel",
+    "actor1_id": 18279,
+    "actor2_name": "Peter Cullen",
+    "actor2_id": 18278,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "Josh Duhamel",
+    "actor1_id": 18279,
+    "actor2_name": "Julie White",
+    "actor2_id": 18286,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
+  },
+  {
+    "actor1_name": "Peter Cullen",
+    "actor1_id": 18278,
+    "actor2_name": "Julie White",
+    "actor2_id": 18286,
+    "movie_count": 3,
+    "movie_ids": "168,169,170",
+    "movie_titles": "Transformers,Transformers: Revenge of the Fallen,Transformers: Dark of the Moon"
   },
   {
     "actor1_name": "Michael McKean",

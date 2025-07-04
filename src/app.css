@@ -1,2 +1,40 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+/* Global styles */
+body {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body.movie-detail-page {
+  background: transparent !important;
+}
+
+/* Add some subtle animation to the background */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+body {
+  background: linear-gradient(-45deg, #667eea, #764ba2, #f093fb, #f5576c);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  min-height: 100vh;
+}
+
+/* Ensure backdrop backgrounds work properly */
+.movie-detail-page {
+  background: transparent !important;
+}
+
+/* Pixelated image rendering for backdrop */
+.backdrop-pixelated {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}

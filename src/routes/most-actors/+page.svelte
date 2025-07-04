@@ -59,9 +59,9 @@
 </script>
 
 <div class="py-10">
-  <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-md p-8">
-    <h1 class="text-3xl font-bold mb-6 text-center text-gray-800">Most Frequent Actors</h1>
-    <p class="text-center text-gray-600 mb-6">Actors with the most movies in the collection</p>
+  <div class="max-w-6xl mx-auto backdrop-blur-md bg-white/80 rounded-xl shadow-2xl p-8 border border-white/30">
+    <h1 class="text-3xl font-bold mb-6 text-center text-gray-900 drop-shadow-lg">Most Frequent Actors</h1>
+    <p class="text-center text-gray-700 mb-6">Actors with the most movies in the collection</p>
     
     <!-- Sort Info -->
     <div class="mb-4 text-sm text-gray-600 text-center">
@@ -70,25 +70,25 @@
     </div>
 
     <div class="overflow-x-auto">
-      <table class="min-w-full divide-y divide-gray-200">
-        <thead class="bg-gray-100">
+      <table class="min-w-full divide-y divide-gray-300 shadow-lg rounded-lg overflow-hidden">
+        <thead class="bg-white/95">
           <tr>
-            <th class="px-4 py-2 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition-colors" 
+            <th class="px-4 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition-colors" 
                 on:click={() => handleSort('movie_count')}>
               <div class="flex items-center gap-2">
                 Movie Count {getSortIndicator('movie_count')}
               </div>
             </th>
-            <th class="px-4 py-2 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition-colors" 
+            <th class="px-4 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition-colors" 
                 on:click={() => handleSort('name')}>
               <div class="flex items-center gap-2">
                 Actor Name {getSortIndicator('name')}
               </div>
             </th>
-            <th class="px-4 py-2 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Links</th>
+            <th class="px-4 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Links</th>
           </tr>
         </thead>
-        <tbody class="bg-white divide-y divide-gray-100">
+        <tbody class="bg-white/90 divide-y divide-gray-200">
           {#each sortedActors as actor}
             <tr class="hover:bg-gray-50">
               <td class="px-4 py-2 whitespace-nowrap text-center">
@@ -97,8 +97,13 @@
                 </span>
               </td>
               <td class="px-4 py-2 whitespace-nowrap">
-                <a href="{base}/person/{actor.person_id}" class="text-blue-600 hover:text-blue-800 font-medium">
-                  {actor.name}
+                <a href="{base}/person/{actor.person_id}" class="flex items-center gap-2 text-blue-600 hover:text-blue-800 font-medium">
+                  {#if actor.profile_path}
+                    <img src={`https://image.tmdb.org/t/p/w185${actor.profile_path}`} alt={actor.name} class="w-7 h-7 rounded-full object-cover border border-blue-200" />
+                  {:else}
+                    <img src="/default-avatar.png" alt="No photo" class="w-7 h-7 rounded-full object-cover border border-blue-200" />
+                  {/if}
+                  <span>{actor.name}</span>
                 </a>
               </td>
               <td class="px-4 py-2 whitespace-nowrap">

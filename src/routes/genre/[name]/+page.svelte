@@ -4,6 +4,7 @@
   import movies from '../../../data/movies.json';
   import genres from '../../../data/genres.json';
   import { base } from '$app/paths';
+  import CompactRating from '$lib/CompactRating.svelte';
 
   // Get the genre name from the URL parameter
   const genreName = decodeURIComponent($page.params.name);
@@ -55,6 +56,7 @@
             <tr>
               <th class="px-4 py-2 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Movie</th>
               <th class="px-4 py-2 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Year</th>
+              <th class="px-4 py-2 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Rating</th>
               <th class="px-4 py-2 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Runtime</th>
               <th class="px-4 py-2 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Bechdel Test</th>
               {#if genreMovies.some(m => m.budget > 0 || m.revenue > 0)}
@@ -72,6 +74,9 @@
                   </a>
                 </td>
                 <td class="px-4 py-2 whitespace-nowrap text-gray-600">{movie.year}</td>
+                <td class="px-4 py-2 whitespace-nowrap">
+                  <CompactRating rating={movie.rating} size="sm" color="default" />
+                </td>
                 <td class="px-4 py-2 whitespace-nowrap text-gray-600">{movie.runtime} min</td>
                 <td class="px-4 py-2 whitespace-nowrap">
                   <span class="inline-flex px-2 py-1 text-xs font-semibold rounded-full 

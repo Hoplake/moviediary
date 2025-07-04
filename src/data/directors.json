@@ -2,901 +2,1282 @@
   {
     "movie_id": 1,
     "person_id": 137,
-    "name": "Michael Mann"
+    "name": "Michael Mann",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 2,
     "person_id": 160,
-    "name": "Ilya Naishuller"
+    "name": "Ilya Naishuller",
+    "profile_path": "/gvBwViahAMgKrrXi5RX69JZ60dY.jpg",
+    "biography": "Ilya Viktorovich Naishuller (born November 19, 1983) is a Russian film director and musician. He is known for directing the action films Hardcore Henry (2015) and Nobody (2021). He is also the founder of the film production company Versus Pictures and the indie rock band Biting Elbows.\n\nDescription above from the Wikipedia article Ilya Naishuller, licensed under CC-BY-SA, full list of contributors on Wikipedia."
   },
   {
     "movie_id": 3,
     "person_id": 318,
-    "name": "Jeff Fowler"
+    "name": "Jeff Fowler",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 4,
     "person_id": 530,
-    "name": "Mike Mitchell"
+    "name": "Mike Mitchell",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 5,
     "person_id": 693,
-    "name": "Jalmari Helander"
+    "name": "Jalmari Helander",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 6,
     "person_id": 812,
-    "name": "Robert D. Krzykowski"
+    "name": "Robert D. Krzykowski",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 7,
     "person_id": 890,
-    "name": "Walter Hill"
+    "name": "Walter Hill",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 8,
     "person_id": 931,
-    "name": "Akira Kurosawa"
+    "name": "Akira Kurosawa",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 9,
     "person_id": 953,
-    "name": "Carl Reiner"
+    "name": "Carl Reiner",
+    "profile_path": "/hNZNrwU2qysa2ijndIgkd6yjSCt.jpg",
+    "biography": "Carl Reiner (March 20, 1922 – June 29, 2020) was an American actor, stand-up comedian, director, screenwriter, and author. During the early years of television comedy from 1950 to 1957, he acted on and contributed sketch material for Your Show of Shows and Caesar's Hour, starring Sid Caesar, writing alongside Mel Brooks, Neil Simon, and Woody Allen. Reiner teamed up with Brooks and together they released several iconic comedy albums beginning with 2000 Years with Carl Reiner and Mel Brooks (1960). Reiner was best known as the creator and producer of, and a writer and actor on, The Dick Van Dyke Show (1961–1965).\n\nReiner formed a comedy duo with Brooks in \"The 2000 Year Old Man\" and acted in such films as It's a Mad, Mad, Mad, Mad World (1963), The Russians Are Coming, the Russians Are Coming (1966), and the Ocean's film series (2001–2007). He co-wrote and directed some of Steve Martin's first and most successful films, including The Jerk (1979), and also directed such comedies as Where's Poppa? (1970), Oh, God! (1977), and All of Me (1984). Reiner appeared in dozens of television specials from 1967 to 2000, and was a guest star on television series from the 1950s until his death. He also voiced characters in animated films and television series, including the TV series Father of the Pride (2004–2005), in which he voiced Sarmoti, and was a reader for books on tape. He wrote more than two dozen books, mostly in his later years.\n\nHe was the recipient of many awards and honors, including 11 Emmy Awards, one Grammy Award, and the Mark Twain Prize for American Humor. He was inducted into the Television Hall of Fame in 1999.\n\nDescription above from the Wikipedia article Carl Reiner, licensed under CC-BY-SA, full list of contributors on Wikipedia."
   },
   {
     "movie_id": 10,
     "person_id": 1007,
-    "name": "John Francis Daley"
+    "name": "John Francis Daley",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 10,
     "person_id": 1006,
-    "name": "Jonathan Goldstein"
+    "name": "Jonathan Goldstein",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 11,
     "person_id": 318,
-    "name": "Jeff Fowler"
+    "name": "Jeff Fowler",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 12,
     "person_id": 1375,
-    "name": "Tony Cervone"
+    "name": "Tony Cervone",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 13,
     "person_id": 1431,
-    "name": "Ralph Bakshi"
+    "name": "Ralph Bakshi",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 14,
     "person_id": 1865,
-    "name": "Nikolaj Arcel"
+    "name": "Nikolaj Arcel",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 15,
     "person_id": 1431,
-    "name": "Ralph Bakshi"
+    "name": "Ralph Bakshi",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 16,
     "person_id": 2103,
-    "name": "Eric Tsang Chi-Wai"
+    "name": "Eric Tsang Chi-Wai",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 17,
     "person_id": 2164,
-    "name": "Karyn Kusama"
+    "name": "Karyn Kusama",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 18,
     "person_id": 2355,
-    "name": "Alfred Hitchcock"
+    "name": "Alfred Hitchcock",
+    "profile_path": "/108fiNM6poRieMg7RIqLJRxdAwG.jpg",
+    "biography": "Sir Alfred Joseph Hitchcock was an English film director. He is widely regarded as one of the most influential figures in cinema history. In a career spanning six decades, he directed over 50 feature films, many of which are still widely watched and studied today. Known as the \"Master of Suspense\", Hitchcock became as well known as any of his actors thanks to his many interviews, cameo appearances in most of his films, and hosting and producing the television anthology Alfred Hitchcock Presents (1955–65). His films garnered 46 Academy Award nominations, including six wins. However, despite five nominations, he never won the  Best Director award.\n\nHitchcock initially trained as a technical clerk and copywriter before entering the film industry in 1919 as a title card designer. The British–German silent film The Pleasure Garden (1925) was his directorial debut. His first successful film, The Lodger: A Story of the London Fog (1927), helped to shape the thriller genre, and Blackmail (1929) was the first British \"talkie\". His thrillers The 39 Steps (1935) and The Lady Vanishes (1938) are ranked among the greatest British films of the 20th century. By 1939, he had international recognition and producer David O. Selznick persuaded him to move to Hollywood. A string of successful films followed, including Rebecca(1940), Foreign Correspondent (1940), Suspicion (1941), Shadow of a Doubt (1943) and Notorious (1946). Rebecca won the Academy Award for Best Picture, with Hitchcock nominated as Best Director. He also received Oscar nominations for Lifeboat (1944), Spellbound (1945), Rear Window (1954) and Psycho (1960).\n\nHitchcock's other notable films include Rope (1948), Strangers on a Train (1951), Dial M for Murder (1954), To Catch a Thief (1955), The Trouble with Harry (1955), Vertigo (1958), North by Northwest (1959), The Birds (1963), Marnie (1964) and Frenzy (1972), all of which were also financially successful and are highly regarded by film historians. Hitchcock made several films with some of the biggest stars in Hollywood, including four with Cary Grant, four with James Stewart, three with Ingrid Bergman and three consecutively with Grace Kelly. Hitchcock became an American citizen in 1955.\n\nIn 2012, Hitchcock's psychological thriller Vertigo, starring Stewart, displaced Orson Welles' Citizen Kane (1941) as the British Film Institute's greatest film ever made based on its worldwide poll of hundreds of film critics. As of 2021, nine of his films had been selected for preservation in the United States National Film Registry, including his favourite, Shadow of a Doubt (1943). He received the BAFTA Fellowship in 1971, the AFI Life Achievement Award in 1979, and was knighted in December of that year, four months before his death on 29 April 1980.\n\nDescription above from the Wikipedia article Alfred Hitchcock, licensed under CC-BY-SA, full list of contributors on Wikipedia."
   },
   {
     "movie_id": 19,
     "person_id": 2402,
-    "name": "Adam Wingard"
+    "name": "Adam Wingard",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 20,
     "person_id": 2604,
-    "name": "J.C. Chandor"
+    "name": "J.C. Chandor",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 21,
     "person_id": 2664,
-    "name": "Eli Roth"
+    "name": "Eli Roth",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 22,
     "person_id": 2723,
-    "name": "Gene Wilder"
+    "name": "Gene Wilder",
+    "profile_path": "/mwwOSWS2m8ArpiUKnoxVVyT8fND.jpg",
+    "biography": "Gene Wilder (born Jerome Silberman; June 11, 1933 – August 29, 2016) was an American actor, director, screenwriter, producer, singer-songwriter, and author.\n\nHe began his career on stage, and made his screen debut in an episode of the TV series The Play of the Week in 1961. Although his first film role was portraying a hostage in the 1967 motion picture Bonnie and Clyde, Wilder's first major role was as Leopold Bloom in the 1967 film The Producers for which he was nominated for an Academy Award for Best Supporting Actor. This was the first in a series of collaborations with writer/director Mel Brooks, including 1974's Blazing Saddles and Young Frankenstein, which Wilder co-wrote, garnering the pair an Academy Award nomination for Best Adapted Screenplay.\n\nHe is known for his iconic portrayal of Willy Wonka in Willy Wonka & the Chocolate Factory (1971) and for his four films with Richard Pryor: Silver Streak (1976), Stir Crazy (1980), See No Evil, Hear No Evil (1989), and Another You (1991), as well as starring in Woody Allen's Everything You Always Wanted to Know About Sex* (*But Were Afraid to Ask) (1972). He directed and wrote several of his own films, including The Woman in Red (1984).\n\nWith his third wife, Gilda Radner, he starred in three films, the last two of which he also directed. Her 1989 death from ovarian cancer led to his active involvement in promoting cancer awareness and treatment, helping found the Gilda Radner Ovarian Cancer Detection Center in Los Angeles and co-founding Gilda's Club.\n\nAfter his last acting performance in 2003 – a guest role on Will & Grace for which he received an Emmy Award for Outstanding Guest Actor – he turned his attention to writing. He produced a memoir in 2005, Kiss Me Like a Stranger: My Search for Love and Art; a collection of stories, What Is This Thing Called Love? (2010); and the novels My French Whore (2007), The Woman Who Wouldn't (2008), and Something to Remember You By (2013).\n\n​From Wikipedia, the free encyclopedia."
   },
   {
     "movie_id": 23,
     "person_id": 2756,
-    "name": "Mel Brooks"
+    "name": "Mel Brooks",
+    "profile_path": "/c21qNcMJlHnRolfhQhZOVacjtwI.jpg",
+    "biography": "Melvin James Brooks (né Kaminsky; born June 28, 1926) is an American actor, comedian, filmmaker, and songwriter. With a career spanning over seven decades, he is known as a writer and director of a variety of successful broad farces and parodies. A recipient of numerous accolades, he is one of 21 entertainers to win the EGOT (which includes an Emmy, a Grammy, an Oscar, and a Tony). He received a Kennedy Center Honor in 2009, a Hollywood Walk of Fame star in 2010, the AFI Life Achievement Award in 2013, a British Film Institute Fellowship in 2015, a National Medal of Arts in 2016, a BAFTA Fellowship in 2017, and the Honorary Academy Award in 2024.\n\nBrooks began his career as a comic and a writer for Sid Caesar's variety show Your Show of Shows(1950–1954). There, he worked with Neil Simon, Woody Allen, Larry Gelbart, and Carl Reiner. With Reiner, he co-created the comedy sketch The 2000 Year Old Man. He released several comedy albums, starting with 2000 Year Old Man in 1960. Brooks received five nominations for the Grammy Award for Best Comedy Album, finally winning in 1999. With Buck Henry, he created the hit satirical spy comedy series Get Smart (1965–1970) on NBC television.\n\nBrooks won the Academy Award for Best Original Screenplay for The Producers (1967). He then rose to prominence by directing a string of successful comedy films such as The Twelve Chairs (1970), Blazing Saddles (1974), Young Frankenstein (1974), Silent Movie (1976), and High Anxiety (1977). Later, Brooks made History of the World, Part I (1981), Spaceballs (1987),  Life Stinks (1991), Robin Hood: Men in Tights (1993), and Dracula: Dead and Loving It (1995). A musical adaptation of his first film, The Producers, ran on Broadway from 2001 to 2007 and earned Brooks three Tony Awards. The project was remade into a musical film in 2005. He wrote and produced the Hulu series History of the World, Part II (2023).\n\nBrooks was married to actress Anne Bancroft from 1964 until she died in 2005. Their son, Max Brooks, is an actor and author known for his novel World War Z: An Oral History of the Zombie War (2006). In 2021, Mel Brooks published his memoir titled All About Me!. Three of his films are included on the American Film Institute's list of the top 100 comedy films of the past 100 years (1900–2000), all of which were ranked in the top 15: Blazing Saddles at number 6, The Producers at number 11, and Young Frankenstein at number 13.\n\nDescription above from the Wikipedia article Mel Brooks, licensed under CC-BY-SA, full list of contributors on Wikipedia."
   },
   {
     "movie_id": 24,
     "person_id": 2856,
-    "name": "Theodore Melfi"
+    "name": "Theodore Melfi",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 25,
     "person_id": 2984,
-    "name": "Stuart Rosenberg"
+    "name": "Stuart Rosenberg",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 26,
     "person_id": 3009,
-    "name": "John Krasinski"
+    "name": "John Krasinski",
+    "profile_path": "/pmVGDb6Yl6OyFcHVGbu1EYNfyFK.jpg",
+    "biography": "John Burke Krasinski (born October 20, 1979) is an American actor, film director and writer. He is widely known for playing Jim Halpert on the NBC sitcom The Office from 2005 to 2013. He has also appeared in several films including License to Wed (2007), Leatherheads (2008), Away We Go (2009), It's Complicated (2009), Something Borrowed (2011), Aloha (2015), 13 Hours: The Secret Soldiers of Benghazi (2016), Detroit (2017), and A Quiet Place (2018), which he also directed and co-wrote. Also in 2018, Krasinski returned to television portraying the titular character in the Amazon series Jack Ryan."
   },
   {
     "movie_id": 27,
     "person_id": 210,
-    "name": "David Leitch"
+    "name": "David Leitch",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 28,
     "person_id": 3248,
-    "name": "Michael Davis"
+    "name": "Michael Davis",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 29,
     "person_id": 3621,
-    "name": "Scott Beck"
+    "name": "Scott Beck",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 29,
     "person_id": 3622,
-    "name": "Bryan Woods"
+    "name": "Bryan Woods",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 30,
     "person_id": 3650,
-    "name": "Richard Rush"
+    "name": "Richard Rush",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 31,
     "person_id": 3737,
-    "name": "Martin Brest"
+    "name": "Martin Brest",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 32,
     "person_id": 4074,
-    "name": "Tanya Wexler"
+    "name": "Tanya Wexler",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 33,
     "person_id": 4154,
-    "name": "George P. Cosmatos"
+    "name": "George P. Cosmatos",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 34,
     "person_id": 4357,
-    "name": "Denis Villeneuve"
+    "name": "Denis Villeneuve",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 35,
     "person_id": 4357,
-    "name": "Denis Villeneuve"
+    "name": "Denis Villeneuve",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 36,
     "person_id": 4571,
-    "name": "Luke Cormican"
+    "name": "Luke Cormican",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 37,
     "person_id": 4596,
-    "name": "Newt Arnold"
+    "name": "Newt Arnold",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 38,
     "person_id": 4860,
-    "name": "Simon McQuoid"
+    "name": "Simon McQuoid",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 39,
     "person_id": 4922,
-    "name": "Jay Roach"
+    "name": "Jay Roach",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 40,
     "person_id": 5028,
-    "name": "Brian De Palma"
+    "name": "Brian De Palma",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 41,
     "person_id": 5274,
-    "name": "Roger Michell"
+    "name": "Roger Michell",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 42,
     "person_id": 5323,
-    "name": "Victor Cook"
+    "name": "Victor Cook",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 43,
     "person_id": 5354,
-    "name": "Joel Coen"
+    "name": "Joel Coen",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 44,
     "person_id": 5419,
-    "name": "Joe Johnston"
+    "name": "Joe Johnston",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 45,
     "person_id": 5993,
-    "name": "Aki Kaurismki"
+    "name": "Aki Kaurismki",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 46,
     "person_id": 6029,
-    "name": "Joe Sichta"
+    "name": "Joe Sichta",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 47,
     "person_id": 6052,
-    "name": "Robert Moore"
+    "name": "Robert Moore",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 48,
     "person_id": 6118,
-    "name": "Michael Ritchie"
+    "name": "Michael Ritchie",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 49,
     "person_id": 6196,
-    "name": "Julius Onah"
+    "name": "Julius Onah",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 50,
     "person_id": 210,
-    "name": "David Leitch"
+    "name": "David Leitch",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 51,
     "person_id": 6927,
-    "name": "W.S. Van Dyke"
+    "name": "W.S. Van Dyke",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 52,
     "person_id": 6960,
-    "name": "Pierre Morel"
+    "name": "Pierre Morel",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 53,
     "person_id": 7474,
-    "name": "Ruben Fleischer"
+    "name": "Ruben Fleischer",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 54,
     "person_id": 7546,
-    "name": "Bob Saget"
+    "name": "Bob Saget",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 55,
     "person_id": 7679,
-    "name": "Lana Wachowski"
+    "name": "Lana Wachowski",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 55,
     "person_id": 7680,
-    "name": "Lilly Wachowski"
+    "name": "Lilly Wachowski",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 56,
     "person_id": 7754,
-    "name": "Grant Heslov"
+    "name": "Grant Heslov",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 57,
     "person_id": 7995,
-    "name": "Ryan Coogler"
+    "name": "Ryan Coogler",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 58,
     "person_id": 8110,
-    "name": "Woody Allen"
+    "name": "Woody Allen",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 59,
     "person_id": 8186,
-    "name": "Robert Rodriguez"
+    "name": "Robert Rodriguez",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 60,
     "person_id": 8336,
-    "name": "Cameron Cairnes"
+    "name": "Cameron Cairnes",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 60,
     "person_id": 8333,
-    "name": "Colin Cairnes"
+    "name": "Colin Cairnes",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 61,
     "person_id": 8398,
-    "name": "Simon West"
+    "name": "Simon West",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 62,
     "person_id": 4922,
-    "name": "Jay Roach"
+    "name": "Jay Roach",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 63,
     "person_id": 8635,
-    "name": "Don Siegel"
+    "name": "Don Siegel",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 64,
     "person_id": 8702,
-    "name": "Lee Won-tae"
+    "name": "Lee Won-tae",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 65,
     "person_id": 8730,
-    "name": "Scott Jeralds"
+    "name": "Scott Jeralds",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 66,
     "person_id": 8760,
-    "name": "Prachya Pinkaew"
+    "name": "Prachya Pinkaew",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 67,
     "person_id": 8826,
-    "name": "Jeremiah S. Chechik"
+    "name": "Jeremiah S. Chechik",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 68,
     "person_id": 8874,
-    "name": "Wolfgang Petersen"
+    "name": "Wolfgang Petersen",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 69,
     "person_id": 2355,
-    "name": "Alfred Hitchcock"
+    "name": "Alfred Hitchcock",
+    "profile_path": "/108fiNM6poRieMg7RIqLJRxdAwG.jpg",
+    "biography": "Sir Alfred Joseph Hitchcock was an English film director. He is widely regarded as one of the most influential figures in cinema history. In a career spanning six decades, he directed over 50 feature films, many of which are still widely watched and studied today. Known as the \"Master of Suspense\", Hitchcock became as well known as any of his actors thanks to his many interviews, cameo appearances in most of his films, and hosting and producing the television anthology Alfred Hitchcock Presents (1955–65). His films garnered 46 Academy Award nominations, including six wins. However, despite five nominations, he never won the  Best Director award.\n\nHitchcock initially trained as a technical clerk and copywriter before entering the film industry in 1919 as a title card designer. The British–German silent film The Pleasure Garden (1925) was his directorial debut. His first successful film, The Lodger: A Story of the London Fog (1927), helped to shape the thriller genre, and Blackmail (1929) was the first British \"talkie\". His thrillers The 39 Steps (1935) and The Lady Vanishes (1938) are ranked among the greatest British films of the 20th century. By 1939, he had international recognition and producer David O. Selznick persuaded him to move to Hollywood. A string of successful films followed, including Rebecca(1940), Foreign Correspondent (1940), Suspicion (1941), Shadow of a Doubt (1943) and Notorious (1946). Rebecca won the Academy Award for Best Picture, with Hitchcock nominated as Best Director. He also received Oscar nominations for Lifeboat (1944), Spellbound (1945), Rear Window (1954) and Psycho (1960).\n\nHitchcock's other notable films include Rope (1948), Strangers on a Train (1951), Dial M for Murder (1954), To Catch a Thief (1955), The Trouble with Harry (1955), Vertigo (1958), North by Northwest (1959), The Birds (1963), Marnie (1964) and Frenzy (1972), all of which were also financially successful and are highly regarded by film historians. Hitchcock made several films with some of the biggest stars in Hollywood, including four with Cary Grant, four with James Stewart, three with Ingrid Bergman and three consecutively with Grace Kelly. Hitchcock became an American citizen in 1955.\n\nIn 2012, Hitchcock's psychological thriller Vertigo, starring Stewart, displaced Orson Welles' Citizen Kane (1941) as the British Film Institute's greatest film ever made based on its worldwide poll of hundreds of film critics. As of 2021, nine of his films had been selected for preservation in the United States National Film Registry, including his favourite, Shadow of a Doubt (1943). He received the BAFTA Fellowship in 1971, the AFI Life Achievement Award in 1979, and was knighted in December of that year, four months before his death on 29 April 1980.\n\nDescription above from the Wikipedia article Alfred Hitchcock, licensed under CC-BY-SA, full list of contributors on Wikipedia."
   },
   {
     "movie_id": 70,
     "person_id": 9016,
-    "name": "Martin Scorsese"
+    "name": "Martin Scorsese",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 71,
     "person_id": 9257,
-    "name": "David Lowery"
+    "name": "David Lowery",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 72,
     "person_id": 9373,
-    "name": "Rick Friedberg"
+    "name": "Rick Friedberg",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 73,
     "person_id": 9446,
-    "name": "Tony Scott"
+    "name": "Tony Scott",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 74,
     "person_id": 9580,
-    "name": "Peter Howitt"
+    "name": "Peter Howitt",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 75,
     "person_id": 9632,
-    "name": "Olatunde Osunsanmi"
+    "name": "Olatunde Osunsanmi",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 76,
     "person_id": 9774,
-    "name": "John Badham"
+    "name": "John Badham",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 77,
     "person_id": 6927,
-    "name": "W.S. Van Dyke"
+    "name": "W.S. Van Dyke",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 78,
     "person_id": 2756,
-    "name": "Mel Brooks"
+    "name": "Mel Brooks",
+    "profile_path": "/c21qNcMJlHnRolfhQhZOVacjtwI.jpg",
+    "biography": "Melvin James Brooks (né Kaminsky; born June 28, 1926) is an American actor, comedian, filmmaker, and songwriter. With a career spanning over seven decades, he is known as a writer and director of a variety of successful broad farces and parodies. A recipient of numerous accolades, he is one of 21 entertainers to win the EGOT (which includes an Emmy, a Grammy, an Oscar, and a Tony). He received a Kennedy Center Honor in 2009, a Hollywood Walk of Fame star in 2010, the AFI Life Achievement Award in 2013, a British Film Institute Fellowship in 2015, a National Medal of Arts in 2016, a BAFTA Fellowship in 2017, and the Honorary Academy Award in 2024.\n\nBrooks began his career as a comic and a writer for Sid Caesar's variety show Your Show of Shows(1950–1954). There, he worked with Neil Simon, Woody Allen, Larry Gelbart, and Carl Reiner. With Reiner, he co-created the comedy sketch The 2000 Year Old Man. He released several comedy albums, starting with 2000 Year Old Man in 1960. Brooks received five nominations for the Grammy Award for Best Comedy Album, finally winning in 1999. With Buck Henry, he created the hit satirical spy comedy series Get Smart (1965–1970) on NBC television.\n\nBrooks won the Academy Award for Best Original Screenplay for The Producers (1967). He then rose to prominence by directing a string of successful comedy films such as The Twelve Chairs (1970), Blazing Saddles (1974), Young Frankenstein (1974), Silent Movie (1976), and High Anxiety (1977). Later, Brooks made History of the World, Part I (1981), Spaceballs (1987),  Life Stinks (1991), Robin Hood: Men in Tights (1993), and Dracula: Dead and Loving It (1995). A musical adaptation of his first film, The Producers, ran on Broadway from 2001 to 2007 and earned Brooks three Tony Awards. The project was remade into a musical film in 2005. He wrote and produced the Hulu series History of the World, Part II (2023).\n\nBrooks was married to actress Anne Bancroft from 1964 until she died in 2005. Their son, Max Brooks, is an actor and author known for his novel World War Z: An Oral History of the Zombie War (2006). In 2021, Mel Brooks published his memoir titled All About Me!. Three of his films are included on the American Film Institute's list of the top 100 comedy films of the past 100 years (1900–2000), all of which were ranked in the top 15: Blazing Saddles at number 6, The Producers at number 11, and Young Frankenstein at number 13.\n\nDescription above from the Wikipedia article Mel Brooks, licensed under CC-BY-SA, full list of contributors on Wikipedia."
   },
   {
     "movie_id": 79,
     "person_id": 9955,
-    "name": "Andy Serkis"
+    "name": "Andy Serkis",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 80,
     "person_id": 10018,
-    "name": "Edward Hall"
+    "name": "Edward Hall",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 81,
     "person_id": 7733,
-    "name": "George Clooney"
+    "name": "George Clooney",
+    "profile_path": "/4s3wI0bqOP7K3hhcmKqV6m3GYiQ.jpg",
+    "biography": "George Timothy Clooney (born May 6, 1961) is an American actor and filmmaker. Known for his work in blockbusters and independent films, he has received numerous accolades, including two Academy Awards, a British Academy Film Award and four Golden Globe Awards. His honors include the Cecil B. DeMille Award, the Honorary César, the AFI Life Achievement Award, and the Kennedy Center Honor.\n\nClooney started acting in television in the late 1970s and later gained wide recognition as Dr. Doug Ross on the NBC medical drama ER (1994–1999), for which he received two Primetime Emmy Award nominations. He expanded to leading roles in films, with his breakthrough role in From Dusk Till Dawn (1996), followed by Batman & Robin (1997), Out of Sight (1998), Three Kings (1999), The Perfect Storm (2000) and O Brother, Where Art Thou? (2000). Greater stardom came from his starring role in Soderbergh's Ocean's film series from 2001 to 2007. Clooney won the Academy Award for Best Supporting Actor for the thriller Syriana(2005) and earned Best Actor nominations for the legal thriller Michael Clayton (2007) and the comedy-dramas Up in the Air (2009) and The Descendants (2011). He has also starred in Burn After Reading (2008), The American (2010), Gravity (2013), Hail, Caesar! (2016) and Ticket to Paradise (2022).\n\nClooney made his directorial debut with the spy drama Confessions of a Dangerous Mind (2002) and has since directed the historical drama Good Night and Good Luck (2005), the political drama The Ides of March (2011), the war film The Monuments Men (2014), the science fiction film The Midnight Sky (2020) and the biographical sports drama The Boys in the Boat (2023). He received the Academy Award for Best Picture for co-producing the political thriller Argo (2012). As of 2023, he is one of four people to have been nominated for Academy Awards in six different categories.\n\nClooney was included on Time's annual Time 100 list, which identifies the most influential people in the world, every year from 2006 to 2009. He is also noted for his political and economic activism. He has been one of the United Nations Messengers of Peace since 2008. Clooney is also a member of the Council on Foreign Relations.\n\nDescription above from the Wikipedia article George Clooney, licensed under CC-BY-SA, full list of contributors on Wikipedia."
   },
   {
     "movie_id": 82,
     "person_id": 10124,
-    "name": "Michael Bay"
+    "name": "Michael Bay",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 83,
     "person_id": 10166,
-    "name": "Gene Quintano"
+    "name": "Gene Quintano",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 84,
     "person_id": 10260,
-    "name": "Aleksi Delikouras"
+    "name": "Aleksi Delikouras",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 85,
     "person_id": 10289,
-    "name": "Mike Judge"
+    "name": "Mike Judge",
+    "profile_path": "/ol4kd4mSOK7Hx3r86ydez84bwEI.jpg",
+    "biography": "Michael Craig Judge (born October 17, 1962) is an American actor, animator, writer, producer, and director. He is best known for creating the animated television series Beavis and Butt-Head (1993–1997, 2011, 2022–present). He also co-created the television series King of the Hill (1997–2010, 2025-present), The Goode Family (2009), Silicon Valley (2014–2019), Common Side Effects (2025- ), and Mike Judge Presents: Tales from the Tour Bus (2017–2018). He wrote and directed the films Beavis and Butt-Head Do America (1996), Office Space (1999), Idiocracy (2006), and Extract (2009), and co-wrote the screenplay to Beavis and Butt-Head Do the Universe (2022).\n\nJudge was born in Guayaquil, Ecuador, and raised in Albuquerque, New Mexico. He graduated from the University of California, San Diego, where he studied physics. After losing interest in a career in science, Judge focused on animation and short films. His animated short Frog Baseball was developed into the successful MTV series Beavis and Butt-Head and the spin-off series Daria (with which Judge had no involvement).\n\nIn 1995, Judge and former Simpsons writer Greg Daniels developed King of the Hill, which debuted on Fox in 1997 and quickly became popular with critics and audiences. It ran for 13 seasons and became one of the longest-running American animated series. During the show run, Judge took time off to write and direct Office Space, Idiocracy and Extract. As King of the Hill ended, Judge created his third show, ABC's The Goode Family, which received mixed reviews and was cancelled after 13 episodes. After a four-year hiatus, he created his fourth show, the live-action Silicon Valley for HBO, which has received critical acclaim. In 2017, Judge's fourth animated series, the music-themed Tales from the Tour Bus, premiered on Cinemax to acclaim.\n\nJudge has won a Primetime Emmy Award, two Annie Awards for King of the Hill, two Critics' Choice Television Awards, and two Satellite Awards for Silicon Valley.\n\nDescription above from the Wikipedia article Mike Judge, licensed under CC-BY-SA, full list of contributors on Wikipedia."
   },
   {
     "movie_id": 86,
     "person_id": 10384,
-    "name": "David Zucker"
+    "name": "David Zucker",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 87,
     "person_id": 10444,
-    "name": "Christopher Guest"
+    "name": "Christopher Guest",
+    "profile_path": "/ofLhsKLZ4YAet8XIsNj7oA3blgh.jpg",
+    "biography": "The Rt. Hon. Christopher Haden-Guest, 5th Baron Haden-Guest (born February 5, 1948), better known as Christopher Guest, is an American screenwriter, composer, musician, director, actor and comedian. He is most widely known in Hollywood for having written, directed and starred in several improvisational \"mockumentary\" films that feature a repertory-like ensemble cast, such as This is Spinal Tap. In the United Kingdom, he holds a Baronial peerage, and has publicly expressed a desire to see the House of Lords reformed as a democratically-elected chamber. Despite initial activity in the Lords, his career there was cut short by the House of Lords Act 1999. When using his title, he is normally styled for short as Lord Haden-Guest.\n\nDescription above from the Wikipedia article Christopher Guest, licensed under CC-BY-SA, full list of contributors on Wikipedia."
   },
   {
     "movie_id": 88,
     "person_id": 10650,
-    "name": "Greta Gerwig"
+    "name": "Greta Gerwig",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 89,
     "person_id": 7476,
-    "name": "Kelly Marcel"
+    "name": "Kelly Marcel",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 90,
     "person_id": 8110,
-    "name": "Woody Allen"
+    "name": "Woody Allen",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 91,
     "person_id": 10854,
-    "name": "Oliver Parker"
+    "name": "Oliver Parker",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 92,
     "person_id": 2355,
-    "name": "Alfred Hitchcock"
+    "name": "Alfred Hitchcock",
+    "profile_path": "/108fiNM6poRieMg7RIqLJRxdAwG.jpg",
+    "biography": "Sir Alfred Joseph Hitchcock was an English film director. He is widely regarded as one of the most influential figures in cinema history. In a career spanning six decades, he directed over 50 feature films, many of which are still widely watched and studied today. Known as the \"Master of Suspense\", Hitchcock became as well known as any of his actors thanks to his many interviews, cameo appearances in most of his films, and hosting and producing the television anthology Alfred Hitchcock Presents (1955–65). His films garnered 46 Academy Award nominations, including six wins. However, despite five nominations, he never won the  Best Director award.\n\nHitchcock initially trained as a technical clerk and copywriter before entering the film industry in 1919 as a title card designer. The British–German silent film The Pleasure Garden (1925) was his directorial debut. His first successful film, The Lodger: A Story of the London Fog (1927), helped to shape the thriller genre, and Blackmail (1929) was the first British \"talkie\". His thrillers The 39 Steps (1935) and The Lady Vanishes (1938) are ranked among the greatest British films of the 20th century. By 1939, he had international recognition and producer David O. Selznick persuaded him to move to Hollywood. A string of successful films followed, including Rebecca(1940), Foreign Correspondent (1940), Suspicion (1941), Shadow of a Doubt (1943) and Notorious (1946). Rebecca won the Academy Award for Best Picture, with Hitchcock nominated as Best Director. He also received Oscar nominations for Lifeboat (1944), Spellbound (1945), Rear Window (1954) and Psycho (1960).\n\nHitchcock's other notable films include Rope (1948), Strangers on a Train (1951), Dial M for Murder (1954), To Catch a Thief (1955), The Trouble with Harry (1955), Vertigo (1958), North by Northwest (1959), The Birds (1963), Marnie (1964) and Frenzy (1972), all of which were also financially successful and are highly regarded by film historians. Hitchcock made several films with some of the biggest stars in Hollywood, including four with Cary Grant, four with James Stewart, three with Ingrid Bergman and three consecutively with Grace Kelly. Hitchcock became an American citizen in 1955.\n\nIn 2012, Hitchcock's psychological thriller Vertigo, starring Stewart, displaced Orson Welles' Citizen Kane (1941) as the British Film Institute's greatest film ever made based on its worldwide poll of hundreds of film critics. As of 2021, nine of his films had been selected for preservation in the United States National Film Registry, including his favourite, Shadow of a Doubt (1943). He received the BAFTA Fellowship in 1971, the AFI Life Achievement Award in 1979, and was knighted in December of that year, four months before his death on 29 April 1980.\n\nDescription above from the Wikipedia article Alfred Hitchcock, licensed under CC-BY-SA, full list of contributors on Wikipedia."
   },
   {
     "movie_id": 93,
     "person_id": 10990,
-    "name": "David Kerr"
+    "name": "David Kerr",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 94,
     "person_id": 11059,
-    "name": "Corey Yuen Kwai"
+    "name": "Corey Yuen Kwai",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 95,
     "person_id": 11198,
-    "name": "Fernando Meirelles"
+    "name": "Fernando Meirelles",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 96,
     "person_id": 11227,
-    "name": "George Miller"
+    "name": "George Miller",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 97,
     "person_id": 890,
-    "name": "Walter Hill"
+    "name": "Walter Hill",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 98,
     "person_id": 10384,
-    "name": "David Zucker"
+    "name": "David Zucker",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 99,
     "person_id": 11447,
-    "name": "Sebastin Cordero"
+    "name": "Sebastin Cordero",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 100,
     "person_id": 11534,
-    "name": "Wes Anderson"
+    "name": "Wes Anderson",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 101,
     "person_id": 10386,
-    "name": "Jim Abrahams"
+    "name": "Jim Abrahams",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 101,
     "person_id": 10384,
-    "name": "David Zucker"
+    "name": "David Zucker",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 101,
     "person_id": 10385,
-    "name": "Jerry Zucker"
+    "name": "Jerry Zucker",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 102,
     "person_id": 11690,
-    "name": "Eric Appel"
+    "name": "Eric Appel",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 103,
     "person_id": 11746,
-    "name": "Billy Wilder"
+    "name": "Billy Wilder",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 104,
     "person_id": 5354,
-    "name": "Joel Coen"
+    "name": "Joel Coen",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 105,
     "person_id": 11534,
-    "name": "Wes Anderson"
+    "name": "Wes Anderson",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 106,
     "person_id": 6118,
-    "name": "Michael Ritchie"
+    "name": "Michael Ritchie",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 107,
     "person_id": 2756,
-    "name": "Mel Brooks"
+    "name": "Mel Brooks",
+    "profile_path": "/c21qNcMJlHnRolfhQhZOVacjtwI.jpg",
+    "biography": "Melvin James Brooks (né Kaminsky; born June 28, 1926) is an American actor, comedian, filmmaker, and songwriter. With a career spanning over seven decades, he is known as a writer and director of a variety of successful broad farces and parodies. A recipient of numerous accolades, he is one of 21 entertainers to win the EGOT (which includes an Emmy, a Grammy, an Oscar, and a Tony). He received a Kennedy Center Honor in 2009, a Hollywood Walk of Fame star in 2010, the AFI Life Achievement Award in 2013, a British Film Institute Fellowship in 2015, a National Medal of Arts in 2016, a BAFTA Fellowship in 2017, and the Honorary Academy Award in 2024.\n\nBrooks began his career as a comic and a writer for Sid Caesar's variety show Your Show of Shows(1950–1954). There, he worked with Neil Simon, Woody Allen, Larry Gelbart, and Carl Reiner. With Reiner, he co-created the comedy sketch The 2000 Year Old Man. He released several comedy albums, starting with 2000 Year Old Man in 1960. Brooks received five nominations for the Grammy Award for Best Comedy Album, finally winning in 1999. With Buck Henry, he created the hit satirical spy comedy series Get Smart (1965–1970) on NBC television.\n\nBrooks won the Academy Award for Best Original Screenplay for The Producers (1967). He then rose to prominence by directing a string of successful comedy films such as The Twelve Chairs (1970), Blazing Saddles (1974), Young Frankenstein (1974), Silent Movie (1976), and High Anxiety (1977). Later, Brooks made History of the World, Part I (1981), Spaceballs (1987),  Life Stinks (1991), Robin Hood: Men in Tights (1993), and Dracula: Dead and Loving It (1995). A musical adaptation of his first film, The Producers, ran on Broadway from 2001 to 2007 and earned Brooks three Tony Awards. The project was remade into a musical film in 2005. He wrote and produced the Hulu series History of the World, Part II (2023).\n\nBrooks was married to actress Anne Bancroft from 1964 until she died in 2005. Their son, Max Brooks, is an actor and author known for his novel World War Z: An Oral History of the Zombie War (2006). In 2021, Mel Brooks published his memoir titled All About Me!. Three of his films are included on the American Film Institute's list of the top 100 comedy films of the past 100 years (1900–2000), all of which were ranked in the top 15: Blazing Saddles at number 6, The Producers at number 11, and Young Frankenstein at number 13.\n\nDescription above from the Wikipedia article Mel Brooks, licensed under CC-BY-SA, full list of contributors on Wikipedia."
   },
   {
     "movie_id": 108,
     "person_id": 12238,
-    "name": "Ted Post"
+    "name": "Ted Post",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 109,
     "person_id": 5028,
-    "name": "Brian De Palma"
+    "name": "Brian De Palma",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 110,
     "person_id": 12355,
-    "name": "Reginald Hudlin"
+    "name": "Reginald Hudlin",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 111,
     "person_id": 12376,
-    "name": "Taika Waititi"
+    "name": "Taika Waititi",
+    "profile_path": "/aH6MgwFhomAPNBRPyO2fhpU5kbk.jpg",
+    "biography": "Taika David Cohen ONZM (born 16 August 1975), known professionally as Taika Waititi(/ˈtaɪkə ˈwaɪtɪti/ TY-kə WY-tee-tee), is a New Zealand filmmaker, actor and comedian. He is known for directing quirky comedy films and has expanded his career as a voice actor and producer on numerous projects. He has received multiple accolades, including an Academy Award, a BAFTA Award and a Grammy Award. Time magazine named him one of the 100 most influential people in the world in 2022.\n\nHis feature films Boy (2010) and Hunt for the Wilderpeople (2016) have each been the top-grossing New Zealand film. Waititi's 2003 short film Two Cars, One Night earned him an Academy Award nomination for Best Live Action Short Film. He co-wrote, co-directed and starred in the horror comedy film What We Do in the Shadows (2014) with Jemaine Clement, which was adapted into a television series of the same name in 2019. The series has been nominated for the Primetime Emmy Award for Outstanding Comedy Series.\n\nHis directing credits include the superhero films Thor: Ragnarok (2017) and Thor: Love and Thunder (2022), as well as the black comedy film Jojo Rabbit (2019), the last of which he also wrote and starred in as an imaginary version of Adolf Hitler. Jojo Rabbit received six Academy Award nominations and won Best Adapted Screenplay. Waititi also earned a Grammy Award for producing the film's soundtrack.\n\nIn television, Waititi co-created and produced the comedy-drama series Reservation Dogs and directed, produced, and starred in the comedy Our Flag Means Death. In addition to directing an episode of The Mandalorian series, he voiced the character IG-11, for which he was nominated for the Primetime Emmy Award for Outstanding Character Voice-Over Performance.\n\nDescription above from the Wikipedia article Taika Waititi, licensed under CC-BY-SA, full list of contributors on Wikipedia."
   },
   {
     "movie_id": 112,
     "person_id": 12498,
-    "name": "Tina Mackic"
+    "name": "Tina Mackic",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 113,
     "person_id": 12611,
-    "name": "Boots Riley"
+    "name": "Boots Riley",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 114,
     "person_id": 12821,
-    "name": "Shaka King"
+    "name": "Shaka King",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 115,
     "person_id": 12851,
-    "name": "Peter Segal"
+    "name": "Peter Segal",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 116,
     "person_id": 10058,
-    "name": "Steven Soderbergh"
+    "name": "Steven Soderbergh",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 117,
     "person_id": 8610,
-    "name": "Clint Eastwood"
+    "name": "Clint Eastwood",
+    "profile_path": "/8TwdCfeOZH7ucRlfLZ6wObxa7cO.jpg",
+    "biography": "Clinton \"Clint\" Eastwood Jr. (born May 31, 1930) is an American film actor, director, producer, composer and former politician. Following his breakthrough role on the TV series \"Rawhide\" (1959–65), Eastwood starred as the Man with No Name in Sergio Leone's Dollars Trilogy of spaghetti westerns (\"A Fistful of Dollars,\" \"For a Few Dollars More,\" and \"The Good, the Bad and the Ugly\") in the 1960s, and as San Francisco Police Department Inspector Harry Callahan in the Dirty Harry films (\"Dirty Harry,\" \"Magnum Force,\" \"The Enforcer,\" \"Sudden Impact,\" and \"The Dead Pool\") during the 1970s and 1980s. These roles, along with several others in which he plays tough-talking no-nonsense police officers, have made him an enduring cultural icon of masculinity.\n\nEastwood won Academy Awards for Best Director and Producer of the Best Picture, as well as receiving nominations for Best Actor, for his work in the films \"Unforgiven\" (1992) and \"Million Dollar Baby\" (2004). These films in particular, as well as others including \"Play Misty for Me\" (1971), \"The Outlaw Josey Wales\" (1976), \"Pale Rider\" (1985), \"In the Line of Fire\" (1993), \"The Bridges of Madison County\" (1995), and \"Gran Torino\" (2008), have all received commercial success and/or critical acclaim. Eastwood's only comedies have been \"Every Which Way but Loose\" (1978) and its sequel \"Any Which Way You Can\" (1980); despite being widely panned by critics they are the two highest-grossing films of his career after adjusting for inflation.\n\nEastwood has directed most of his own star vehicles, but he has also directed films in which he did not appear such as \"Mystic River\" (2003) and \"Letters from Iwo Jima\" (2006), for which he received Academy Award nominations and \"Changeling\" (2008), which received Golden Globe Award nominations. He has received considerable critical praise in France in particular, including for several of his films which were panned in the United States, and was awarded two of France's highest honors: in 1994 he received the Ordre des Arts et des Lettres medal and in 2007 was awarded the Légion d'honneur medal. In 2000 he was awarded the Italian Venice Film Festival Golden Lion for lifetime achievement.\n\nSince 1967 Eastwood has run his own production company, Malpaso, which has produced the vast majority of his films. He also served as the nonpartisan mayor of Carmel-by-the-Sea, California, from 1986 to 1988. Eastwood has seven children by five women, although he has only married twice. An audiophile, Eastwood is also associated with jazz and has composed and performed pieces in several films along with his eldest son, Kyle Eastwood.\n\nDescription above adapted from the Wikipedia article Clint Eastwood, licensed under CC-BY-SA, full list of contributors on Wikipedia."
   },
   {
     "movie_id": 118,
     "person_id": 13142,
-    "name": "Jared Hess"
+    "name": "Jared Hess",
+    "profile_path": "/xUob4AE9C39SsNfhE7z63bMJI75.jpg",
+    "biography": "Jared Lawrence Hess (born July 18, 1979) is an American filmmaker known for his work Napoleon Dynamite (2004), A Minecraft Movie (2025) and Nacho Libre (2006), which he co-wrote and directed with his wife, Jerusha Hess. (Nacho Libre was co-written with Mike White). He also produced the video for The Postal Service's third single, \"We Will Become Silhouettes\" and The Killers' Christmas single, \"Boots\"."
   },
   {
     "movie_id": 119,
     "person_id": 13321,
-    "name": "Phil Alden Robinson"
+    "name": "Phil Alden Robinson",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 120,
     "person_id": 13443,
-    "name": "Jeff Rowe"
+    "name": "Jeff Rowe",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 121,
     "person_id": 5354,
-    "name": "Joel Coen"
+    "name": "Joel Coen",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 122,
     "person_id": 13632,
-    "name": "Kevin Smith"
+    "name": "Kevin Smith",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 123,
     "person_id": 11534,
-    "name": "Wes Anderson"
+    "name": "Wes Anderson",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 124,
     "person_id": 13790,
-    "name": "Dougal Wilson"
+    "name": "Dougal Wilson",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 125,
     "person_id": 13843,
-    "name": "Edward Berger"
+    "name": "Edward Berger",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 126,
     "person_id": 6892,
-    "name": "Antoine Fuqua"
+    "name": "Antoine Fuqua",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 127,
     "person_id": 14214,
-    "name": "Jason Reitman"
+    "name": "Jason Reitman",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 128,
     "person_id": 1008,
-    "name": "Chris McKay"
+    "name": "Chris McKay",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 129,
     "person_id": 311,
-    "name": "Jorma Taccone"
+    "name": "Jorma Taccone",
+    "profile_path": "/x7x4NvDauuQ7HA6psLZYZ6m3zTd.jpg",
+    "biography": "Jorma Christopher Taccone (pronounced yorma tuh-cone-nee) (born March 19, 1977) is an American comedy writer-actor-director. Taccone is one third of the sketch comedy troupe The Lonely Island along with childhood friends Andy Samberg and Akiva Schaffer. He most recently co-wrote and directed the SNL spin-off film MacGruber."
   },
   {
     "movie_id": 130,
     "person_id": 13632,
-    "name": "Kevin Smith"
+    "name": "Kevin Smith",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 131,
     "person_id": 14639,
-    "name": "George Lucas"
+    "name": "George Lucas",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 132,
     "person_id": 14717,
-    "name": "Trevor Peckham"
+    "name": "Trevor Peckham",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 133,
     "person_id": 14739,
-    "name": "Martin McDonagh"
+    "name": "Martin McDonagh",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 134,
     "person_id": 14798,
-    "name": "Doug Liman"
+    "name": "Doug Liman",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 135,
     "person_id": 14977,
-    "name": "Ted Kotcheff"
+    "name": "Ted Kotcheff",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 136,
     "person_id": 11534,
-    "name": "Wes Anderson"
+    "name": "Wes Anderson",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 137,
     "person_id": 10444,
-    "name": "Christopher Guest"
+    "name": "Christopher Guest",
+    "profile_path": "/ofLhsKLZ4YAet8XIsNj7oA3blgh.jpg",
+    "biography": "The Rt. Hon. Christopher Haden-Guest, 5th Baron Haden-Guest (born February 5, 1948), better known as Christopher Guest, is an American screenwriter, composer, musician, director, actor and comedian. He is most widely known in Hollywood for having written, directed and starred in several improvisational \"mockumentary\" films that feature a repertory-like ensemble cast, such as This is Spinal Tap. In the United Kingdom, he holds a Baronial peerage, and has publicly expressed a desire to see the House of Lords reformed as a democratically-elected chamber. Despite initial activity in the Lords, his career there was cut short by the House of Lords Act 1999. When using his title, he is normally styled for short as Lord Haden-Guest.\n\nDescription above from the Wikipedia article Christopher Guest, licensed under CC-BY-SA, full list of contributors on Wikipedia."
   },
   {
     "movie_id": 138,
     "person_id": 15325,
-    "name": "Pete Travis"
+    "name": "Pete Travis",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 139,
     "person_id": 15335,
-    "name": "John Landis"
+    "name": "John Landis",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 140,
     "person_id": 6962,
-    "name": "Luc Besson"
+    "name": "Luc Besson",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 141,
     "person_id": 15458,
-    "name": "Jake Schreier"
+    "name": "Jake Schreier",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 142,
     "person_id": 15597,
-    "name": "Panos Cosmatos"
+    "name": "Panos Cosmatos",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 143,
     "person_id": 5350,
-    "name": "Ethan Coen"
+    "name": "Ethan Coen",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 143,
     "person_id": 5354,
-    "name": "Joel Coen"
+    "name": "Joel Coen",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 144,
     "person_id": 15755,
-    "name": "Charles Crichton"
+    "name": "Charles Crichton",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 145,
     "person_id": 15799,
-    "name": "Guillermo del Toro"
+    "name": "Guillermo del Toro",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 146,
     "person_id": 15893,
-    "name": "Xavier Gens"
+    "name": "Xavier Gens",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 147,
     "person_id": 15569,
-    "name": "Jon Watts"
+    "name": "Jon Watts",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 148,
     "person_id": 11534,
-    "name": "Wes Anderson"
+    "name": "Wes Anderson",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 149,
     "person_id": 16205,
-    "name": "Michael Dowse"
+    "name": "Michael Dowse",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 150,
     "person_id": 16232,
-    "name": "Oxide Pang Shun"
+    "name": "Oxide Pang Shun",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 150,
     "person_id": 16230,
-    "name": "Danny Pang"
+    "name": "Danny Pang",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 151,
     "person_id": 16275,
-    "name": "Irvin Kershner"
+    "name": "Irvin Kershner",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 152,
     "person_id": 16337,
-    "name": "Anthony Russo"
+    "name": "Anthony Russo",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 152,
     "person_id": 16340,
-    "name": "Joe Russo"
+    "name": "Joe Russo",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 153,
     "person_id": 16373,
-    "name": "Osgood Perkins"
+    "name": "Osgood Perkins",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 154,
     "person_id": 16511,
-    "name": "Ken Finkleman"
+    "name": "Ken Finkleman",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 155,
     "person_id": 16536,
-    "name": "Steven Spielberg"
+    "name": "Steven Spielberg",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 156,
     "person_id": 16693,
-    "name": "Mark Steven Johnson"
+    "name": "Mark Steven Johnson",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 157,
     "person_id": 16753,
-    "name": "Brian Taylor"
+    "name": "Brian Taylor",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 157,
     "person_id": 16757,
-    "name": "Mark Neveldine"
+    "name": "Mark Neveldine",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 158,
     "person_id": 16536,
-    "name": "Steven Spielberg"
+    "name": "Steven Spielberg",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 159,
     "person_id": 5350,
-    "name": "Ethan Coen"
+    "name": "Ethan Coen",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 159,
     "person_id": 5354,
-    "name": "Joel Coen"
+    "name": "Joel Coen",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 160,
     "person_id": 5419,
-    "name": "Joe Johnston"
+    "name": "Joe Johnston",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 161,
     "person_id": 17159,
-    "name": "Colin Trevorrow"
+    "name": "Colin Trevorrow",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 162,
     "person_id": 17502,
-    "name": "J.A. Bayona"
+    "name": "J.A. Bayona",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 163,
     "person_id": 17778,
-    "name": "Kristoffer Borgli"
+    "name": "Kristoffer Borgli",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 164,
     "person_id": 17887,
-    "name": "Gary Ross"
+    "name": "Gary Ross",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 165,
     "person_id": 17159,
-    "name": "Colin Trevorrow"
+    "name": "Colin Trevorrow",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 166,
     "person_id": 18192,
-    "name": "John Madden"
+    "name": "John Madden",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 167,
     "person_id": 18218,
-    "name": "Kenneth Branagh"
+    "name": "Kenneth Branagh",
+    "profile_path": "/AbCqqFxNi5w3nDUFdQt0DGMFh5H.jpg",
+    "biography": "Sir Kenneth Charles Branagh (/ˈbrænə/ BRAN-ə; born 10 December 1960) is a British actor and filmmaker. Born in Belfast and raised primarily in Reading, Berkshire, Branagh trained at RADA in London and served as its president from 2015 to 2024. His accolades include an Academy Award, four BAFTAs, two Emmy Awards, a Golden Globe Award, and an Olivier Award. He was appointed a Knight Bachelor in 2012 and was given Freedom of the City in his native Belfast in 2018. In 2020, he was ranked in 20th place on The Irish Times's list of Ireland's greatest film actors.\n\nBranagh has directed and starred in several film adaptations of William Shakespeare's plays, including Henry V (1989), Much Ado About Nothing (1993), Othello (1995), Hamlet (1996), and As You Like It (2006). He was nominated for Academy Awards for Best Actor and Best Director for Henry V and Best Adapted Screenplay for Hamlet. He directed Swan Song (1992), which earned a nomination for the Academy Award for Best Live Action Short Film. He also directed Peter's Friends (1992), Mary Shelley's Frankenstein (1994), Thor (2011), and Cinderella (2015). For his semi-autobiographical film Belfast (2021), he was nominated for the Academy Awards for Best Picture and Director and won Best Original Screenplay.\n\nBranagh directed and starred as Hercule Poirot in the Hercule Poirot film series (2017–present). He has also acted in Celebrity (1998), Wild Wild West (1999), The Road to El Dorado (2000), Harry Potter and the Chamber of Secrets (2002), and Valkyrie (2008). His portrayal of Laurence Olivier in My Week with Marilyn (2011) earned him a nomination for the Academy Award for Best Supporting Actor. He played supporting roles in Christopher Nolan's films Dunkirk (2017), Tenet (2020), and Oppenheimer (2023).\n\nBranagh has starred in the BBC1 series Fortunes of War (1987), the Channel 4 series Shackleton (2002), the television film Warm Springs (2005), and the BBC One series Wallander (2008–2016). He received a Primetime Emmy Award and an International Emmy Award for Best Actor for portraying SS leader Reinhard Heydrich in the HBO film Conspiracy (2001).\n\nDescription above from the Wikipedia article Kenneth Branagh, licensed under CC-BY-SA, full list of contributors on Wikipedia."
   },
   {
     "movie_id": 168,
     "person_id": 10124,
-    "name": "Michael Bay"
+    "name": "Michael Bay",
+    "profile_path": null,
+    "biography": null
   },
   {
     "movie_id": 169,
     "person_id": 10124,
-    "name": "Michael Bay"
+    "name": "Michael Bay",
+    "profile_path": null,
+    "biography": null
+  },
+  {
+    "movie_id": 170,
+    "person_id": 10124,
+    "name": "Michael Bay",
+    "profile_path": null,
+    "biography": null
+  },
+  {
+    "movie_id": 171,
+    "person_id": 18503,
+    "name": "Ivan Reitman",
+    "profile_path": null,
+    "biography": null
+  },
+  {
+    "movie_id": 172,
+    "person_id": 18549,
+    "name": "Josh Cooley",
+    "profile_path": "/eGN0vaFmKtqHu1nFi3Lv4roQ6P2.jpg",
+    "biography": "Joshua Cooley (born May 23, 1979) is an American filmmaker and storyboard artist. He is best known for directing the animated films Toy Story 4 (2019) and Transformers One (2024), with the former winning the Academy Award for Best Animated Feature. He also co-wrote the screenplay for the film Inside Out (2015), which was nominated for the Academy Award for Best Original Screenplay.\n\nDescription above from the Wikipedia article Josh Cooley, licensed under CC-BY-SA, full list of contributors on Wikipedia."
   }
 ]

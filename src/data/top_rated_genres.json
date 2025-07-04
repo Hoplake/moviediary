@@ -1,0 +1,130 @@
+[
+  {
+    "genre_name": "Music",
+    "genre_id": 12,
+    "movie_count": 4,
+    "avg_rating": 8.5,
+    "min_rating": 6,
+    "max_rating": 10
+  },
+  {
+    "genre_name": "Drama",
+    "genre_id": 7,
+    "movie_count": 39,
+    "avg_rating": 8.35897435897436,
+    "min_rating": 4,
+    "max_rating": 10
+  },
+  {
+    "genre_name": "Horror",
+    "genre_id": 11,
+    "movie_count": 5,
+    "avg_rating": 8,
+    "min_rating": 6,
+    "max_rating": 10
+  },
+  {
+    "genre_name": "History",
+    "genre_id": 10,
+    "movie_count": 9,
+    "avg_rating": 8,
+    "min_rating": 8,
+    "max_rating": 8
+  },
+  {
+    "genre_name": "Romance",
+    "genre_id": 14,
+    "movie_count": 8,
+    "avg_rating": 8,
+    "min_rating": 6,
+    "max_rating": 10
+  },
+  {
+    "genre_name": "War",
+    "genre_id": 18,
+    "movie_count": 5,
+    "avg_rating": 8,
+    "min_rating": 6,
+    "max_rating": 10
+  },
+  {
+    "genre_name": "Crime",
+    "genre_id": 5,
+    "movie_count": 51,
+    "avg_rating": 7.882352941176471,
+    "min_rating": 4,
+    "max_rating": 10
+  },
+  {
+    "genre_name": "Comedy",
+    "genre_id": 4,
+    "movie_count": 89,
+    "avg_rating": 7.280898876404494,
+    "min_rating": 2,
+    "max_rating": 10
+  },
+  {
+    "genre_name": "Thriller",
+    "genre_id": 17,
+    "movie_count": 44,
+    "avg_rating": 7.2272727272727275,
+    "min_rating": 2,
+    "max_rating": 10
+  },
+  {
+    "genre_name": "Mystery",
+    "genre_id": 13,
+    "movie_count": 19,
+    "avg_rating": 6.7368421052631575,
+    "min_rating": 2,
+    "max_rating": 10
+  },
+  {
+    "genre_name": "Science Fiction",
+    "genre_id": 15,
+    "movie_count": 43,
+    "avg_rating": 6.651162790697675,
+    "min_rating": 2,
+    "max_rating": 10
+  },
+  {
+    "genre_name": "Adventure",
+    "genre_id": 2,
+    "movie_count": 47,
+    "avg_rating": 6.51063829787234,
+    "min_rating": 2,
+    "max_rating": 10
+  },
+  {
+    "genre_name": "Action",
+    "genre_id": 1,
+    "movie_count": 75,
+    "avg_rating": 6.506666666666667,
+    "min_rating": 2,
+    "max_rating": 10
+  },
+  {
+    "genre_name": "Fantasy",
+    "genre_id": 9,
+    "movie_count": 22,
+    "avg_rating": 6.454545454545454,
+    "min_rating": 2,
+    "max_rating": 10
+  },
+  {
+    "genre_name": "Animation",
+    "genre_id": 3,
+    "movie_count": 12,
+    "avg_rating": 5.833333333333333,
+    "min_rating": 2,
+    "max_rating": 10
+  },
+  {
+    "genre_name": "Family",
+    "genre_id": 8,
+    "movie_count": 14,
+    "avg_rating": 5.142857142857143,
+    "min_rating": 2,
+    "max_rating": 10
+  }
+]

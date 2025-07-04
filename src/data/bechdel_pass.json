@@ -9,8 +9,14 @@
     "runtime": 94,
     "year": 2024,
     "tagline": "The \"Dragon\" returns.",
-    "rating": null,
-    "poster_path": "/nqXsAaQsKw2gKpkfhIgjXNDRqg7.jpg"
+    "rating": 4,
+    "poster_path": "/nqXsAaQsKw2gKpkfhIgjXNDRqg7.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/kYgQzzjNis5jJalYtIHgrom0gOx.jpg",
+    "vote_average": 7.059,
+    "vote_count": 3127,
+    "voting_percentile": 59.411764705882355,
+    "rating_percentile": 2.941176470588235
   },
   {
     "id": 10,
@@ -22,8 +28,14 @@
     "runtime": 134,
     "year": 2023,
     "tagline": "No experience necessary.",
-    "rating": null,
-    "poster_path": "/v7UF7ypAqjsFZFdjksjQ7IUpXdn.jpg"
+    "rating": 10,
+    "poster_path": "/v7UF7ypAqjsFZFdjksjQ7IUpXdn.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/oblUNeHlwV3VsjB5ITMlco5ZSOF.jpg",
+    "vote_average": 7.341,
+    "vote_count": 4045,
+    "voting_percentile": 75.29411764705883,
+    "rating_percentile": 81.76470588235294
   },
   {
     "id": 11,
@@ -35,8 +47,14 @@
     "runtime": 99,
     "year": 2020,
     "tagline": "A whole new speed of hero.",
-    "rating": null,
-    "poster_path": "/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg"
+    "rating": 6,
+    "poster_path": "/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/stmYfCUGd8Iy6kAMBr6AmWqx8Bq.jpg",
+    "vote_average": 7.3,
+    "vote_count": 9979,
+    "voting_percentile": 73.52941176470588,
+    "rating_percentile": 19.411764705882355
   },
   {
     "id": 12,
@@ -48,21 +66,33 @@
     "runtime": 93,
     "year": 2020,
     "tagline": "Mystery loves company.",
-    "rating": null,
-    "poster_path": "/jHo2M1OiH9Re33jYtUQdfzPeUkx.jpg"
+    "rating": 2,
+    "poster_path": "/jHo2M1OiH9Re33jYtUQdfzPeUkx.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/sJjuXNHNT7PfzcgkqM3oSIkVOXB.jpg",
+    "vote_average": 7.019,
+    "vote_count": 1743,
+    "voting_percentile": 57.05882352941176,
+    "rating_percentile": 0
   },
   {
     "id": 17,
     "tmdb_id": 8202,
-    "name": "on Flux",
+    "name": "Æon Flux",
     "imdb": "tt0402022",
     "budget": 62000000,
     "revenue": 53321673,
     "runtime": 93,
     "year": 2005,
     "tagline": "The perfect world meets the perfect assassin.",
-    "rating": null,
-    "poster_path": "/5958Nt4QX6aRSUdQnvNw8wqjTJQ.jpg"
+    "rating": 2,
+    "poster_path": "/5958Nt4QX6aRSUdQnvNw8wqjTJQ.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/mFOtfHwRuqW8NBigdERcPR6AG6S.jpg",
+    "vote_average": 5.628,
+    "vote_count": 2299,
+    "voting_percentile": 5.88235294117647,
+    "rating_percentile": 1.1764705882352942
   },
   {
     "id": 19,
@@ -74,8 +104,14 @@
     "runtime": 115,
     "year": 2024,
     "tagline": "Rise together or fall alone.",
-    "rating": null,
-    "poster_path": "/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg"
+    "rating": 8,
+    "poster_path": "/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/lLh39Th5plbrQgbQ4zyIULsd0Pp.jpg",
+    "vote_average": 7.087,
+    "vote_count": 4245,
+    "voting_percentile": 61.76470588235294,
+    "rating_percentile": 41.76470588235294
   },
   {
     "id": 24,
@@ -87,8 +123,14 @@
     "runtime": 127,
     "year": 2016,
     "tagline": "Meet the women you don't know, behind the mission you do.",
-    "rating": null,
-    "poster_path": "/9lfz2W2uGjyow3am00rsPJ8iOyq.jpg"
+    "rating": 8,
+    "poster_path": "/9lfz2W2uGjyow3am00rsPJ8iOyq.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/rfkIeCaIHhN3K5wjJJqKmfUjYp8.jpg",
+    "vote_average": 8.054,
+    "vote_count": 9999,
+    "voting_percentile": 96.47058823529412,
+    "rating_percentile": 42.35294117647059
   },
   {
     "id": 27,
@@ -100,8 +142,14 @@
     "runtime": 127,
     "year": 2024,
     "tagline": "Fall hard.",
-    "rating": null,
-    "poster_path": "/e7olqFmzcIX5c23kX4zSmLPJi8c.jpg"
+    "rating": 8,
+    "poster_path": "/e7olqFmzcIX5c23kX4zSmLPJi8c.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/H5HjE7Xb9N09rbWn1zBfxgI8uz.jpg",
+    "vote_average": 7.016,
+    "vote_count": 3047,
+    "voting_percentile": 56.470588235294116,
+    "rating_percentile": 42.94117647058823
   },
   {
     "id": 32,
@@ -113,8 +161,14 @@
     "runtime": 91,
     "year": 2021,
     "tagline": "You're in for a shock.",
-    "rating": null,
-    "poster_path": "/b0fBzqCmHr0a0XkeAdhc02XhKXG.jpg"
+    "rating": 4,
+    "poster_path": "/b0fBzqCmHr0a0XkeAdhc02XhKXG.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/wPjtacig0kIkVcTQmXoNt6jbMwo.jpg",
+    "vote_average": 6.55,
+    "vote_count": 1299,
+    "voting_percentile": 31.176470588235293,
+    "rating_percentile": 4.705882352941177
   },
   {
     "id": 34,
@@ -126,8 +180,14 @@
     "runtime": 155,
     "year": 2021,
     "tagline": "It begins.",
-    "rating": null,
-    "poster_path": "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg"
+    "rating": 8,
+    "poster_path": "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/jYEW5xZkZk2WTrdbMGAPFuBqbDc.jpg",
+    "vote_average": 7.782,
+    "vote_count": 13680,
+    "voting_percentile": 90.58823529411765,
+    "rating_percentile": 45.88235294117647
   },
   {
     "id": 35,
@@ -139,8 +199,14 @@
     "runtime": 167,
     "year": 2024,
     "tagline": "Long live the fighters.",
-    "rating": null,
-    "poster_path": "/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg"
+    "rating": 8,
+    "poster_path": "/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/o869RihWTdTyBcEZBjz0izvEsVf.jpg",
+    "vote_average": 8.1,
+    "vote_count": 6798,
+    "voting_percentile": 97.6470588235294,
+    "rating_percentile": 46.470588235294116
   },
   {
     "id": 41,
@@ -152,8 +218,14 @@
     "runtime": 96,
     "year": 2021,
     "tagline": "A priceless true story.",
-    "rating": null,
-    "poster_path": "/vxqFcrVDPDfI60e8f1EKxpj0QvH.jpg"
+    "rating": 8,
+    "poster_path": "/vxqFcrVDPDfI60e8f1EKxpj0QvH.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/wddNG1To5jUwmX8gwcGjZSpckwg.jpg",
+    "vote_average": 6.993,
+    "vote_count": 335,
+    "voting_percentile": 54.11764705882353,
+    "rating_percentile": 48.8235294117647
   },
   {
     "id": 47,
@@ -165,8 +237,14 @@
     "runtime": 94,
     "year": 1976,
     "tagline": "By the time the world's greatest detectives figure out whodunnit... you could die laughing!",
-    "rating": null,
-    "poster_path": "/7YGYam05qzHy0ZSzfjBSDkVvvU7.jpg"
+    "rating": 6,
+    "poster_path": "/7YGYam05qzHy0ZSzfjBSDkVvvU7.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/frM7pCS0vWnT1Utb81YyErmohmg.jpg",
+    "vote_average": 7.177,
+    "vote_count": 836,
+    "voting_percentile": 66.47058823529412,
+    "rating_percentile": 24.705882352941178
   },
   {
     "id": 52,
@@ -178,8 +256,14 @@
     "runtime": 94,
     "year": 2008,
     "tagline": "They took his daughter. He'll take their lives.",
-    "rating": null,
-    "poster_path": "/y5Va1WXDX6nZElVirPrGxf6w99B.jpg"
+    "rating": 8,
+    "poster_path": "/y5Va1WXDX6nZElVirPrGxf6w99B.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/9iQWsXwjOMGDvTDdvCnpiyR0UG3.jpg",
+    "vote_average": 7.397,
+    "vote_count": 11537,
+    "voting_percentile": 77.05882352941177,
+    "rating_percentile": 51.76470588235295
   },
   {
     "id": 55,
@@ -191,8 +275,14 @@
     "runtime": 136,
     "year": 1999,
     "tagline": "Believe the unbelievable.",
-    "rating": null,
-    "poster_path": "/p96dm7sCMn4VYAStA6siNz30G1r.jpg"
+    "rating": 10,
+    "poster_path": "/p96dm7sCMn4VYAStA6siNz30G1r.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/icmmSD4vTTDKOq2vvdulafOGw93.jpg",
+    "vote_average": 8.228,
+    "vote_count": 26518,
+    "voting_percentile": 99.41176470588235,
+    "rating_percentile": 84.70588235294117
   },
   {
     "id": 58,
@@ -204,8 +294,14 @@
     "runtime": 94,
     "year": 2011,
     "tagline": "",
-    "rating": null,
-    "poster_path": "/4wBG5kbfagTQclETblPRRGihk0I.jpg"
+    "rating": 8,
+    "poster_path": "/4wBG5kbfagTQclETblPRRGihk0I.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/sIJTdyF6JFbIz5mENPpeSlCKYyB.jpg",
+    "vote_average": 7.5,
+    "vote_count": 7434,
+    "voting_percentile": 86.47058823529412,
+    "rating_percentile": 54.11764705882353
   },
   {
     "id": 59,
@@ -217,8 +313,14 @@
     "runtime": 122,
     "year": 2019,
     "tagline": "An angel falls. A warrior rises.",
-    "rating": null,
-    "poster_path": "/xRWht48C2V8XNfzvPehyClOvDni.jpg"
+    "rating": 6,
+    "poster_path": "/xRWht48C2V8XNfzvPehyClOvDni.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/jXDselREPq8TOVGM4dzBBUM7xVk.jpg",
+    "vote_average": 7.243,
+    "vote_count": 9474,
+    "voting_percentile": 70.58823529411765,
+    "rating_percentile": 26.47058823529412
   },
   {
     "id": 67,
@@ -230,8 +332,14 @@
     "runtime": 89,
     "year": 1998,
     "tagline": "Saving the World in Style.",
-    "rating": null,
-    "poster_path": "/1p5thyQ4pCy876HpdvFARqJ62N9.jpg"
+    "rating": 6,
+    "poster_path": "/1p5thyQ4pCy876HpdvFARqJ62N9.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/1qLyqemN8UD0xbsXoJRFmimA23Y.jpg",
+    "vote_average": 4.407,
+    "vote_count": 730,
+    "voting_percentile": 0,
+    "rating_percentile": 27.647058823529413
   },
   {
     "id": 78,
@@ -243,8 +351,14 @@
     "runtime": 88,
     "year": 1995,
     "tagline": "You'll laugh until you die...then you'll rise from the dead and laugh again!",
-    "rating": null,
-    "poster_path": "/fwdXQU3Dbs2CMHu8K87bAxlWV0t.jpg"
+    "rating": 6,
+    "poster_path": "/fwdXQU3Dbs2CMHu8K87bAxlWV0t.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/47HK3UNlIfLcS2C2pDIznSyUTsI.jpg",
+    "vote_average": 6.084,
+    "vote_count": 1014,
+    "voting_percentile": 12.941176470588237,
+    "rating_percentile": 29.411764705882355
   },
   {
     "id": 87,
@@ -256,8 +370,14 @@
     "runtime": 90,
     "year": 2000,
     "tagline": "Some pets deserve a little more respect than others.",
-    "rating": null,
-    "poster_path": "/qkYBCMN26SxkQww4gLxUXQm5vr4.jpg"
+    "rating": 10,
+    "poster_path": "/qkYBCMN26SxkQww4gLxUXQm5vr4.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/itVxHnmzMJbfHhX3rbzCuyI9mfB.jpg",
+    "vote_average": 6.871,
+    "vote_count": 596,
+    "voting_percentile": 50,
+    "rating_percentile": 88.8235294117647
   },
   {
     "id": 88,
@@ -269,8 +389,14 @@
     "runtime": 114,
     "year": 2023,
     "tagline": "She's everything. He's just Ken.",
-    "rating": null,
-    "poster_path": "/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg"
+    "rating": 6,
+    "poster_path": "/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/3N5QNUqS76GFYNoEayfkkJyAyTN.jpg",
+    "vote_average": 6.972,
+    "vote_count": 10044,
+    "voting_percentile": 52.352941176470594,
+    "rating_percentile": 30.58823529411765
   },
   {
     "id": 90,
@@ -282,8 +408,14 @@
     "runtime": 92,
     "year": 2009,
     "tagline": "A new comedy!",
-    "rating": null,
-    "poster_path": "/upIYOZbiutCBnvejGYaZlJxxKcs.jpg"
+    "rating": 8,
+    "poster_path": "/upIYOZbiutCBnvejGYaZlJxxKcs.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/vMsmcLkAcN9jdNyxbhIQULU9Yau.jpg",
+    "vote_average": 7.082,
+    "vote_count": 1777,
+    "voting_percentile": 61.1764705882353,
+    "rating_percentile": 61.1764705882353
   },
   {
     "id": 91,
@@ -295,8 +427,14 @@
     "runtime": 101,
     "year": 2011,
     "tagline": "A little intelligence goes a long way.",
-    "rating": null,
-    "poster_path": "/zDbrU0eSnRGh5gHc1iqTACTNNyT.jpg"
+    "rating": 4,
+    "poster_path": "/zDbrU0eSnRGh5gHc1iqTACTNNyT.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/croOmkPszzl9p8ASq4NTYunFJ5E.jpg",
+    "vote_average": 6.237,
+    "vote_count": 3382,
+    "voting_percentile": 20.588235294117645,
+    "rating_percentile": 8.823529411764707
   },
   {
     "id": 94,
@@ -308,8 +446,14 @@
     "runtime": 87,
     "year": 2006,
     "tagline": "They're the ultimate fighters. They've got the looks. They've got the moves, and the men fall at their feet.",
-    "rating": null,
-    "poster_path": "/gtlai95IERRDgRhPCK0WEuwCRP0.jpg"
+    "rating": 4,
+    "poster_path": "/gtlai95IERRDgRhPCK0WEuwCRP0.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/wa5eEBwjI01yhNMKPwIaqeBiw2d.jpg",
+    "vote_average": 5.255,
+    "vote_count": 855,
+    "voting_percentile": 2.3529411764705883,
+    "rating_percentile": 10
   },
   {
     "id": 96,
@@ -321,8 +465,14 @@
     "runtime": 121,
     "year": 2015,
     "tagline": "The future belongs to the mad.",
-    "rating": null,
-    "poster_path": "/hA2ple9q4qnwxp3hKVNhroipsir.jpg"
+    "rating": 10,
+    "poster_path": "/hA2ple9q4qnwxp3hKVNhroipsir.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/gqrnQA6Xppdl8vIb2eJc58VC1tW.jpg",
+    "vote_average": 7.624,
+    "vote_count": 23184,
+    "voting_percentile": 88.23529411764706,
+    "rating_percentile": 89.41176470588236
   },
   {
     "id": 99,
@@ -334,8 +484,14 @@
     "runtime": 90,
     "year": 2013,
     "tagline": "Fear. Sacrifice. Contact.",
-    "rating": null,
-    "poster_path": "/tbsfaBjiAW5vfrV06R8KCOzVOYy.jpg"
+    "rating": 6,
+    "poster_path": "/tbsfaBjiAW5vfrV06R8KCOzVOYy.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/7bXsWwEkqrjCEAykNR9D5EspTLD.jpg",
+    "vote_average": 6.276,
+    "vote_count": 1425,
+    "voting_percentile": 22.35294117647059,
+    "rating_percentile": 31.76470588235294
   },
   {
     "id": 101,
@@ -347,8 +503,14 @@
     "runtime": 88,
     "year": 1980,
     "tagline": "What's slower than a speeding bullet, and able to hit tall buildings at a single bound?",
-    "rating": null,
-    "poster_path": "/7Q3efxd3AF1vQjlSxnlerSA7RzN.jpg"
+    "rating": 10,
+    "poster_path": "/7Q3efxd3AF1vQjlSxnlerSA7RzN.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/rpp7XSFsFgaslZB5IqDDdZB9CjR.jpg",
+    "vote_average": 7.304,
+    "vote_count": 4689,
+    "voting_percentile": 74.11764705882354,
+    "rating_percentile": 90.58823529411765
   },
   {
     "id": 103,
@@ -360,8 +522,14 @@
     "runtime": 107,
     "year": 1944,
     "tagline": "It's love and murder at first sight!",
-    "rating": null,
-    "poster_path": "/rVNYZZgfhwqVMMWlBmxOfWqnwCj.jpg"
+    "rating": 10,
+    "poster_path": "/rVNYZZgfhwqVMMWlBmxOfWqnwCj.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/byQdu1nzQLI9t1VeoP1xuQfru3L.jpg",
+    "vote_average": 8.114,
+    "vote_count": 1878,
+    "voting_percentile": 98.23529411764706,
+    "rating_percentile": 91.76470588235294
   },
   {
     "id": 111,
@@ -373,8 +541,14 @@
     "runtime": 108,
     "year": 2019,
     "tagline": "It's definitely not a good time to be a Nazi.",
-    "rating": null,
-    "poster_path": "/1mqL7VG4Ix8wmxwypmCA1HTHBky.jpg"
+    "rating": 10,
+    "poster_path": "/1mqL7VG4Ix8wmxwypmCA1HTHBky.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/lTyikzfGgRX5ZqIfVeT26APYfRL.jpg",
+    "vote_average": 8.004,
+    "vote_count": 9850,
+    "voting_percentile": 95.29411764705881,
+    "rating_percentile": 92.94117647058823
   },
   {
     "id": 121,
@@ -386,8 +560,14 @@
     "runtime": 94,
     "year": 1987,
     "tagline": "Their lawless years are behind them. Their child-rearing years lay ahead...",
-    "rating": null,
-    "poster_path": "/m5Zp4K4hKdPhsBl3E0p8I7QomlT.jpg"
+    "rating": 10,
+    "poster_path": "/m5Zp4K4hKdPhsBl3E0p8I7QomlT.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/95cYzbSp13ChoUYlDwj1fPL4Q6X.jpg",
+    "vote_average": 7.058,
+    "vote_count": 2180,
+    "voting_percentile": 58.82352941176471,
+    "rating_percentile": 94.70588235294117
   },
   {
     "id": 122,
@@ -399,8 +579,14 @@
     "runtime": 130,
     "year": 1999,
     "tagline": "Get touched by an angel.",
-    "rating": null,
-    "poster_path": "/xI5beD8Td79E2uZNAxgd1gWWOEd.jpg"
+    "rating": 8,
+    "poster_path": "/xI5beD8Td79E2uZNAxgd1gWWOEd.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/wXzdoMyLYvz7AoXPGx5STZ1XZDd.jpg",
+    "vote_average": 6.93,
+    "vote_count": 2615,
+    "voting_percentile": 51.76470588235295,
+    "rating_percentile": 68.23529411764706
   },
   {
     "id": 123,
@@ -412,8 +598,14 @@
     "runtime": 93,
     "year": 1998,
     "tagline": "Love. Expulsion. Revolution.",
-    "rating": null,
-    "poster_path": "/hSJ6swahAuZ8wM96lHDTwQPXUvZ.jpg"
+    "rating": 8,
+    "poster_path": "/hSJ6swahAuZ8wM96lHDTwQPXUvZ.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/asC4h9U7pD72bkYcqzgTB7VJYLy.jpg",
+    "vote_average": 7.398,
+    "vote_count": 2556,
+    "voting_percentile": 77.64705882352942,
+    "rating_percentile": 68.82352941176471
   },
   {
     "id": 124,
@@ -425,8 +617,14 @@
     "runtime": 106,
     "year": 2024,
     "tagline": "A little bear goes a long way.",
-    "rating": null,
-    "poster_path": "/rzfqeLdHIysJGrspMICyedpqDqt.jpg"
+    "rating": 6,
+    "poster_path": "/1ffZAucqfvQu36x1C49XfOdjuOG.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/aRAElFITYKHMOHct6PNPiBLPwMF.jpg",
+    "vote_average": 6.882,
+    "vote_count": 423,
+    "voting_percentile": 50.588235294117645,
+    "rating_percentile": 33.52941176470588
   },
   {
     "id": 128,
@@ -438,8 +636,14 @@
     "runtime": 93,
     "year": 2023,
     "tagline": "Sucks to be him.",
-    "rating": null,
-    "poster_path": "/p6yUjhvNGQpFZilKwOKbxQ1eHlo.jpg"
+    "rating": 10,
+    "poster_path": "/p6yUjhvNGQpFZilKwOKbxQ1eHlo.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/nBEFrdcVhwceGSFw83RksxY9Blg.jpg",
+    "vote_average": 6.479,
+    "vote_count": 1905,
+    "voting_percentile": 26.47058823529412,
+    "rating_percentile": 95.88235294117648
   },
   {
     "id": 138,
@@ -451,8 +655,14 @@
     "runtime": 95,
     "year": 2012,
     "tagline": "Judgement is coming.",
-    "rating": null,
-    "poster_path": "/wLx65gtGVnUFCxceHWGszcruCZj.jpg"
+    "rating": 8,
+    "poster_path": "/wLx65gtGVnUFCxceHWGszcruCZj.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/yeF9ewBnFp9d5nqdHMic4IAOqrs.jpg",
+    "vote_average": 6.843,
+    "vote_count": 5204,
+    "voting_percentile": 48.8235294117647,
+    "rating_percentile": 73.52941176470588
   },
   {
     "id": 140,
@@ -464,8 +674,14 @@
     "runtime": 89,
     "year": 2014,
     "tagline": "The average person uses 10% of their brain capacity. Imagine what she could do with 100%.",
-    "rating": null,
-    "poster_path": "/kRbpUTRNm6QbLQFPFWUcNC4czEm.jpg"
+    "rating": 4,
+    "poster_path": "/kRbpUTRNm6QbLQFPFWUcNC4czEm.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/ozVwXlfxqNsariipatGwa5px3Pm.jpg",
+    "vote_average": 6.465,
+    "vote_count": 16393,
+    "voting_percentile": 25.294117647058822,
+    "rating_percentile": 12.352941176470589
   },
   {
     "id": 141,
@@ -473,12 +689,18 @@
     "name": "Thunderbolts*",
     "imdb": "tt20969586",
     "budget": 180000000,
-    "revenue": 380591509,
+    "revenue": 381650585,
     "runtime": 127,
     "year": 2025,
     "tagline": "Everyone deserves a second shot.",
-    "rating": null,
-    "poster_path": "/hBH50Mkcrc4m8x73CovLmY7vBx1.jpg"
+    "rating": 8,
+    "poster_path": "/hBH50Mkcrc4m8x73CovLmY7vBx1.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
+    "vote_average": 7.5,
+    "vote_count": 1395,
+    "voting_percentile": 87.05882352941177,
+    "rating_percentile": 74.70588235294117
   },
   {
     "id": 142,
@@ -490,8 +712,14 @@
     "runtime": 122,
     "year": 2018,
     "tagline": "A BRUTAL JOURNEY TOWARDS THE WILDEST REVENGE.",
-    "rating": null,
-    "poster_path": "/m0yf7J7HsKeK6E81SMRcX8vx6mH.jpg"
+    "rating": 8,
+    "poster_path": "/m0yf7J7HsKeK6E81SMRcX8vx6mH.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/mqbAmIiToU2R4VwZGgCqsfy6Yh4.jpg",
+    "vote_average": 6.196,
+    "vote_count": 1987,
+    "voting_percentile": 17.647058823529413,
+    "rating_percentile": 75.29411764705883
   },
   {
     "id": 145,
@@ -503,8 +731,14 @@
     "runtime": 123,
     "year": 2017,
     "tagline": "A Fairy Tale for Troubled Times",
-    "rating": null,
-    "poster_path": "/9zfwPffUXpBrEP26yp0q1ckXDcj.jpg"
+    "rating": 10,
+    "poster_path": "/9zfwPffUXpBrEP26yp0q1ckXDcj.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/abirSHwWgKajV3hXhaIR5lcCIXe.jpg",
+    "vote_average": 7.243,
+    "vote_count": 12373,
+    "voting_percentile": 71.17647058823529,
+    "rating_percentile": 97.6470588235294
   },
   {
     "id": 148,
@@ -516,8 +750,14 @@
     "runtime": 110,
     "year": 2001,
     "tagline": "Family isn't a word ... It's a sentence.",
-    "rating": null,
-    "poster_path": "/nG7hZJn7wQTSDCQT39Gy3s3tbrp.jpg"
+    "rating": 10,
+    "poster_path": "/nG7hZJn7wQTSDCQT39Gy3s3tbrp.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/g2s22rGjCTCYsjI1iAflem7HjdG.jpg",
+    "vote_average": 7.467,
+    "vote_count": 4689,
+    "voting_percentile": 82.94117647058825,
+    "rating_percentile": 98.23529411764706
   },
   {
     "id": 153,
@@ -529,8 +769,14 @@
     "runtime": 101,
     "year": 2024,
     "tagline": "Say your prayers.",
-    "rating": null,
-    "poster_path": "/1EwNyiiNFd863H4e8nWEzutnZD7.jpg"
+    "rating": 8,
+    "poster_path": "/1EwNyiiNFd863H4e8nWEzutnZD7.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/bizhlTVjifYQUu4Xrdt7m3TYr7d.jpg",
+    "vote_average": 6.564,
+    "vote_count": 2114,
+    "voting_percentile": 32.94117647058823,
+    "rating_percentile": 77.64705882352942
   },
   {
     "id": 155,
@@ -542,8 +788,14 @@
     "runtime": 127,
     "year": 1993,
     "tagline": "An adventure 65 million years in the making.",
-    "rating": null,
-    "poster_path": "/63viWuPfYQjRYLSZSZNq7dglJP5.jpg"
+    "rating": 10,
+    "poster_path": "/63viWuPfYQjRYLSZSZNq7dglJP5.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/jzt9HuhIAdH9qp0K2MA1m5V8sgq.jpg",
+    "vote_average": 7.958,
+    "vote_count": 16870,
+    "voting_percentile": 94.11764705882352,
+    "rating_percentile": 99.41176470588235
   },
   {
     "id": 158,
@@ -555,8 +807,14 @@
     "runtime": 129,
     "year": 1997,
     "tagline": "Something has survived.",
-    "rating": null,
-    "poster_path": "/6fSkhv35nPSw9hwPVCMINQFG1WD.jpg"
+    "rating": 6,
+    "poster_path": "/6fSkhv35nPSw9hwPVCMINQFG1WD.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/A4rYaPdzgocCjQ0n9LUSYUxyvpS.jpg",
+    "vote_average": 6.556,
+    "vote_count": 8691,
+    "voting_percentile": 31.76470588235294,
+    "rating_percentile": 38.23529411764706
   },
   {
     "id": 159,
@@ -567,9 +825,15 @@
     "revenue": 171627166,
     "runtime": 122,
     "year": 2007,
-    "tagline": "You can't stop what's coming.",
-    "rating": null,
-    "poster_path": "/bj1v6YKF8yHqA489VFfnQvOJpnc.jpg"
+    "tagline": "There Are No Clean Getaways",
+    "rating": 10,
+    "poster_path": "/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/mkXwF7FFWpf2dkOGCzQoeWX7M6R.jpg",
+    "vote_average": 7.9,
+    "vote_count": 12450,
+    "voting_percentile": 92.3529411764706,
+    "rating_percentile": 100
   },
   {
     "id": 161,
@@ -581,8 +845,14 @@
     "runtime": 124,
     "year": 2015,
     "tagline": "The park is open.",
-    "rating": null,
-    "poster_path": "/rhr4y79GpxQF9IsfJItRXVaoGs4.jpg"
+    "rating": 8,
+    "poster_path": "/rhr4y79GpxQF9IsfJItRXVaoGs4.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/yOCRqvrRrxbs5FYq2pX1KtLJwmR.jpg",
+    "vote_average": 6.697,
+    "vote_count": 20787,
+    "voting_percentile": 41.17647058823529,
+    "rating_percentile": 78.23529411764706
   },
   {
     "id": 162,
@@ -594,8 +864,14 @@
     "runtime": 129,
     "year": 2018,
     "tagline": "The park is gone.",
-    "rating": null,
-    "poster_path": "/270MrJNqJovumHXGE6SSt0zwUIF.jpg"
+    "rating": 6,
+    "poster_path": "/270MrJNqJovumHXGE6SSt0zwUIF.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/6WA9stUMbIkEPxn3D5SWlA8FIi7.jpg",
+    "vote_average": 6.542,
+    "vote_count": 12140,
+    "voting_percentile": 30,
+    "rating_percentile": 38.82352941176471
   },
   {
     "id": 164,
@@ -607,21 +883,33 @@
     "runtime": 111,
     "year": 2018,
     "tagline": "Every con has its pros",
-    "rating": null,
-    "poster_path": "/MvYpKlpFukTivnlBhizGbkAe3v.jpg"
+    "rating": 6,
+    "poster_path": "/MvYpKlpFukTivnlBhizGbkAe3v.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/scQf03Fm3jeyv4FH04qvi4fp4wh.jpg",
+    "vote_average": 6.972,
+    "vote_count": 8450,
+    "voting_percentile": 52.94117647058824,
+    "rating_percentile": 39.411764705882355
   },
   {
     "id": 165,
     "tmdb_id": 507086,
     "name": "Jurassic World Dominion",
     "imdb": "tt8041270",
-    "budget": 265000000,
+    "budget": 250000000,
     "revenue": 1001978080,
     "runtime": 147,
     "year": 2022,
     "tagline": "The epic conclusion of the Jurassic era.",
-    "rating": null,
-    "poster_path": "/jbAvCACjLf1ZG0unB2tdmx5HAf1.jpg"
+    "rating": 4,
+    "poster_path": "/jbAvCACjLf1ZG0unB2tdmx5HAf1.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/698FjyzLdpgXmUSr63LaRwblTmx.jpg",
+    "vote_average": 6.661,
+    "vote_count": 6448,
+    "voting_percentile": 38.82352941176471,
+    "rating_percentile": 14.705882352941178
   },
   {
     "id": 166,
@@ -633,8 +921,14 @@
     "runtime": 123,
     "year": 1998,
     "tagline": "Love is the only inspiration.",
-    "rating": null,
-    "poster_path": "/zdW7jdzPi4J9KZR3TyY2jn3Xh5e.jpg"
+    "rating": 8,
+    "poster_path": "/zdW7jdzPi4J9KZR3TyY2jn3Xh5e.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/i16MjvM9YsQ85ejdB63gtGXDu4W.jpg",
+    "vote_average": 6.856,
+    "vote_count": 3066,
+    "voting_percentile": 49.411764705882355,
+    "rating_percentile": 79.41176470588235
   },
   {
     "id": 168,
@@ -646,8 +940,14 @@
     "runtime": 144,
     "year": 2007,
     "tagline": "Their war. Our world.",
-    "rating": null,
-    "poster_path": "/lkZ9gqCEjzX85lKR6Jjd1uGAXNp.jpg"
+    "rating": 8,
+    "poster_path": "/lkZ9gqCEjzX85lKR6Jjd1uGAXNp.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/77P56ZcL8M9Cw7FIptMIGjhNJoj.jpg",
+    "vote_average": 6.8,
+    "vote_count": 11612,
+    "voting_percentile": 45.88235294117647,
+    "rating_percentile": 80
   },
   {
     "id": 169,
@@ -659,7 +959,32 @@
     "runtime": 150,
     "year": 2009,
     "tagline": "Revenge is coming.",
-    "rating": null,
-    "poster_path": "/pLBb0whOzVDtJvyD4DPeQyQNOqp.jpg"
+    "rating": 4,
+    "poster_path": "/pLBb0whOzVDtJvyD4DPeQyQNOqp.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/zbdoCe1meTyy0v1fsIxZ9Q0ef3H.jpg",
+    "vote_average": 6.201,
+    "vote_count": 8744,
+    "voting_percentile": 18.823529411764707,
+    "rating_percentile": 15.88235294117647
+  },
+  {
+    "id": 170,
+    "tmdb_id": 38356,
+    "name": "Transformers: Dark of the Moon",
+    "imdb": "tt1399103",
+    "budget": 195000000,
+    "revenue": 1123794079,
+    "runtime": 154,
+    "year": 2011,
+    "tagline": "Be Afraid of the Dark",
+    "rating": 4,
+    "poster_path": "/28YlCLrFhONteYSs9hKjD1Km0Cj.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/x2sSPVVKFt20vzHDwOWJK1UUfSj.jpg",
+    "vote_average": 6.214,
+    "vote_count": 8528,
+    "voting_percentile": 19.411764705882355,
+    "rating_percentile": 16.470588235294116
   }
 ]

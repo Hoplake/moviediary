@@ -111,11 +111,14 @@
           {#each sortedActors as actor, index}
             <tr class="hover:bg-gray-50">
               <td class="px-6 py-4 whitespace-nowrap">
-                <div class="flex items-center">
-                  <div class="text-sm font-medium text-gray-900">
-                    {actor.name}
-                  </div>
-                </div>
+                <a href="{base}/person/{actor.person_id}" class="flex items-center gap-2 text-blue-600 hover:text-blue-800 font-medium">
+                  {#if actor.profile_path}
+                    <img src={`https://image.tmdb.org/t/p/w185${actor.profile_path}`} alt={actor.name} class="w-7 h-7 rounded-full object-cover border border-blue-200" />
+                  {:else}
+                    <img src="/default-avatar.png" alt="No photo" class="w-7 h-7 rounded-full object-cover border border-blue-200" />
+                  {/if}
+                  <span>{actor.name}</span>
+                </a>
               </td>
               <td class="px-6 py-4 whitespace-nowrap">
                 <div class="text-sm font-semibold text-green-600">

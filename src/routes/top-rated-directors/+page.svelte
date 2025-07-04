@@ -55,10 +55,10 @@
   <title>Top Rated Directors - Movie Diary</title>
 </svelte:head>
 
-<div class="py-10">
-  <div class="max-w-6xl mx-auto backdrop-blur-md bg-white/80 rounded-xl shadow-2xl p-8 border border-white/30">
-    <h1 class="text-3xl font-bold mb-6 text-center text-gray-900 drop-shadow-lg">Top Rated Directors</h1>
-    <p class="text-center text-gray-700 mb-6">Directors ranked by adjusted average rating using Bayesian shrinkage</p>
+<div class="py-6 sm:py-10">
+  <div class="max-w-6xl mx-auto backdrop-blur-md bg-white/80 rounded-xl shadow-2xl p-4 sm:p-8 border border-white/30">
+    <h1 class="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center text-gray-900 drop-shadow-lg">Top Rated Directors</h1>
+    <p class="text-center text-gray-700 mb-4 sm:mb-6 text-sm sm:text-base">Directors ranked by adjusted average rating using Bayesian shrinkage</p>
     
     <!-- Sort Info -->
     <div class="mb-4 text-sm text-gray-700 text-center">
@@ -66,7 +66,8 @@
       ({sortDirection === 'asc' ? 'ascending' : 'descending'})
     </div>
 
-    <div class="overflow-x-auto">
+    <!-- Desktop Table View -->
+    <div class="hidden lg:block overflow-x-auto">
       <table class="min-w-full divide-y divide-gray-300 shadow-lg rounded-lg overflow-hidden">
         <thead class="bg-white/95">
           <tr>
@@ -134,6 +135,67 @@
           {/each}
         </tbody>
       </table>
+    </div>
+
+    <!-- Mobile Card View -->
+    <div class="lg:hidden space-y-3">
+      {#each sortedDirectors as director, index}
+        <div class="bg-white/90 rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-200">
+          <div class="flex justify-between items-start mb-3">
+            <div class="flex-1">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="text-sm font-medium text-gray-500">#{index + 1}</span>
+                <a href="{base}/person/{director.tmdb_id}" class="text-blue-700 hover:text-blue-900 font-semibold text-lg leading-tight">
+                  {director.name}
+                </a>
+              </div>
+            </div>
+            <CompactRating rating={director.adjusted_rating} size="sm" color="green" />
+          </div>
+          
+          <div class="grid grid-cols-2 gap-3 text-sm text-gray-600 mb-3">
+            <div class="flex items-center">
+              <span class="font-medium text-gray-700">Raw Avg:</span>
+              <CompactRating rating={director.raw_avg_rating} size="xs" color="blue" />
+            </div>
+            <div class="flex items-center">
+              <span class="font-medium text-gray-700">Movies:</span>
+              <span class="ml-1 inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                {director.movie_count}
+              </span>
+            </div>
+            <div class="flex items-center">
+              <span class="font-medium text-gray-700">Range:</span>
+              <span class="ml-1 text-xs">{director.min_rating}-{director.max_rating}</span>
+            </div>
+            <div class="flex items-center">
+              <span class="font-medium text-gray-700">Shrinkage:</span>
+              <span class="ml-1 text-xs">{director.shrinkage_factor}</span>
+            </div>
+          </div>
+          
+          <div class="flex justify-between items-center">
+            {#if director.imdb_id}
+              <a 
+                href="https://www.imdb.com/name/{director.imdb_id}/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="text-blue-700 hover:text-blue-900 underline text-xs"
+              >
+                View on IMDb
+              </a>
+            {:else}
+              <span class="text-gray-400 text-xs">-</span>
+            {/if}
+            <button 
+              class="text-xs text-gray-500 hover:text-gray-700"
+              on:click={() => handleSort(sortField === 'adjusted_rating' ? 'movie_count' : 'adjusted_rating')}
+            >
+              Sort by {sortField === 'adjusted_rating' ? 'Movies' : 'Rating'}
+            </button>
+          </div>
+        </div>
+      {/each}
     </div>
     
     <div class="mt-6 text-center text-sm text-gray-600">

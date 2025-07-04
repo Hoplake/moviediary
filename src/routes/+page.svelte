@@ -52,7 +52,7 @@
   // Get sorted movies - reactive to sortField and sortDirection changes
   $: sortedMovies = sortMovies(movies, sortField, sortDirection);
 
-  function getBechdelStatus(rating: number): string {
+  function getBechdelStatus(rating: number | null): string {
     switch (rating) {
       case 0: return 'Less than two named women characters';
       case 1: return 'Women don\'t talk to each other';
@@ -63,9 +63,9 @@
   }
 </script>
 
-<div class="py-10">
-  <div class="max-w-6xl mx-auto backdrop-blur-md bg-white/80 rounded-xl shadow-2xl p-8 border border-white/30">
-    <h1 class="text-3xl font-bold mb-6 text-center text-gray-900 drop-shadow-lg">All Movies</h1>
+<div class="py-6 sm:py-10">
+  <div class="max-w-6xl mx-auto backdrop-blur-md bg-white/80 rounded-xl shadow-2xl p-4 sm:p-8 border border-white/30">
+    <h1 class="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center text-gray-900 drop-shadow-lg">All Movies</h1>
     
     <!-- Sort Info -->
     <div class="mb-4 text-sm text-gray-700 text-center">
@@ -73,7 +73,8 @@
       ({sortDirection === 'asc' ? 'ascending' : 'descending'})
     </div>
 
-    <div class="overflow-x-auto">
+    <!-- Desktop Table View -->
+    <div class="hidden lg:block overflow-x-auto">
       <table class="min-w-full divide-y divide-gray-300 shadow-lg rounded-lg overflow-hidden">
         <thead class="bg-white/95">
           <tr>
@@ -134,6 +135,46 @@
           {/each}
         </tbody>
       </table>
+    </div>
+
+    <!-- Mobile Card View -->
+    <div class="lg:hidden space-y-3">
+      {#each sortedMovies as movie}
+        <div class="bg-white/90 rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-200">
+          <div class="flex justify-between items-start mb-2">
+            <a href="{base}/movie/{movie.id}" class="text-blue-700 hover:text-blue-900 font-semibold text-lg leading-tight flex-1 mr-2">
+              {movie.name}
+            </a>
+            <CompactRating rating={movie.rating} size="sm" color="default" />
+          </div>
+          
+          <div class="flex flex-wrap gap-3 text-sm text-gray-600 mb-3">
+            <span class="flex items-center">
+              <span class="font-medium">Year:</span>
+              <span class="ml-1">{movie.year}</span>
+            </span>
+            <span class="flex items-center">
+              <span class="font-medium">Runtime:</span>
+              <span class="ml-1">{movie.runtime} min</span>
+            </span>
+          </div>
+          
+          <div class="flex items-center justify-between">
+            <span class="inline-flex px-2 py-1 text-xs font-semibold rounded-full backdrop-blur-md
+              {movie.bechdel_rating === 3 ? 'bg-green-500/20 text-green-900' : 
+               movie.bechdel_rating === 2 ? 'bg-yellow-500/20 text-yellow-900' :
+               movie.bechdel_rating === 1 ? 'bg-orange-500/20 text-orange-900' : 'bg-red-500/20 text-red-900'}">
+              {getBechdelStatus(movie.bechdel_rating)}
+            </span>
+            <button 
+              class="text-xs text-gray-500 hover:text-gray-700"
+              on:click={() => handleSort(sortField === 'name' ? 'year' : 'name')}
+            >
+              Sort by {sortField === 'name' ? 'Year' : 'Name'}
+            </button>
+          </div>
+        </div>
+      {/each}
     </div>
 
     <!-- Movie Count -->

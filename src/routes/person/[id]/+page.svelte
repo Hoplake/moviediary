@@ -5,7 +5,7 @@
   import actors from '../../../data/actors.json';
   import directors from '../../../data/directors.json';
   import { base } from '$app/paths';
-  import Rating from '$lib/Rating.svelte';
+  import CompactRating from '$lib/CompactRating.svelte';
 
   // Get the person ID from the URL parameter
   const personId = parseInt($page.params.id);
@@ -113,7 +113,8 @@
     </div>
 
     {#if uniqueMovies.length > 0}
-      <div class="overflow-x-auto">
+      <!-- Desktop Table View -->
+      <div class="hidden lg:block overflow-x-auto">
         <table class="min-w-full divide-y divide-gray-200">
           <thead class="bg-gray-100">
             <tr>
@@ -144,7 +145,7 @@
                   </span>
                 </td>
                 <td class="px-4 py-2 whitespace-nowrap">
-                  <Rating rating={movie.rating} size="sm" showNumber={true} />
+                  <CompactRating rating={movie.rating} size="sm" showNumber={true} />
                 </td>
                 <td class="px-4 py-2 whitespace-nowrap text-gray-600">{movie.runtime} min</td>
                 {#if uniqueMovies.some(m => m.budget > 0 || m.revenue > 0)}
@@ -159,6 +160,46 @@
             {/each}
           </tbody>
         </table>
+      </div>
+
+      <!-- Mobile Card View -->
+      <div class="lg:hidden space-y-3">
+        {#each uniqueMovies.sort((a, b) => b.year - a.year) as movie}
+          <div class="bg-white/90 rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-200">
+            <div class="flex justify-between items-start mb-2">
+              <a href="{base}/movie/{movie.id}" class="text-blue-700 hover:text-blue-900 font-semibold text-lg leading-tight flex-1 mr-2">
+                {movie.name}
+              </a>
+              <CompactRating rating={movie.rating} size="sm" color="default" />
+            </div>
+            <div class="flex flex-wrap gap-3 text-sm text-gray-600 mb-2">
+              <span class="flex items-center">
+                <span class="font-medium">Year:</span>
+                <span class="ml-1">{movie.year}</span>
+              </span>
+              <span class="flex items-center">
+                <span class="font-medium">Role:</span>
+                <span class="ml-1">{getRole(movie.id)}</span>
+              </span>
+              <span class="flex items-center">
+                <span class="font-medium">Runtime:</span>
+                <span class="ml-1">{movie.runtime} min</span>
+              </span>
+              {#if movie.budget > 0}
+                <span class="flex items-center">
+                  <span class="font-medium">Budget:</span>
+                  <span class="ml-1">{formatCurrency(movie.budget)}</span>
+                </span>
+              {/if}
+              {#if movie.revenue > 0}
+                <span class="flex items-center">
+                  <span class="font-medium">Revenue:</span>
+                  <span class="ml-1">{formatCurrency(movie.revenue)}</span>
+                </span>
+              {/if}
+            </div>
+          </div>
+        {/each}
       </div>
     {:else}
       <div class="text-center py-8">

@@ -55,10 +55,10 @@
   <title>Top Rated Genres - Movie Diary</title>
 </svelte:head>
 
-<div class="py-10">
-  <div class="max-w-6xl mx-auto backdrop-blur-md bg-white/80 rounded-xl shadow-2xl p-8 border border-white/30">
-    <h1 class="text-3xl font-bold mb-6 text-center text-gray-900 drop-shadow-lg">Top Rated Genres</h1>
-    <p class="text-center text-gray-700 mb-6">Movie genres ranked by average rating from your collection</p>
+<div class="py-6 sm:py-10">
+  <div class="max-w-6xl mx-auto backdrop-blur-md bg-white/80 rounded-xl shadow-2xl p-4 sm:p-8 border border-white/30">
+    <h1 class="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center text-gray-900 drop-shadow-lg">Top Rated Genres</h1>
+    <p class="text-center text-gray-700 mb-4 sm:mb-6 text-sm sm:text-base">Movie genres ranked by average rating from your collection</p>
     
     <!-- Sort Info -->
     <div class="mb-4 text-sm text-gray-700 text-center">
@@ -66,7 +66,8 @@
       ({sortDirection === 'asc' ? 'ascending' : 'descending'})
     </div>
 
-    <div class="overflow-x-auto">
+    <!-- Desktop Table View -->
+    <div class="hidden lg:block overflow-x-auto">
       <table class="min-w-full divide-y divide-gray-300 shadow-lg rounded-lg overflow-hidden">
         <thead class="bg-white/95">
           <tr>
@@ -119,6 +120,43 @@
           {/each}
         </tbody>
       </table>
+    </div>
+
+    <!-- Mobile Card View -->
+    <div class="lg:hidden space-y-3">
+      {#each sortedGenres as genre, index}
+        <div class="bg-white/90 rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-200">
+          <div class="flex justify-between items-start mb-2">
+            <div class="flex items-center gap-2">
+              <span class="text-sm font-medium text-gray-500">#{index + 1}</span>
+              <a href="{base}/genre/{encodeURIComponent(genre.genre_name)}" class="text-blue-700 hover:text-blue-900 font-semibold text-lg leading-tight">
+                {genre.genre_name}
+              </a>
+            </div>
+            <CompactRating rating={genre.avg_rating} size="sm" color="purple" />
+          </div>
+          <div class="grid grid-cols-2 gap-3 text-sm text-gray-600 mb-3">
+            <div class="flex items-center">
+              <span class="font-medium text-gray-700">Movies:</span>
+              <span class="ml-1 inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-purple-100 text-purple-800">
+                {genre.movie_count}
+              </span>
+            </div>
+            <div class="flex items-center">
+              <span class="font-medium text-gray-700">Range:</span>
+              <span class="ml-1 text-xs">{genre.min_rating}-{genre.max_rating}</span>
+            </div>
+            <div class="flex items-center">
+              <span class="font-medium text-gray-700">Min:</span>
+              <CompactRating rating={genre.min_rating} size="xs" showStars={false} color="default" />
+            </div>
+            <div class="flex items-center">
+              <span class="font-medium text-gray-700">Max:</span>
+              <CompactRating rating={genre.max_rating} size="xs" showStars={false} color="default" />
+            </div>
+          </div>
+        </div>
+      {/each}
     </div>
     
     <div class="mt-6 text-center text-sm text-gray-600">

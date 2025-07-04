@@ -24,7 +24,17 @@
 	<nav class="backdrop-blur-md bg-white/20 shadow-lg border-b border-white/20 sticky top-0 z-50">
 		<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 			<div class="flex justify-between h-16">
-				<div class="flex">
+				<div class="flex items-center">
+					<!-- Hamburger button for mobile -->
+					<button
+						class="sm:hidden p-2 mr-2 text-white/80 hover:text-white focus:outline-none"
+						on:click={() => statsDropdownOpen = true}
+						aria-label="Open menu"
+					>
+						<svg class="h-7 w-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+						</svg>
+					</button>
 					<div class="flex-shrink-0 flex items-center">
 						<h1 class="text-xl font-bold text-white drop-shadow-lg">Movie Diary</h1>
 					</div>
@@ -128,47 +138,52 @@
 		</div>
 		
 		<!-- Mobile navigation -->
-		<div class="sm:hidden backdrop-blur-md bg-white/10">
-			<div class="pt-2 pb-3 space-y-1">
-				<a href="{base}/" class="border-transparent text-white/80 hover:bg-white/20 hover:border-white/50 hover:text-white block pl-3 pr-4 py-2 border-l-4 text-base font-medium transition-all duration-200">
-					All Movies
-				</a>
-				<a href="{base}/bechdel" class="border-transparent text-white/80 hover:bg-white/20 hover:border-white/50 hover:text-white block pl-3 pr-4 py-2 border-l-4 text-base font-medium transition-all duration-200">
-					Bechdel Test
-				</a>
-				
-				<!-- Statistics Section -->
-				<div class="pt-4">
-					<h3 class="text-xs font-semibold text-white/60 uppercase tracking-wider pl-3 pr-4 py-2">
-						Statistics
-					</h3>
-					<a href="{base}/top-roi" class="border-transparent text-white/80 hover:bg-white/20 hover:border-white/50 hover:text-white block pl-6 pr-4 py-2 border-l-4 text-sm transition-all duration-200">
-						Top ROI
+		{#if statsDropdownOpen}
+			<div class="sm:hidden fixed inset-x-0 top-0 z-50 bg-white/90 max-h-[70vh] overflow-y-auto rounded-b-xl shadow-lg border border-gray-200">
+				<div class="flex justify-between items-center px-4 pt-2 pb-1 border-b border-gray-100">
+					<span class="text-lg font-bold text-gray-900">Menu</span>
+					<button type="button" class="text-gray-500 hover:text-gray-800 text-2xl font-bold" on:click={closeStatsDropdown} aria-label="Close menu">&times;</button>
+				</div>
+				<div class="pt-2 pb-3 space-y-1 px-2">
+					<a href="{base}/" on:click={closeStatsDropdown} class="border-transparent text-gray-800 hover:bg-gray-100 hover:border-gray-300 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium transition-all duration-200">
+						All Movies
 					</a>
-					<a href="{base}/actor-pairs" class="border-transparent text-white/80 hover:bg-white/20 hover:border-white/50 hover:text-white block pl-6 pr-4 py-2 border-l-4 text-sm transition-all duration-200">
-						Actor Pairs
+					<a href="{base}/bechdel" on:click={closeStatsDropdown} class="border-transparent text-gray-800 hover:bg-gray-100 hover:border-gray-300 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium transition-all duration-200">
+						Bechdel Test
 					</a>
-					<a href="{base}/most-actors" class="border-transparent text-white/80 hover:bg-white/20 hover:border-white/50 hover:text-white block pl-6 pr-4 py-2 border-l-4 text-sm transition-all duration-200">
-						Most Frequent Actors
-					</a>
-					<a href="{base}/highest-grossing" class="border-transparent text-white/80 hover:bg-white/20 hover:border-white/50 hover:text-white block pl-6 pr-4 py-2 border-l-4 text-sm transition-all duration-200">
-						Highest Grossing Actors
-					</a>
-					<a href="{base}/academy-awards" class="border-transparent text-white/80 hover:bg-white/20 hover:border-white/50 hover:text-white block pl-6 pr-4 py-2 border-l-4 text-sm transition-all duration-200">
-						Academy Awards
-					</a>
-					<a href="{base}/top-rated-actors" class="border-transparent text-white/80 hover:bg-white/20 hover:border-white/50 hover:text-white block pl-6 pr-4 py-2 border-l-4 text-sm transition-all duration-200">
-						Top Rated Actors
-					</a>
-					<a href="{base}/top-rated-directors" class="border-transparent text-white/80 hover:bg-white/20 hover:border-white/50 hover:text-white block pl-6 pr-4 py-2 border-l-4 text-sm transition-all duration-200">
-						Top Rated Directors
-					</a>
-					<a href="{base}/top-rated-genres" class="border-transparent text-white/80 hover:bg-white/20 hover:border-white/50 hover:text-white block pl-6 pr-4 py-2 border-l-4 text-sm transition-all duration-200">
-						Top Rated Genres
-					</a>
+					<!-- Statistics Section -->
+					<div class="pt-4">
+						<h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider pl-3 pr-4 py-2">
+							Statistics
+						</h3>
+						<a href="{base}/top-roi" on:click={closeStatsDropdown} class="border-transparent text-gray-800 hover:bg-gray-100 hover:border-gray-300 hover:text-gray-900 block pl-6 pr-4 py-2 border-l-4 text-sm transition-all duration-200">
+							Top ROI
+						</a>
+						<a href="{base}/actor-pairs" on:click={closeStatsDropdown} class="border-transparent text-gray-800 hover:bg-gray-100 hover:border-gray-300 hover:text-gray-900 block pl-6 pr-4 py-2 border-l-4 text-sm transition-all duration-200">
+							Actor Pairs
+						</a>
+						<a href="{base}/most-actors" on:click={closeStatsDropdown} class="border-transparent text-gray-800 hover:bg-gray-100 hover:border-gray-300 hover:text-gray-900 block pl-6 pr-4 py-2 border-l-4 text-sm transition-all duration-200">
+							Most Frequent Actors
+						</a>
+						<a href="{base}/highest-grossing" on:click={closeStatsDropdown} class="border-transparent text-gray-800 hover:bg-gray-100 hover:border-gray-300 hover:text-gray-900 block pl-6 pr-4 py-2 border-l-4 text-sm transition-all duration-200">
+							Highest Grossing Actors
+						</a>
+						<a href="{base}/academy-awards" on:click={closeStatsDropdown} class="border-transparent text-gray-800 hover:bg-gray-100 hover:border-gray-300 hover:text-gray-900 block pl-6 pr-4 py-2 border-l-4 text-sm transition-all duration-200">
+							Academy Awards
+						</a>
+						<a href="{base}/top-rated-actors" on:click={closeStatsDropdown} class="border-transparent text-gray-800 hover:bg-gray-100 hover:border-gray-300 hover:text-gray-900 block pl-6 pr-4 py-2 border-l-4 text-sm transition-all duration-200">
+							Top Rated Actors
+						</a>
+						<a href="{base}/top-rated-directors" on:click={closeStatsDropdown} class="border-transparent text-gray-800 hover:bg-gray-100 hover:border-gray-300 hover:text-gray-900 block pl-6 pr-4 py-2 border-l-4 text-sm transition-all duration-200">
+							Top Rated Directors
+						</a>
+						<a href="{base}/top-rated-genres" on:click={closeStatsDropdown} class="border-transparent text-gray-800 hover:bg-gray-100 hover:border-gray-300 hover:text-gray-900 block pl-6 pr-4 py-2 border-l-4 text-sm transition-all duration-200">
+							Top Rated Genres
+						</a>
+					</div>
 				</div>
 			</div>
-		</div>
+		{/if}
 	</nav>
 
 	<!-- Page content -->

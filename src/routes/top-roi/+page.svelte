@@ -66,10 +66,10 @@
   }
 </script>
 
-<div class="py-10">
-  <div class="max-w-6xl mx-auto backdrop-blur-md bg-white/80 rounded-xl shadow-2xl p-8 border border-white/30">
-    <h1 class="text-3xl font-bold mb-6 text-center text-gray-900 drop-shadow-lg">Top 50 Movies by Return on Investment</h1>
-    <p class="text-center text-gray-700 mb-6">Movies ranked by their revenue-to-budget ratio (ROI)</p>
+<div class="py-6 sm:py-10">
+  <div class="max-w-6xl mx-auto backdrop-blur-md bg-white/80 rounded-xl shadow-2xl p-4 sm:p-8 border border-white/30">
+    <h1 class="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center text-gray-900 drop-shadow-lg">Top 50 Movies by Return on Investment</h1>
+    <p class="text-center text-gray-700 mb-4 sm:mb-6 text-sm sm:text-base">Movies ranked by their revenue-to-budget ratio (ROI)</p>
     
     <!-- Sort Info -->
     <div class="mb-4 text-sm text-gray-700 text-center">
@@ -77,7 +77,8 @@
       ({sortDirection === 'asc' ? 'ascending' : 'descending'})
     </div>
 
-    <div class="overflow-x-auto">
+    <!-- Desktop Table View -->
+    <div class="hidden lg:block overflow-x-auto">
       <table class="min-w-full divide-y divide-gray-300 shadow-lg rounded-lg overflow-hidden">
         <thead class="bg-white/95">
           <tr>
@@ -107,6 +108,51 @@
         </tbody>
       </table>
     </div>
+
+    <!-- Mobile Card View -->
+    <div class="lg:hidden space-y-3">
+      {#each sortedMovies as movie, index}
+        <div class="bg-white/90 rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-200">
+          <div class="flex justify-between items-start mb-2">
+            <div class="flex items-center gap-2">
+              <span class="text-sm font-medium text-gray-500">#{index + 1}</span>
+              <a href="{base}/movie/{movie.id}" class="text-blue-700 hover:text-blue-900 font-semibold text-lg leading-tight">
+                {movie.name}
+              </a>
+            </div>
+            <CompactRating rating={movie.rating} size="sm" color="default" />
+          </div>
+          <div class="grid grid-cols-2 gap-3 text-sm text-gray-600 mb-3">
+            <div class="flex items-center">
+              <span class="font-medium text-gray-700">Year:</span>
+              <span class="ml-1">{movie.year}</span>
+            </div>
+            <div class="flex items-center">
+              <span class="font-medium text-gray-700">Budget:</span>
+              <span class="ml-1">{formatCurrency(movie.budget)}</span>
+            </div>
+            <div class="flex items-center">
+              <span class="font-medium text-gray-700">Revenue:</span>
+              <span class="ml-1">{formatCurrency(movie.revenue)}</span>
+            </div>
+            <div class="flex items-center">
+              <span class="font-medium text-gray-700">ROI:</span>
+              <span class="ml-1 font-semibold text-green-700">{formatROI(movie.roi)}</span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center">
+            <a href="https://www.imdb.com/title/{movie.imdb}" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 underline text-xs">View on IMDb</a>
+            <button 
+              class="text-xs text-gray-500 hover:text-gray-700"
+              on:click={() => handleSort(sortField === 'roi' ? 'year' : 'roi')}
+            >
+              Sort by {sortField === 'roi' ? 'Year' : 'ROI'}
+            </button>
+          </div>
+        </div>
+      {/each}
+    </div>
+    
     <div class="mt-6 text-center text-sm text-gray-600">
       Showing top 50 movies by return on investment
     </div>

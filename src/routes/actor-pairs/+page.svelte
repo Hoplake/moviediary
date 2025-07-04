@@ -62,18 +62,19 @@
   }
 </script>
 
-<div class="py-10">
-  <div class="max-w-6xl mx-auto bg-white rounded-xl shadow-md p-8">
-    <h1 class="text-3xl font-bold mb-6 text-center text-gray-800">Most Frequent Actor Pairs</h1>
-    <p class="text-center text-gray-600 mb-6">Actors who have appeared together in 3 or more movies</p>
+<div class="py-6 sm:py-10">
+  <div class="max-w-6xl mx-auto backdrop-blur-md bg-white/80 rounded-xl shadow-2xl p-4 sm:p-8 border border-white/30">
+    <h1 class="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center text-gray-900 drop-shadow-lg">Actor Pairs</h1>
+    <p class="text-center text-gray-700 mb-4 sm:mb-6 text-sm sm:text-base">Actor pairs who have appeared together in the most movies</p>
     
     <!-- Sort Info -->
-    <div class="mb-4 text-sm text-gray-600 text-center">
-      Sorted by: <span class="font-medium">{sortField === 'movie_count' ? 'Movie Count' : sortField === 'actor1_name' ? 'Actor 1' : 'Actor 2'}</span> 
+    <div class="mb-4 text-sm text-gray-700 text-center">
+      Sorted by: <span class="font-medium text-gray-900">{sortField}</span> 
       ({sortDirection === 'asc' ? 'ascending' : 'descending'})
     </div>
 
-    <div class="overflow-x-auto">
+    <!-- Desktop Table View -->
+    <div class="hidden lg:block overflow-x-auto">
       <table class="min-w-full divide-y divide-gray-200">
         <thead class="bg-gray-100">
           <tr>
@@ -132,9 +133,29 @@
       </table>
     </div>
 
-    <!-- Summary -->
-    <div class="mt-6 text-center text-sm text-gray-500">
-      Total: {commonActorPairs.length} actor pairs with 3+ movies together
+    <!-- Mobile Card View -->
+    <div class="lg:hidden space-y-3">
+      {#each sortedPairs as pair, index}
+        <div class="bg-white/90 rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-200">
+          <div class="flex items-center gap-2 mb-2">
+            <span class="text-sm font-medium text-gray-500">#{index + 1}</span>
+            <span class="font-semibold text-lg leading-tight flex-1">{pair.actor1_name} & {pair.actor2_name}</span>
+          </div>
+          <div class="grid grid-cols-2 gap-3 text-sm text-gray-600 mb-3">
+            <div class="flex items-center">
+              <span class="font-medium text-gray-700">Movies Together:</span>
+              <span class="ml-1 font-semibold text-blue-700">{pair.movie_count}</span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center">
+            <span class="text-xs text-gray-500">{pair.movie_titles}</span>
+          </div>
+        </div>
+      {/each}
+    </div>
+    
+    <div class="mt-6 text-center text-sm text-gray-600">
+      <p>Showing {sortedPairs.length} actor pairs with the most movies together.</p>
     </div>
   </div>
 </div> 

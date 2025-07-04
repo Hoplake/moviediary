@@ -64,47 +64,41 @@
   <title>Highest Grossing Actors - Movie Diary</title>
 </svelte:head>
 
-<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-  <div class="mb-8">
-    <h1 class="text-3xl font-bold text-gray-900 mb-2">Highest Grossing Actors</h1>
-    <p class="text-gray-600">Actors ranked by total box office revenue from movies in your collection</p>
-  </div>
+<div class="py-6 sm:py-10">
+  <div class="max-w-6xl mx-auto backdrop-blur-md bg-white/80 rounded-xl shadow-2xl p-4 sm:p-8 border border-white/30">
+    <h1 class="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center text-gray-900 drop-shadow-lg">Highest Grossing Actors</h1>
+    <p class="text-center text-gray-700 mb-4 sm:mb-6 text-sm sm:text-base">Actors ranked by total box office revenue from movies in your collection</p>
+    
+    <!-- Sort Info -->
+    <div class="mb-4 text-sm text-gray-700 text-center">
+      Sorted by: <span class="font-medium text-gray-900">{sortField}</span> 
+      ({sortDirection === 'asc' ? 'ascending' : 'descending'})
+    </div>
 
-  <div class="bg-white shadow-sm rounded-lg overflow-hidden">
-    <div class="overflow-x-auto">
+    <!-- Desktop Table View -->
+    <div class="hidden lg:block overflow-x-auto">
       <table class="min-w-full divide-y divide-gray-200">
         <thead class="bg-gray-50">
           <tr>
-            <th 
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
-              on:click={() => handleSort('name')}
-            >
+            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" on:click={() => handleSort('name')}>
               <div class="flex items-center space-x-1">
                 <span>Actor</span>
                 <span class="text-sm">{getSortIcon('name')}</span>
               </div>
             </th>
-            <th 
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
-              on:click={() => handleSort('total_revenue')}
-            >
+            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" on:click={() => handleSort('total_revenue')}>
               <div class="flex items-center space-x-1">
                 <span>Total Revenue</span>
                 <span class="text-sm">{getSortIcon('total_revenue')}</span>
               </div>
             </th>
-            <th 
-              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
-              on:click={() => handleSort('movie_count')}
-            >
+            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" on:click={() => handleSort('movie_count')}>
               <div class="flex items-center space-x-1">
                 <span>Movies</span>
                 <span class="text-sm">{getSortIcon('movie_count')}</span>
               </div>
             </th>
-            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-              IMDb
-            </th>
+            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">IMDb</th>
           </tr>
         </thead>
         <tbody class="bg-white divide-y divide-gray-200">
@@ -149,9 +143,59 @@
         </tbody>
       </table>
     </div>
-  </div>
 
-  <div class="mt-6 text-sm text-gray-500">
-    <p>Showing {sortedActors.length} actors with the highest total box office revenue from movies in your collection.</p>
+    <!-- Mobile Card View -->
+    <div class="lg:hidden space-y-3">
+      {#each sortedActors as actor, index}
+        <div class="bg-white/90 rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-200">
+          <div class="flex items-center gap-2 mb-2">
+            {#if actor.profile_path}
+              <img src={`https://image.tmdb.org/t/p/w185${actor.profile_path}`} alt={actor.name} class="w-8 h-8 rounded-full object-cover border border-blue-200" />
+            {:else}
+              <img src="{base}/default-avatar.png" alt="No photo" class="w-8 h-8 rounded-full object-cover border border-blue-200" />
+            {/if}
+            <a href="{base}/person/{actor.person_id}" class="text-blue-700 hover:text-blue-900 font-semibold text-lg leading-tight flex-1">
+              {actor.name}
+            </a>
+          </div>
+          <div class="grid grid-cols-2 gap-3 text-sm text-gray-600 mb-3">
+            <div class="flex items-center">
+              <span class="font-medium text-gray-700">Revenue:</span>
+              <span class="ml-1 font-semibold text-green-700">{formatRevenue(actor.total_revenue)}</span>
+            </div>
+            <div class="flex items-center">
+              <span class="font-medium text-gray-700">Movies:</span>
+              <span class="ml-1 inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                {actor.movie_count}
+              </span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center">
+            {#if actor.imdb_id}
+              <a 
+                href="https://www.imdb.com/name/{actor.imdb_id}/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="text-blue-700 hover:text-blue-900 underline text-xs"
+              >
+                View on IMDb
+              </a>
+            {:else}
+              <span class="text-gray-400 text-xs">-</span>
+            {/if}
+            <button 
+              class="text-xs text-gray-500 hover:text-gray-700"
+              on:click={() => handleSort(sortField === 'total_revenue' ? 'movie_count' : 'total_revenue')}
+            >
+              Sort by {sortField === 'total_revenue' ? 'Movies' : 'Revenue'}
+            </button>
+          </div>
+        </div>
+      {/each}
+    </div>
+    
+    <div class="mt-6 text-center text-sm text-gray-600">
+      <p>Showing {sortedActors.length} actors with the highest total box office revenue from movies in your collection.</p>
+    </div>
   </div>
 </div> 

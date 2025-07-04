@@ -58,18 +58,19 @@
   }
 </script>
 
-<div class="py-10">
-  <div class="max-w-6xl mx-auto backdrop-blur-md bg-white/80 rounded-xl shadow-2xl p-8 border border-white/30">
-    <h1 class="text-3xl font-bold mb-6 text-center text-gray-900 drop-shadow-lg">Most Frequent Actors</h1>
-    <p class="text-center text-gray-700 mb-6">Actors with the most movies in the collection</p>
+<div class="py-6 sm:py-10">
+  <div class="max-w-6xl mx-auto backdrop-blur-md bg-white/80 rounded-xl shadow-2xl p-4 sm:p-8 border border-white/30">
+    <h1 class="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center text-gray-900 drop-shadow-lg">Most Frequent Actors</h1>
+    <p class="text-center text-gray-700 mb-4 sm:mb-6 text-sm sm:text-base">Actors who appear in the most movies in your collection</p>
     
     <!-- Sort Info -->
-    <div class="mb-4 text-sm text-gray-600 text-center">
-      Sorted by: <span class="font-medium">{sortField === 'movie_count' ? 'Movie Count' : 'Name'}</span> 
+    <div class="mb-4 text-sm text-gray-700 text-center">
+      Sorted by: <span class="font-medium text-gray-900">{sortField}</span> 
       ({sortDirection === 'asc' ? 'ascending' : 'descending'})
     </div>
 
-    <div class="overflow-x-auto">
+    <!-- Desktop Table View -->
+    <div class="hidden lg:block overflow-x-auto">
       <table class="min-w-full divide-y divide-gray-300 shadow-lg rounded-lg overflow-hidden">
         <thead class="bg-white/95">
           <tr>
@@ -128,9 +129,54 @@
       </table>
     </div>
 
-    <!-- Summary -->
-    <div class="mt-6 text-center text-sm text-gray-500">
-      Total: {mostMoviesActor.length} actors with 3+ movies
+    <!-- Mobile Card View -->
+    <div class="lg:hidden space-y-3">
+      {#each sortedActors as actor, index}
+        <div class="bg-white/90 rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-200">
+          <div class="flex items-center gap-2 mb-2">
+            {#if actor.profile_path}
+              <img src={`https://image.tmdb.org/t/p/w185${actor.profile_path}`} alt={actor.name} class="w-8 h-8 rounded-full object-cover border border-blue-200" />
+            {:else}
+              <img src="{base}/default-avatar.png" alt="No photo" class="w-8 h-8 rounded-full object-cover border border-blue-200" />
+            {/if}
+            <a href="{base}/person/{actor.person_id}" class="text-blue-700 hover:text-blue-900 font-semibold text-lg leading-tight flex-1">
+              {actor.name}
+            </a>
+          </div>
+          <div class="grid grid-cols-2 gap-3 text-sm text-gray-600 mb-3">
+            <div class="flex items-center">
+              <span class="font-medium text-gray-700">Movies:</span>
+              <span class="ml-1 inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                {actor.movie_count}
+              </span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center">
+            {#if actor.imdb_id}
+              <a 
+                href="https://www.imdb.com/name/{actor.imdb_id}/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="text-blue-700 hover:text-blue-900 underline text-xs"
+              >
+                View on IMDb
+              </a>
+            {:else}
+              <span class="text-gray-400 text-xs">-</span>
+            {/if}
+            <button 
+              class="text-xs text-gray-500 hover:text-gray-700"
+              on:click={() => handleSort(sortField === 'movie_count' ? 'name' : 'movie_count')}
+            >
+              Sort by {sortField === 'movie_count' ? 'Name' : 'Movies'}
+            </button>
+          </div>
+        </div>
+      {/each}
+    </div>
+    
+    <div class="mt-6 text-center text-sm text-gray-600">
+      <p>Showing {sortedActors.length} most frequent actors in your collection.</p>
     </div>
   </div>
 </div> 

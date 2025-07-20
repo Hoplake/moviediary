@@ -986,5 +986,43 @@
     "vote_count": 8528,
     "voting_percentile": 19.411764705882355,
     "rating_percentile": 16.470588235294116
+  },
+  {
+    "id": 173,
+    "tmdb_id": 1137350,
+    "name": "The Phoenician Scheme",
+    "imdb": "tt30840798",
+    "budget": 30000000,
+    "revenue": 37528941,
+    "runtime": 102,
+    "year": 2025,
+    "tagline": "If something gets in your way: flatten it.",
+    "rating": 8,
+    "poster_path": "/jtEqpy0K1iVuCebRwWqT6BZ6jLN.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/w3RDV3pSpxN0C2DZ4Xpw4o5LWpI.jpg",
+    "vote_average": 6.791,
+    "vote_count": 392,
+    "voting_percentile": null,
+    "rating_percentile": null
+  },
+  {
+    "id": 175,
+    "tmdb_id": 566525,
+    "name": "Shang-Chi and the Legend of the Ten Rings",
+    "imdb": "tt9376612",
+    "budget": 150000000,
+    "revenue": 432243292,
+    "runtime": 132,
+    "year": 2021,
+    "tagline": "You can't outrun your destiny.",
+    "rating": 8,
+    "poster_path": "/d08HqqeBQSwN8i8MEvpsZ8Cb438.jpg",
+    "lastwatched": null,
+    "backdrop_path": "/rAksPS6LjBONzY84szQBz5gGej6.jpg",
+    "vote_average": 7.518,
+    "vote_count": 9837,
+    "voting_percentile": null,
+    "rating_percentile": null
   }
 ]

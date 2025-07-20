@@ -1279,5 +1279,26 @@
     "name": "Josh Cooley",
     "profile_path": "/eGN0vaFmKtqHu1nFi3Lv4roQ6P2.jpg",
     "biography": "Joshua Cooley (born May 23, 1979) is an American filmmaker and storyboard artist. He is best known for directing the animated films Toy Story 4 (2019) and Transformers One (2024), with the former winning the Academy Award for Best Animated Feature. He also co-wrote the screenplay for the film Inside Out (2015), which was nominated for the Academy Award for Best Original Screenplay.\n\nDescription above from the Wikipedia article Josh Cooley, licensed under CC-BY-SA, full list of contributors on Wikipedia."
+  },
+  {
+    "movie_id": 173,
+    "person_id": 11534,
+    "name": "Wes Anderson",
+    "profile_path": null,
+    "biography": null
+  },
+  {
+    "movie_id": 174,
+    "person_id": 18736,
+    "name": "James Gunn",
+    "profile_path": null,
+    "biography": null
+  },
+  {
+    "movie_id": 175,
+    "person_id": 18829,
+    "name": "Destin Daniel Cretton",
+    "profile_path": null,
+    "biography": null
   }
 ]

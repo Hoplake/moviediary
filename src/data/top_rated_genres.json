@@ -58,8 +58,8 @@
   {
     "genre_name": "Comedy",
     "genre_id": 4,
-    "movie_count": 89,
-    "avg_rating": 7.280898876404494,
+    "movie_count": 90,
+    "avg_rating": 7.288888888888889,
     "min_rating": 2,
     "max_rating": 10
   },
@@ -82,32 +82,32 @@
   {
     "genre_name": "Science Fiction",
     "genre_id": 15,
-    "movie_count": 43,
-    "avg_rating": 6.651162790697675,
-    "min_rating": 2,
-    "max_rating": 10
-  },
-  {
-    "genre_name": "Adventure",
-    "genre_id": 2,
-    "movie_count": 47,
-    "avg_rating": 6.51063829787234,
-    "min_rating": 2,
-    "max_rating": 10
-  },
-  {
-    "genre_name": "Action",
-    "genre_id": 1,
-    "movie_count": 75,
-    "avg_rating": 6.506666666666667,
+    "movie_count": 44,
+    "avg_rating": 6.590909090909091,
     "min_rating": 2,
     "max_rating": 10
   },
   {
     "genre_name": "Fantasy",
     "genre_id": 9,
-    "movie_count": 22,
-    "avg_rating": 6.454545454545454,
+    "movie_count": 23,
+    "avg_rating": 6.521739130434782,
+    "min_rating": 2,
+    "max_rating": 10
+  },
+  {
+    "genre_name": "Adventure",
+    "genre_id": 2,
+    "movie_count": 50,
+    "avg_rating": 6.52,
+    "min_rating": 2,
+    "max_rating": 10
+  },
+  {
+    "genre_name": "Action",
+    "genre_id": 1,
+    "movie_count": 77,
+    "avg_rating": 6.4935064935064934,
     "min_rating": 2,
     "max_rating": 10
   },

@@ -5,7 +5,7 @@
     "imdb_id": null,
     "movie_count": 5,
     "raw_avg_rating": 9.2,
-    "adjusted_rating": 8.2,
+    "adjusted_rating": 8.19,
     "min_rating": 8,
     "max_rating": 10,
     "shrinkage_factor": 0.5
@@ -14,12 +14,12 @@
     "name": "Wes Anderson",
     "tmdb_id": 11534,
     "imdb_id": null,
-    "movie_count": 5,
-    "raw_avg_rating": 9.2,
-    "adjusted_rating": 8.2,
+    "movie_count": 6,
+    "raw_avg_rating": 9,
+    "adjusted_rating": 8.18,
     "min_rating": 8,
     "max_rating": 10,
-    "shrinkage_factor": 0.5
+    "shrinkage_factor": 0.455
   },
   {
     "name": "Alfred Hitchcock",
@@ -27,7 +27,7 @@
     "imdb_id": "nm0000033",
     "movie_count": 3,
     "raw_avg_rating": 9.33,
-    "adjusted_rating": 8,
+    "adjusted_rating": 7.99,
     "min_rating": 8,
     "max_rating": 10,
     "shrinkage_factor": 0.625
@@ -38,7 +38,7 @@
     "imdb_id": null,
     "movie_count": 3,
     "raw_avg_rating": 9.33,
-    "adjusted_rating": 8,
+    "adjusted_rating": 7.99,
     "min_rating": 8,
     "max_rating": 10,
     "shrinkage_factor": 0.625
@@ -82,7 +82,7 @@
     "imdb_id": null,
     "movie_count": 2,
     "raw_avg_rating": 8,
-    "adjusted_rating": 7.43,
+    "adjusted_rating": 7.42,
     "min_rating": 6,
     "max_rating": 10,
     "shrinkage_factor": 0.714
@@ -93,7 +93,7 @@
     "imdb_id": null,
     "movie_count": 2,
     "raw_avg_rating": 8,
-    "adjusted_rating": 7.43,
+    "adjusted_rating": 7.42,
     "min_rating": 8,
     "max_rating": 8,
     "shrinkage_factor": 0.714
@@ -104,7 +104,7 @@
     "imdb_id": null,
     "movie_count": 2,
     "raw_avg_rating": 8,
-    "adjusted_rating": 7.43,
+    "adjusted_rating": 7.42,
     "min_rating": 8,
     "max_rating": 8,
     "shrinkage_factor": 0.714
@@ -115,7 +115,7 @@
     "imdb_id": null,
     "movie_count": 2,
     "raw_avg_rating": 8,
-    "adjusted_rating": 7.43,
+    "adjusted_rating": 7.42,
     "min_rating": 8,
     "max_rating": 8,
     "shrinkage_factor": 0.714
@@ -126,7 +126,7 @@
     "imdb_id": null,
     "movie_count": 2,
     "raw_avg_rating": 8,
-    "adjusted_rating": 7.43,
+    "adjusted_rating": 7.42,
     "min_rating": 8,
     "max_rating": 8,
     "shrinkage_factor": 0.714
@@ -137,7 +137,7 @@
     "imdb_id": null,
     "movie_count": 2,
     "raw_avg_rating": 8,
-    "adjusted_rating": 7.43,
+    "adjusted_rating": 7.42,
     "min_rating": 8,
     "max_rating": 8,
     "shrinkage_factor": 0.714
@@ -148,7 +148,7 @@
     "imdb_id": null,
     "movie_count": 2,
     "raw_avg_rating": 8,
-    "adjusted_rating": 7.43,
+    "adjusted_rating": 7.42,
     "min_rating": 8,
     "max_rating": 8,
     "shrinkage_factor": 0.714
@@ -159,7 +159,7 @@
     "imdb_id": "nm0000316",
     "movie_count": 3,
     "raw_avg_rating": 6.67,
-    "adjusted_rating": 7,
+    "adjusted_rating": 6.99,
     "min_rating": 6,
     "max_rating": 8,
     "shrinkage_factor": 0.625
@@ -170,7 +170,7 @@
     "imdb_id": null,
     "movie_count": 2,
     "raw_avg_rating": 6,
-    "adjusted_rating": 6.86,
+    "adjusted_rating": 6.85,
     "min_rating": 6,
     "max_rating": 6,
     "shrinkage_factor": 0.714
@@ -181,7 +181,7 @@
     "imdb_id": null,
     "movie_count": 2,
     "raw_avg_rating": 6,
-    "adjusted_rating": 6.86,
+    "adjusted_rating": 6.85,
     "min_rating": 4,
     "max_rating": 8,
     "shrinkage_factor": 0.714
@@ -192,7 +192,7 @@
     "imdb_id": null,
     "movie_count": 2,
     "raw_avg_rating": 6,
-    "adjusted_rating": 6.86,
+    "adjusted_rating": 6.85,
     "min_rating": 4,
     "max_rating": 8,
     "shrinkage_factor": 0.714
@@ -203,7 +203,7 @@
     "imdb_id": null,
     "movie_count": 2,
     "raw_avg_rating": 6,
-    "adjusted_rating": 6.86,
+    "adjusted_rating": 6.85,
     "min_rating": 6,
     "max_rating": 6,
     "shrinkage_factor": 0.714
@@ -214,7 +214,7 @@
     "imdb_id": null,
     "movie_count": 2,
     "raw_avg_rating": 6,
-    "adjusted_rating": 6.86,
+    "adjusted_rating": 6.85,
     "min_rating": 4,
     "max_rating": 8,
     "shrinkage_factor": 0.714
@@ -225,7 +225,7 @@
     "imdb_id": null,
     "movie_count": 4,
     "raw_avg_rating": 6,
-    "adjusted_rating": 6.67,
+    "adjusted_rating": 6.66,
     "min_rating": 4,
     "max_rating": 8,
     "shrinkage_factor": 0.556

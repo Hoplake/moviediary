@@ -5,7 +5,7 @@
     "imdb_id": "nm0000418",
     "movie_count": 3,
     "raw_avg_rating": 10,
-    "adjusted_rating": 8.25,
+    "adjusted_rating": 8.24,
     "min_rating": 10,
     "max_rating": 10,
     "shrinkage_factor": 0.625
@@ -16,7 +16,7 @@
     "imdb_id": "nm0005562",
     "movie_count": 5,
     "raw_avg_rating": 9.2,
-    "adjusted_rating": 8.2,
+    "adjusted_rating": 8.19,
     "min_rating": 8,
     "max_rating": 10,
     "shrinkage_factor": 0.5
@@ -25,12 +25,12 @@
     "name": "Bill Murray",
     "tmdb_id": 11517,
     "imdb_id": "nm0000195",
-    "movie_count": 6,
-    "raw_avg_rating": 9,
-    "adjusted_rating": 8.18,
+    "movie_count": 7,
+    "raw_avg_rating": 8.86,
+    "adjusted_rating": 8.16,
     "min_rating": 8,
     "max_rating": 10,
-    "shrinkage_factor": 0.455
+    "shrinkage_factor": 0.417
   },
   {
     "name": "George Kennedy",
@@ -38,7 +38,7 @@
     "imdb_id": "nm0001421",
     "movie_count": 4,
     "raw_avg_rating": 9,
-    "adjusted_rating": 8,
+    "adjusted_rating": 7.99,
     "min_rating": 8,
     "max_rating": 10,
     "shrinkage_factor": 0.556
@@ -49,10 +49,21 @@
     "imdb_id": "nm0005403",
     "movie_count": 4,
     "raw_avg_rating": 9,
-    "adjusted_rating": 8,
+    "adjusted_rating": 7.99,
     "min_rating": 8,
     "max_rating": 10,
     "shrinkage_factor": 0.556
+  },
+  {
+    "name": "Willem Dafoe",
+    "tmdb_id": 11513,
+    "imdb_id": "nm0000353",
+    "movie_count": 3,
+    "raw_avg_rating": 9.33,
+    "adjusted_rating": 7.99,
+    "min_rating": 8,
+    "max_rating": 10,
+    "shrinkage_factor": 0.625
   },
   {
     "name": "Mark Hamill",
@@ -60,7 +71,7 @@
     "imdb_id": "nm0000434",
     "movie_count": 2,
     "raw_avg_rating": 10,
-    "adjusted_rating": 8,
+    "adjusted_rating": 7.99,
     "min_rating": 10,
     "max_rating": 10,
     "shrinkage_factor": 0.714
@@ -71,7 +82,7 @@
     "imdb_id": "nm0000402",
     "movie_count": 2,
     "raw_avg_rating": 10,
-    "adjusted_rating": 8,
+    "adjusted_rating": 7.99,
     "min_rating": 10,
     "max_rating": 10,
     "shrinkage_factor": 0.714
@@ -82,7 +93,7 @@
     "imdb_id": "nm0048652",
     "movie_count": 2,
     "raw_avg_rating": 10,
-    "adjusted_rating": 8,
+    "adjusted_rating": 7.99,
     "min_rating": 10,
     "max_rating": 10,
     "shrinkage_factor": 0.714
@@ -93,7 +104,7 @@
     "imdb_id": "nm0000422",
     "movie_count": 2,
     "raw_avg_rating": 10,
-    "adjusted_rating": 8,
+    "adjusted_rating": 7.99,
     "min_rating": 10,
     "max_rating": 10,
     "shrinkage_factor": 0.714
@@ -104,18 +115,7 @@
     "imdb_id": "nm0821041",
     "movie_count": 2,
     "raw_avg_rating": 10,
-    "adjusted_rating": 8,
-    "min_rating": 10,
-    "max_rating": 10,
-    "shrinkage_factor": 0.714
-  },
-  {
-    "name": "Willem Dafoe",
-    "tmdb_id": 11513,
-    "imdb_id": "nm0000353",
-    "movie_count": 2,
-    "raw_avg_rating": 10,
-    "adjusted_rating": 8,
+    "adjusted_rating": 7.99,
     "min_rating": 10,
     "max_rating": 10,
     "shrinkage_factor": 0.714
@@ -126,7 +126,7 @@
     "imdb_id": "nm0356004",
     "movie_count": 2,
     "raw_avg_rating": 10,
-    "adjusted_rating": 8,
+    "adjusted_rating": 7.99,
     "min_rating": 10,
     "max_rating": 10,
     "shrinkage_factor": 0.714
@@ -137,7 +137,7 @@
     "imdb_id": "nm0403947",
     "movie_count": 2,
     "raw_avg_rating": 10,
-    "adjusted_rating": 8,
+    "adjusted_rating": 7.99,
     "min_rating": 10,
     "max_rating": 10,
     "shrinkage_factor": 0.714
@@ -148,7 +148,7 @@
     "imdb_id": "nm0683978",
     "movie_count": 2,
     "raw_avg_rating": 10,
-    "adjusted_rating": 8,
+    "adjusted_rating": 7.99,
     "min_rating": 10,
     "max_rating": 10,
     "shrinkage_factor": 0.714
@@ -159,7 +159,7 @@
     "imdb_id": "nm0001190",
     "movie_count": 2,
     "raw_avg_rating": 10,
-    "adjusted_rating": 8,
+    "adjusted_rating": 7.99,
     "min_rating": 10,
     "max_rating": 10,
     "shrinkage_factor": 0.714
@@ -170,7 +170,7 @@
     "imdb_id": "nm0562679",
     "movie_count": 2,
     "raw_avg_rating": 10,
-    "adjusted_rating": 8,
+    "adjusted_rating": 7.99,
     "min_rating": 10,
     "max_rating": 10,
     "shrinkage_factor": 0.714
@@ -181,7 +181,7 @@
     "imdb_id": "nm0701023",
     "movie_count": 2,
     "raw_avg_rating": 10,
-    "adjusted_rating": 8,
+    "adjusted_rating": 7.99,
     "min_rating": 10,
     "max_rating": 10,
     "shrinkage_factor": 0.714
@@ -192,7 +192,7 @@
     "imdb_id": "nm0428122",
     "movie_count": 2,
     "raw_avg_rating": 10,
-    "adjusted_rating": 8,
+    "adjusted_rating": 7.99,
     "min_rating": 10,
     "max_rating": 10,
     "shrinkage_factor": 0.714
@@ -203,7 +203,7 @@
     "imdb_id": "nm0000146",
     "movie_count": 4,
     "raw_avg_rating": 8.5,
-    "adjusted_rating": 7.78,
+    "adjusted_rating": 7.77,
     "min_rating": 6,
     "max_rating": 10,
     "shrinkage_factor": 0.556
@@ -214,7 +214,7 @@
     "imdb_id": "nm0000027",
     "movie_count": 4,
     "raw_avg_rating": 8.5,
-    "adjusted_rating": 7.78,
+    "adjusted_rating": 7.77,
     "min_rating": 6,
     "max_rating": 10,
     "shrinkage_factor": 0.556
@@ -225,7 +225,7 @@
     "imdb_id": "nm0000148",
     "movie_count": 3,
     "raw_avg_rating": 8.67,
-    "adjusted_rating": 7.75,
+    "adjusted_rating": 7.74,
     "min_rating": 6,
     "max_rating": 10,
     "shrinkage_factor": 0.625
@@ -236,7 +236,7 @@
     "imdb_id": "nm0000114",
     "movie_count": 3,
     "raw_avg_rating": 8.67,
-    "adjusted_rating": 7.75,
+    "adjusted_rating": 7.74,
     "min_rating": 8,
     "max_rating": 10,
     "shrinkage_factor": 0.625
@@ -247,7 +247,7 @@
     "imdb_id": "nm0004051",
     "movie_count": 3,
     "raw_avg_rating": 8.67,
-    "adjusted_rating": 7.75,
+    "adjusted_rating": 7.74,
     "min_rating": 8,
     "max_rating": 10,
     "shrinkage_factor": 0.625
@@ -258,19 +258,8 @@
     "imdb_id": "nm0000168",
     "movie_count": 3,
     "raw_avg_rating": 8.67,
-    "adjusted_rating": 7.75,
+    "adjusted_rating": 7.74,
     "min_rating": 8,
-    "max_rating": 10,
-    "shrinkage_factor": 0.625
-  },
-  {
-    "name": "Nicholas Hoult",
-    "tmdb_id": 11211,
-    "imdb_id": "nm0396558",
-    "movie_count": 3,
-    "raw_avg_rating": 8.67,
-    "adjusted_rating": 7.75,
-    "min_rating": 6,
     "max_rating": 10,
     "shrinkage_factor": 0.625
   },
@@ -280,7 +269,7 @@
     "imdb_id": "nm0004778",
     "movie_count": 3,
     "raw_avg_rating": 8.67,
-    "adjusted_rating": 7.75,
+    "adjusted_rating": 7.74,
     "min_rating": 8,
     "max_rating": 10,
     "shrinkage_factor": 0.625
@@ -291,7 +280,7 @@
     "imdb_id": "nm0000849",
     "movie_count": 3,
     "raw_avg_rating": 8.67,
-    "adjusted_rating": 7.75,
+    "adjusted_rating": 7.74,
     "min_rating": 8,
     "max_rating": 10,
     "shrinkage_factor": 0.625
@@ -302,7 +291,7 @@
     "imdb_id": "nm0001636",
     "movie_count": 3,
     "raw_avg_rating": 8.67,
-    "adjusted_rating": 7.75,
+    "adjusted_rating": 7.74,
     "min_rating": 8,
     "max_rating": 10,
     "shrinkage_factor": 0.625
@@ -313,7 +302,7 @@
     "imdb_id": "nm0001740",
     "movie_count": 3,
     "raw_avg_rating": 8.67,
-    "adjusted_rating": 7.75,
+    "adjusted_rating": 7.74,
     "min_rating": 8,
     "max_rating": 10,
     "shrinkage_factor": 0.625
@@ -324,7 +313,7 @@
     "imdb_id": "nm0000982",
     "movie_count": 3,
     "raw_avg_rating": 8.67,
-    "adjusted_rating": 7.75,
+    "adjusted_rating": 7.74,
     "min_rating": 8,
     "max_rating": 10,
     "shrinkage_factor": 0.625
@@ -335,7 +324,7 @@
     "imdb_id": "nm0571106",
     "movie_count": 3,
     "raw_avg_rating": 8.67,
-    "adjusted_rating": 7.75,
+    "adjusted_rating": 7.74,
     "min_rating": 8,
     "max_rating": 10,
     "shrinkage_factor": 0.625
@@ -346,7 +335,7 @@
     "imdb_id": "nm0506405",
     "movie_count": 3,
     "raw_avg_rating": 8.67,
-    "adjusted_rating": 7.75,
+    "adjusted_rating": 7.74,
     "min_rating": 8,
     "max_rating": 10,
     "shrinkage_factor": 0.625
@@ -357,7 +346,7 @@
     "imdb_id": "nm0000893",
     "movie_count": 3,
     "raw_avg_rating": 8.67,
-    "adjusted_rating": 7.75,
+    "adjusted_rating": 7.74,
     "min_rating": 8,
     "max_rating": 10,
     "shrinkage_factor": 0.625
@@ -368,7 +357,7 @@
     "imdb_id": "nm2244205",
     "movie_count": 3,
     "raw_avg_rating": 8.67,
-    "adjusted_rating": 7.75,
+    "adjusted_rating": 7.74,
     "min_rating": 8,
     "max_rating": 10,
     "shrinkage_factor": 0.625
@@ -379,7 +368,7 @@
     "imdb_id": "nm0930506",
     "movie_count": 3,
     "raw_avg_rating": 8.67,
-    "adjusted_rating": 7.75,
+    "adjusted_rating": 7.74,
     "min_rating": 8,
     "max_rating": 10,
     "shrinkage_factor": 0.625
@@ -432,6 +421,17 @@
     "name": "Bill Duke",
     "tmdb_id": 12930,
     "imdb_id": "nm0004886",
+    "movie_count": 2,
+    "raw_avg_rating": 9,
+    "adjusted_rating": 7.71,
+    "min_rating": 8,
+    "max_rating": 10,
+    "shrinkage_factor": 0.714
+  },
+  {
+    "name": "F. Murray Abraham",
+    "tmdb_id": 11511,
+    "imdb_id": "nm0000719",
     "movie_count": 2,
     "raw_avg_rating": 9,
     "adjusted_rating": 7.71,

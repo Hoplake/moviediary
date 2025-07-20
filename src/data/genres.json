@@ -2438,5 +2438,45 @@
     "movie_id": 172,
     "genre_id": 8,
     "name": "Family"
+  },
+  {
+    "movie_id": 173,
+    "genre_id": 2,
+    "name": "Adventure"
+  },
+  {
+    "movie_id": 173,
+    "genre_id": 4,
+    "name": "Comedy"
+  },
+  {
+    "movie_id": 174,
+    "genre_id": 2,
+    "name": "Adventure"
+  },
+  {
+    "movie_id": 174,
+    "genre_id": 1,
+    "name": "Action"
+  },
+  {
+    "movie_id": 174,
+    "genre_id": 15,
+    "name": "Science Fiction"
+  },
+  {
+    "movie_id": 175,
+    "genre_id": 2,
+    "name": "Adventure"
+  },
+  {
+    "movie_id": 175,
+    "genre_id": 9,
+    "name": "Fantasy"
+  },
+  {
+    "movie_id": 175,
+    "genre_id": 1,
+    "name": "Action"
   }
 ]

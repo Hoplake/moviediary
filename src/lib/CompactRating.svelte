@@ -6,8 +6,16 @@
   export let color: 'default' | 'green' | 'blue' | 'purple' = 'default';
 
   // Scale to 0-5
-  $: popcorns = rating ? Math.round(rating / 2) : 0;
-  $: popcornArray = Array(5).fill(0).map((_, i) => i < popcorns);
+  $: ratingValue = rating ? Math.round(rating / 2) : 0;
+  
+  // Get the appropriate face emoji based on rating
+  $: getFaceEmoji = (rating: number) => {
+    if (rating <= 1) return '😞'; // Very sad
+    if (rating <= 2) return '😕'; // Sad
+    if (rating <= 3) return '😐'; // Neutral
+    if (rating <= 4) return '🙂'; // Slightly happy
+    return '😄'; // Happy
+  };
   
   // Size classes
   $: sizeClasses = {
@@ -30,12 +38,10 @@
 
 <div class="flex items-center gap-1">
   {#if showStars && rating !== null}
-    {#each popcornArray as filled, i}
-      <span class={fontSize} aria-label={(i+1) + ' popcorn'}>{filled ? '🍿' : '⬜'}</span>
-    {/each}
+    <span class={fontSize} aria-label="Rating: {ratingValue}/5">{getFaceEmoji(ratingValue)}</span>
   {/if}
   {#if showNumber && rating !== null}
-    <span class="ml-1 {fontSize} {textColor} font-medium">{Math.round(rating / 2)}</span>
+    <span class="ml-1 {fontSize} {textColor} font-medium">{ratingValue}</span>
   {:else if showNumber}
     <span class="ml-1 {fontSize} text-gray-400">-</span>
   {/if}

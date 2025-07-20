@@ -160,6 +160,14 @@
     "profile_path": "/SjgNUSLoBAVossDI4QkNtDxYDZ.jpg"
   },
   {
+    "person_id": 10504,
+    "name": "Simu Liu",
+    "imdb_id": "nm4855517",
+    "movie_count": 2,
+    "total_revenue": 1877881713,
+    "profile_path": "/xc7I32luBZfJgx9lm92aT9xiI6T.jpg"
+  },
+  {
     "person_id": 7345,
     "name": "Scott Haze",
     "imdb_id": "nm2020278",
@@ -390,13 +398,5 @@
     "movie_count": 2,
     "total_revenue": 1538738999,
     "profile_path": "/6DRvtpCCmgDT90EKifGTDN1sXY2.jpg"
-  },
-  {
-    "person_id": 7348,
-    "name": "Woody Harrelson",
-    "imdb_id": "nm0000437",
-    "movie_count": 3,
-    "total_revenue": 1534575909,
-    "profile_path": "/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg"
   }
 ]
